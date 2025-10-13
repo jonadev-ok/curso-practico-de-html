@@ -15,5 +15,8 @@
 <h2 align="center">¿Que vas a aprender?</h2>
 
 <p align="center">
-  La idea central del curso es que te lleves las mejores practicas para aplicar en tus proyectos. HTML es el punto de partida para todo desarrollador web. Pero antes de ir a HTML vamos a dar un pequeño paseo por los fundamentos de la web.
+  La idea central del curso es que te lleves las mejores practicas para aplicar en tus proyectos. HTML es el punto de partida para todo desarrollador web. Pero antes 
+  de ir a HTML vamos a dar un pequeño paseo por los fundamentos de la web. Esto te va a dar una idea mas general de como es el funcionamiento de la web y el internet. 
+  Luego de pasar por ese modulo inicial nos volcamos de lleno a HTML. Veremos cada una de las caracteristicas principales, buenas practicas y las vamos a llevar a la practica 
+  en un proyecto real.
 </p>
