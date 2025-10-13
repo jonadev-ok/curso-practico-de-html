@@ -8,17 +8,17 @@
   <a href="https://www.linkedin.com/in/jonatan-villalva-fullstack-developer" target="_blank"><img src="https://img.shields.io/badge/linkedin-000?style=for-the-badge&logo=linkedin&logoColor=white" ></a>
 </div>
 
-<h1 align="center">Bienvenidos al curso practico de HTML de cero a experto</h1>
+<h1>Bienvenidos al curso practico de HTML de cero a experto</h1>
     
-<p align="center"><em>Este curso de HTML, te llevará a dominar tanto los conceptos básicos como los avanzados de este lenguaje, el cual es fundamental para el desarrollo web. Desde los fundamentos hasta un nivel avanzado. Ideal si buscan desarrollar la capacidad de crear páginas web completas y bien estructuradas. El curso es de contenido teorico-practico y van a ser transmitidos en directo por Twitch y subidos a mi canal de youtube.</em></p>
+<p><em>Este curso de HTML, te llevará a dominar tanto los conceptos básicos como los avanzados de este lenguaje, el cual es fundamental para el desarrollo web. Desde los fundamentos hasta un nivel avanzado. Ideal si buscan desarrollar la capacidad de crear páginas web completas y bien estructuradas. El curso es de contenido teorico-practico y van a ser transmitidos en directo por Twitch y subidos a mi canal de youtube.</em></p>
 
 <h2 align="center">¿Que vas a aprender?</h2>
 
-<p align="center">
+<p>
   La idea central del curso es que te lleves las mejores practicas para aplicar en tus proyectos. HTML es el punto de partida para todo desarrollador web. Pero antes 
   de ir a HTML vamos a dar un pequeño paseo por los fundamentos de la web. Esto te va a dar una idea mas general de como es el funcionamiento de la web y el internet. 
   Luego de pasar por ese modulo inicial nos volcamos de lleno a HTML. Veremos cada una de las caracteristicas principales, buenas practicas y las vamos a llevar a la practica 
   en un proyecto real. A continuación detallamos el contenido separado por modulos.
 </p>
 
-<h3 align="center">Modulo 0 - Fundamentos de la web.</h3>
+<h3>Modulo 0 - Fundamentos de la web.</h3>
