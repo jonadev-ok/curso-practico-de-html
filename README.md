@@ -20,3 +20,5 @@
   Luego de pasar por ese modulo inicial nos volcamos de lleno a HTML. Veremos cada una de las caracteristicas principales, buenas practicas y las vamos a llevar a la practica 
   en un proyecto real. A continuación detallamos el contenido separado por modulos.
 </p>
+
+<h3 align="center">Modulo 0 - Fundamentos de la web.</h3>
