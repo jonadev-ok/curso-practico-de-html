@@ -12,7 +12,7 @@
     
 <p><em>Este curso de HTML, te llevará a dominar tanto los conceptos básicos como los avanzados de este lenguaje, el cual es fundamental para el desarrollo web. Desde los fundamentos hasta un nivel avanzado. Ideal si buscan desarrollar la capacidad de crear páginas web completas y bien estructuradas. El curso es de contenido teorico-practico y van a ser transmitidos en directo por Twitch y subidos a mi canal de youtube.</em></p>
 
-<h2 align="center">¿Que vas a aprender?</h2>
+<h2>¿Que vas a aprender?</h2>
 
 <p>
   La idea central del curso es que te lleves las mejores practicas para aplicar en tus proyectos. HTML es el punto de partida para todo desarrollador web. Pero antes 
