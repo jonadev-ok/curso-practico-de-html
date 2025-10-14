@@ -28,7 +28,8 @@
 </p>
 <h3>Modulo 1 - HTML - Que es y como funciona.</h3>
 <p>
-  
+  A partir de este modulo atacamos HTML de lleno. Vamos a empezar viendo que es HTML y como es su funcionamiento. Vamos a ver las primeras etiquetas, las mas utilizadas y 
+  sus casos de uso. Vamos a ver algunas de las reglas que debemos seguir para cumplir con el estandar establecido por el lenguaje. 
 </p>
 
 <h3>Modulo 2 - HTML - Semantica.</h3>
