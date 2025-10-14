@@ -22,3 +22,16 @@
 </p>
 
 <h3>Modulo 0 - Fundamentos de la web.</h3>
+<p>
+  
+</p>
+<h3>Modulo 1 - HTML - Que es y como funciona.</h3>
+<p>
+  
+</p>
+
+<h3>Modulo 2 - HTML - Semantica.</h3>
+<p>
+  
+</p>
+
