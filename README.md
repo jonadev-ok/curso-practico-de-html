@@ -35,17 +35,17 @@
   
 </p>
 
-<h3>Modulo 2 - HTML - Accesibilidad.</h3>
+<h3>Modulo 3 - HTML - Accesibilidad.</h3>
 <p>
   
 </p>
 
-<h3>Modulo 2 - HTML - SEO.</h3>
+<h3>Modulo 4 - HTML - SEO.</h3>
 <p>
   
 </p>
 
-<h3> HTML - Optimización, rendimiento y buenas practicas</h3>
+<h3>Modulo 5 - HTML - Optimización, rendimiento y buenas practicas</h3>
 <p>
   
 </p>
