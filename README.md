@@ -54,7 +54,9 @@
 
 <h3>Modulo 5 - HTML - Optimización, rendimiento y buenas practicas</h3>
 <p>
-  
+  Mas alla de que a lo largo de todo el curso nos enfocamos en buenas practicas, aca las vamos a profundizar aun mas. Ademas vamos a hablar de optimización del contenido multimedia y 
+  vamos a aprender a analizar y mejorar el rendimiento de nuestros proyectos. Alerta spoiler!!! Vamos a ver un poco de CSS para estilizar nuestro proyecto de una manera muy basica. 
+  Ya que CSS va a tener su propio curso en las proximas semanas. No olvidemos que sin HTML no hay css ni nada mas...
 </p>
 
 <h3>Proyecto integrador</h3>
