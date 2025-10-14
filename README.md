@@ -23,7 +23,8 @@
 
 <h3>Modulo 0 - Fundamentos de la web.</h3>
 <p>
-  
+  En este modulo previo a HTML, vamos a repasar la historia de la web, como funciona, distintos protocolos de internet y mucho mas que te van a dar una vision mucho mas amplia 
+  de la web en general para futuros cursos mas avanzados que implican un entendimiento profundo de estos aspectos.
 </p>
 <h3>Modulo 1 - HTML - Que es y como funciona.</h3>
 <p>
