@@ -47,7 +47,9 @@
 
 <h3>Modulo 4 - HTML - SEO.</h3>
 <p>
-  
+  El seo (Search Engine Optimization) o optimización de motores de busqueda es fundamental para el trafico de tu web y la buena indexación en internet. A esta altura del curso ya 
+  habremos visto varias caracteristicas que benefician el SEO. Aun asi los vamos a repasar y profundizar aun mas. Este modulo va a ser muy tecnico pero necesario para aprender 
+  buenas y fundamentales practicas en desarrollo web.
 </p>
 
 <h3>Modulo 5 - HTML - Optimización, rendimiento y buenas practicas</h3>
