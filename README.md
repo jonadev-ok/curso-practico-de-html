@@ -34,7 +34,8 @@
 
 <h3>Modulo 2 - HTML - Semantica.</h3>
 <p>
-  
+  La semantica de HTML es una de sus caracteristicas principales. En este modulo vamos a ver de que se trata, cuales son las etiquetas semanticas, sus casos de uso y 
+  las etiquetas NO semanticas. Cuando utilizar cada una de estas y cuando no. Veremos que practicas son correctas y cuales debemos evitar.
 </p>
 
 <h3>Modulo 3 - HTML - Accesibilidad.</h3>
