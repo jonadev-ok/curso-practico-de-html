@@ -40,7 +40,9 @@
 
 <h3>Modulo 3 - HTML - Accesibilidad.</h3>
 <p>
-  
+  La accesibilidad tambien es un punto clave. Igual o quizas mas importante que lo que vimos hasta ahora. Ya que una web accesible es le da la posibilidad a todas las 
+  personas de poder acceder al contenido, independientemente de su condición (discapacidad visual parcial o permanente, auditiva, cognitiva, etc). En este modulo vamos a 
+  ocuparnos de entender que es la accesibilidad, como aplicarla y que debemos tener en cuenta mas alla de lo tecnico.
 </p>
 
 <h3>Modulo 4 - HTML - SEO.</h3>
