@@ -61,5 +61,6 @@
 
 <h3>Proyecto integrador</h3>
 <p>
-  
+  El proyecto integrador del curso va a ser un portfolio web, profesional que vamos a estar desarrollando a lo largo de todo el curso. Ademas, este portfolio va a ser desplegado en 
+  la web. Van a poder acceder al repo del proyecto para hacer una bifurcación y lo puedan modificar a su gusto y utilizarlo para sus futuras postulaciones en el mercado laboral.
 </p>
