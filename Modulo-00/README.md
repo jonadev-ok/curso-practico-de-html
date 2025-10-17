@@ -20,5 +20,7 @@
 <p>
   En los años 60, en plena guerra fria. El gobierno de los Estados unidos temia perder comunicaciones estrategicas en el caso de ocurrir 
   un ataque nuclear. Bajo este contexto se comenzo a trabajar en el desarrollo de un sistema descentralizado de intercambio de 
-  información. Es asi, como en 1969 nace ARPANET. El primer experimento de red de computadoras interconectadas.
+  información. Es asi, como en 1969 nace ARPANET. El primer experimento de red de computadoras interconectadas. En principio esta red 
+  de computadoras solo conecto a 4 universidades: UCLA, Stanford, UCSB y Utah.
 </p>
+
