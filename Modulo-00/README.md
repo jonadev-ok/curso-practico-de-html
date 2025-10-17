@@ -35,11 +35,12 @@
 </p>
 
 <h3>
-  Expansión academica (decada de 1980)
+  Expansión académica (decada de 1980)
 </h3>
 
 <p>
   
 </p>
+
 
 
