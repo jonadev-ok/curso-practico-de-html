@@ -9,5 +9,8 @@
 </p>
 
 <h2>Un poco de historia</h2>
+<p>
+  Para dar un contexto mucho mas acertado y evitar confusiones, vamos a dividir esta historia en dos partes. Empecemos a entender que es el internet y cual es su historia.
+</p>
 
 
