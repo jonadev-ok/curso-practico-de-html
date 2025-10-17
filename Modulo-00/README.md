@@ -29,7 +29,9 @@
 </h3>
 
 <p>
-  
+  En 1970, los investigadores Vinton Cerf y Robert Kahn desarrollan el protocolo, TPC/IP, el cual permite que distintas redes 
+  se conecten entre si. A partir de ahi nace el internet moderno como lo conocemos. Aunque es oficialmente adoptado el dia 1 de enero de 
+  1983. Dia que se conoce como FLAG DAY.
 </p>
 
 <h3>
@@ -39,3 +41,4 @@
 <p>
   
 </p>
+
