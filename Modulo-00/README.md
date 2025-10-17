@@ -13,4 +13,12 @@
   Para dar un contexto mucho mas acertado y evitar confusiones, vamos a dividir esta historia en dos partes. Empecemos a entender que es el internet y cual es su historia.
 </p>
 
+<h3>
+  Primer acercamiento al internet (1969)
+</h3>
 
+<p>
+  En los años 60, en plena guerra fria. El gobierno de los Estados unidos temia perder comunicaciones estrategicas en el caso de ocurrir 
+  un ataque nuclear. Bajo este contexto se comenzo a trabajar en el desarrollo de un sistema descentralizado de intercambio de 
+  información. Es asi, como en 1969 nace ARPANET. El primer experimento de red de computadoras interconectadas.
+</p>
