@@ -24,3 +24,6 @@
   de computadoras solo conecto a 4 universidades: UCLA, Stanford, UCSB y Utah.
 </p>
 
+<h3>
+  Protocolos de comunicación (1970)
+</h3>
