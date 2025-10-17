@@ -25,20 +25,21 @@
 </p>
 
 <h3>
-  Protocolos de comunicación (1970)
+  Protocolos de comunicación (decada de 1970)
 </h3>
 
 <p>
-  En 1970, los investigadores Vinton Cerf y Robert Kahn desarrollan el protocolo, TPC/IP, el cual permite que distintas redes 
+  En los años 1970, los investigadores Vinton Cerf y Robert Kahn desarrollan el protocolo, TPC/IP, el cual permite que distintas redes 
   se conecten entre si. A partir de ahi nace el internet moderno como lo conocemos. Aunque es oficialmente adoptado el dia 1 de enero de 
   1983. Dia que se conoce como FLAG DAY.
 </p>
 
 <h3>
-  Protocolos de comunicación (1970)
+  Expansión academica (decada de 1980)
 </h3>
 
 <p>
   
 </p>
+
 
