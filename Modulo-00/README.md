@@ -61,7 +61,7 @@
 </p>
 
 <h3>
-  1 - Infraestructura fisica
+  1 - Infraestructura física.
 </h3>
 
 <ul>
@@ -69,5 +69,6 @@
     
   </li>
 </ul>
+
 
 
