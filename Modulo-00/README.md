@@ -43,6 +43,13 @@
   (NSFNET en EE.UU., EUnet en Europa). En esta epoca surge el correo electronico como una de las primeras aplicaciones practicas.
 </p>
 
+<h3>
+  Democratizacióm (decada de 1990)
+</h3>
+
+<p>
+  
+</p>
 
 
 
