@@ -52,6 +52,9 @@
   publico y comienza la era de la web. Los navegadores y sitios web comienzan su expansión.
 </p>
 
+<h2>
+  ¿Como funciona el internet?
+</h2>
 
 
 
