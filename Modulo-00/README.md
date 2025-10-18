@@ -39,8 +39,10 @@
 </h3>
 
 <p>
-  
+  En esta decada internet se expande tanto en EE.UU como en Europa. En universidades y centro de investigación 
+  (NSFNET en EE.UU., EUnet en Europa). En esta epoca surge el correo electronico como una de las primeras aplicaciones practicas.
 </p>
+
 
 
 
