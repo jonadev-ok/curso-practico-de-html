@@ -60,9 +60,14 @@
   Internet no es una entidad física única. Es un conjunto de redes interconectadas que funcionan mediante protocolos estandarizados:
 </p>
 
+<h3>
+  1 - Infraestructura fisica
+</h3>
+
 <ul>
   <li>
     
   </li>
 </ul>
+
 
