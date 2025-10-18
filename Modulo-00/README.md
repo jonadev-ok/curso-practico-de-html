@@ -48,8 +48,10 @@
 </h3>
 
 <p>
-  
+  En esta epoca explota todo. Con la llegada de la world wide web, creada por Tim Berners-Lee en el CERN (Suiza). Internet se abre al 
+  publico y comienza la era de la web. Los navegadores y sitios web comienzan su expansión.
 </p>
+
 
 
 
