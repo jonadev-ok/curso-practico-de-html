@@ -66,9 +66,16 @@
 
 <ul>
   <li>
-    
+    Cables submarinos de fibra óptica (miles de kilómetros) conectan continentes.
+  </li>
+  <li>
+    Satélites, antenas, routers, y servidores distribuyen la información a escala global.
+  </li>
+  <li>
+    Los proveedores de servicios de Internet (ISP) permiten la conexión de usuarios y empresas a esa red global.
   </li>
 </ul>
+
 
 
 
