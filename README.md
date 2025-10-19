@@ -1,5 +1,4 @@
-<img width="1280" height="250" alt="portadas (1)" src="https://github.com/user-attachments/assets/f6805b2b-2541-4e7e-ac71-5ccf4b610ec2" />
-
+<img width="1280" height="250" alt="portada-readme-cursoPracticoHTML" src="https://github.com/user-attachments/assets/cbd9620a-7b19-447a-a7f7-e3b56e70e79e" />
 <div align="center">
   <a href="https://www.instagram.com/jona.dev_ok/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-000?style=for-the-badge&logo=instagram&logoColor=white"/></a> 
   <a href="https://www.youtube.com/@jona.dev_ok" target="_blank"><img src="https://img.shields.io/badge/-youtube-000?style=for-the-badge&logo=youtube&logoColor=white" /></a> 
