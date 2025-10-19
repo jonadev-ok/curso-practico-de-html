@@ -100,4 +100,16 @@
   3 - Servidores y clientes.
 </h3>
 
+<ul>
+  <li>
+    El cliente (tu navegador o app) realiza peticiones.
+  </li>
+  <li>
+    El servidor responde con la información solicitada.
+  </li>
+  <li>
+    Este proceso se repite millones de veces por segundo en todo el planeta.
+  </li>
+</ul>
+
 
