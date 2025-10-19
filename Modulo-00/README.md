@@ -117,6 +117,8 @@
 </h2>
 
 <p>
-  
+  En el año 1989, Tim Berners-Lee, un físico británico que trabajaba en el CERN, propuso un sistema para compartir 
+  documentos científicos en línea. Para lograrlo, llevo a cabo el desarrollo de 3 pilares fundamentales:
 </p>
+
 
