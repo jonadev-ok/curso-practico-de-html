@@ -121,4 +121,9 @@
   documentos científicos en línea. Para lograrlo, llevo a cabo el desarrollo de 3 pilares fundamentales:
 </p>
 
+<ul>
+  <li>
+    1 - HTML (HyperText Markup Language): Un lenguaje de marcado de hipertexto que, serviria para estructurar paginas web.
+  </li>
+</ul>
 
