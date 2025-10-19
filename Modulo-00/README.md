@@ -80,5 +80,21 @@
   2 - Protocolo de comunicación.
 </h3>
 
+<p>
+  Los datos se dividen en paquetes, que viajan por distintas rutas hasta llegar a destino:
+</p>
+
+<ul>
+  <li>
+    IP (Internet Protocol): asigna direcciones únicas a cada dispositivo.
+  </li>
+  <li>
+    TCP (Transmission Control Protocol): asegura que los paquetes lleguen completos y en orden.
+  </li>
+  <li>
+    DNS (Domain Name System): traduce nombres legibles a direcciones IP numéricas.
+  </li>
+</ul>
+
 
 
