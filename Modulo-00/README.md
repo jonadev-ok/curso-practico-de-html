@@ -125,5 +125,9 @@
   <li>
     1 - HTML (HyperText Markup Language): Un lenguaje de marcado de hipertexto que, serviria para estructurar paginas web.
   </li>
+  <li>
+    2 - HTTP (HyperText Transfer Protocol): protocolo para transferir páginas web entre servidores y navegadores.
+  </li>
 </ul>
+
 
