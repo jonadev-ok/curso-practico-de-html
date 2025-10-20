@@ -50,3 +50,67 @@
   texto simple, como por ejemplo el tipico "Hola mundo" y lo ejecutamos en el navegador vamos a poder ver el resultado sin 
   ningun problema. Pero, asi no es como se trabaja con HTML.
 </p>
+
+<h3>Estructura basica de HTML</h3>
+
+<p>
+  Como dijimos anteriormente, HTML trabaja con etiquetas,algunas simples y otras compuestas(etiquetas de apertura y cierre). 
+  Cada una tiene un proposito especifico. En esta oportunidad vamos a hablar de las etiquetas que componen la estructura basica 
+  de un archivo HTML.
+</p>
+<ol>
+  <li>
+    <h3>Doctype</h3>
+    <p>Esta etiqueta es la declaración de version de HTML. Actualmente HTML se encuentra en la version HTML 5.</p>
+    
+```html  
+<!DOCTYPE html>
+```
+
+  </li>
+  <li>
+    <h3>Html</h3>
+    <p>
+      La etiqueta html (de apertura y de cierre) es donde inicia y termina nuestro documento. 
+      Envuelve todo el contenido que compone el sitio. Por ende, las dos etiquetas faltantes que componen la estructura(head y body), 
+      se ubican dentro de esta.
+    </p>
+
+```html  
+<html>
+  
+</html>
+```
+  </li>
+  <li>
+    <h3>Head</h3>
+    <p>
+      La etiqueta head es la que contiene los metadatos e información sobre la pagina. Estos datos no son visibles en la web 
+      (con una excepción), pero afectan directamente el comportamiento, la presentación y las interacciones del documento.
+    </p>
+
+```html
+ 
+<head>
+  <title>Bienvenidos a mi web</title>
+</head>
+
+```
+    
+  </li>
+  <li>
+    <h3>Body</h3>
+    <p>
+      Por ultimo,el body es una etiqueta que define el cuerpo del documento web, es decir, la sección donde se coloca todo el 
+      contenido visible que será mostrado en el navegador.
+    </p>
+
+```html
+ 
+<body>
+  <h1>Bienvenidos a mi web</h1>
+</body>
+
+```
+  </li>
+</ol>
