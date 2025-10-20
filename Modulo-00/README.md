@@ -138,5 +138,10 @@
   la Web y cómo usarla).
 </p>
 
+<h3>
+  Diferencias entre internet y la web.
+</h3>
+
+
 
 
