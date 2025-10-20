@@ -132,3 +132,7 @@
 </html>
 
 ```
+
+<p>Pero, para continuar tenemos que ver otro concepto de HTML. <strong>Los atributos.</strong></p>
+
+<h3>Que son los atributos</h3>
