@@ -163,3 +163,12 @@
   En este ejemplo, el atributo lang define el idioma español para el documento.
 </p>
 <br>
+
+<h2>Comencemos con las primeras etiquetas</h2>
+
+<p>
+  Aunque recien estamos empezando, ya vamos incorporando conceptos. Ya tenemos claro cual es la estructura basica de un documento, 
+  que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las etiquetas del lenguaje.
+</p>
+
+<h2>Etiquetas de texto</h2>
