@@ -1,8 +1,8 @@
 <img width="1280" height="250" alt="portada-modulo1" src="https://github.com/user-attachments/assets/8cb50f06-35a9-457a-8eb9-d7bba55e936f" />
 
-<h1 align="center">Comencemos por lo escencial</h1>
+<h1>Comencemos por lo escencial</h1>
 
-<p align="center"><em>En esta primera parte vamos a ocuparnos de entender que es HTML, como funciona y todo lo elemental para comenzar a trabajar.</em></p>
+<p><em>En esta primera parte vamos a ocuparnos de entender que es HTML, como funciona y todo lo elemental para comenzar a trabajar.</em></p>
 
 <h2>Que es HTML</h2>
 <p>
@@ -22,4 +22,5 @@
   un significado y proposito especifico. Mas adelante vamos a ver las diferentes etiquetas y su correcto uso. Aclarado esto, el 
   navegador hace el proceso de interpretación de la siguiente manera:
 </p>
+
 
