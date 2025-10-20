@@ -23,4 +23,14 @@
   navegador hace el proceso de interpretación de la siguiente manera:
 </p>
 
+<ol>
+  <li>
+    <strong>Interpretar la estructura:</strong> Las etiquetas de HTML definen la estructura y el contenido de una página web, 
+    y el navegador traduce esas etiquetas en elementos visuales como encabezados, párrafos, imágenes, etc.
+  </li>
+  <li>
+    <strong>Renderizado en tiempo real:</strong> El HTML es interpretado en el momento de ser cargado, 
+    lo que permite a los desarrolladores ver los cambios inmediatamente al actualizar la página.
+  </li>
+</ol>
 
