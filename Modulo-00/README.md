@@ -135,7 +135,8 @@
 
 <p>
   La primera página web se publicó el 6 de agosto de 1991, en el servidor del CERN. (Era una simple explicación sobre qué era 
-  la Web y cómo usarla.)
+  la Web y cómo usarla).
 </p>
+
 
 
