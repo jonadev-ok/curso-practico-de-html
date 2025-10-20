@@ -34,3 +34,9 @@
   </li>
 </ol>
 
+
+<h1>Empecemos a trabajar</h1>
+
+<p>
+  Vamos de una vez directo a nuestro editor de codigo y pongamos manos a la obra.
+</p>
