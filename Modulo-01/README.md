@@ -35,8 +35,9 @@
 </ol>
 
 
-<h1>Empecemos a trabajar</h1>
+<h2>Empecemos a trabajar</h2>
 
 <p>
   Vamos de una vez directo a nuestro editor de codigo y pongamos manos a la obra.
 </p>
+
