@@ -172,3 +172,248 @@
 </p>
 
 <h2>Etiquetas de texto</h2>
+
+<ol>
+  <li>
+    <h3>Etiquetas de encabezado</h3>
+    <p>Estas etiquetas definen los encabezados de una página web, y su jerarquía va desde h1, el más importante, hasta h6, el menos importante.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <h1>Bienvenidos a mi web</h1>
+    <h2>Bienvenidos a mi web</h2>
+    <h3>Bienvenidos a mi web</h3>
+    <h4>Bienvenidos a mi web</h4>
+    <h5>Bienvenidos a mi web</h5>
+    <h6>Bienvenidos a mi web</h6>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiqueta de parrafo</h3>
+    <p>Se utiliza para contener bloques de texto, lo que equivale a un párrafo en un documento.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <p>Hola, esto es un parrafo</p>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiqueta de enlace</h3>
+    <p>Define un hipervínculo que conecta el contenido actual con otra página web, sección del documento, archivo o recurso.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <a href="https://www.instagram.com/jona.dev_ok/">Para estar al tanto de todas las novedades, seguime en instagram</a>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiquetas de texto en negrita</h3>
+    <p>Las dos etiquetas que veremos a continuación(b , strong), se utilizan para destacar un texto en negrita. Visualmente son iguales, pero con una diferencia semantica que veremos mas adelante.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <p>Hola, esto es un <b>parrafo</b></p>
+    <p>Hola, esto es un <strong>parrafo</strong></p>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiquetas de texto en cursiva</h3>
+    <p>Las dos etiquetas que veremos a continuación(em , i), son similares a las anteriores. Se utilizan para transformar un texto en cursiva. Visualmente son iguales, pero al igual que las anteriores,tienen una diferencia semantica que veremos mas adelante.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <p>Hola, <em>este es un texto en cursiva</em</p>
+    <p>Hola, <i>este es un texto en cursiva</i></p>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiquetas de texto pequeño</h3>
+    <p>Representa un texto de menor importancia o una nota aclaratoria.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <p>Todos los derechos reservados. <small>(c) 2024 JonaDev</small></p>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiqueta de cita en bloque</h3>
+    <p>Indica que el contenido es una cita en bloque de otro autor.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <blockquote>
+  "No se trata solo de conectar computadoras, se trata de conectar personas." - Tim Berners Lee
+    </blockquote>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiqueta de codigo</h3>
+    <p>Define fragmentos de código en el texto, mostrando el texto con una fuente monoespaciada.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <p>Para capturar un elemento HTML por su ID , utiliza la función <code>document.getElementById</code>.</p>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiqueta de texto formateado</h3>
+    <p>Mantiene el formato original del texto, incluyendo los saltos de línea y los espacios en blanco. Ideal para mostrar bloques de código o texto con un formato específico.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <pre>
+      function saludo() {
+        console.log('Hola Mundo');
+      }
+    </pre>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiqueta de texto resaltado</h3>
+    <p>Marca el texto como destacado o resaltado, similar a un marcador de texto en papel.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <p>Recorda estudiar <mark>HTML semántico</mark> para mejorar la accesibilidad.</p>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiqueta de texto tachado y texto insertado</h3>
+    <p>Estas etiquetas indican que el texto ha sido eliminado o tachado o bien que el texto ha sido agregado o insertado recientemente</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <p>El curso de HTML <del>inicia mañana</del>, ya esta disponible.</p>
+    <p>La segunda sección del curso <ins>estara disponible en unas horas</ins>.</p>
+  </body>
+</html>
+
+```
+    
+  </li>
+  <li>
+    <h3>Etiqueta de abreviatura</h3>
+    <p>Define una abreviatura, y al pasar el cursor sobre ella, se puede mostrar el significado completo.</p>
+    
+```html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  <body>
+    <p>El <abbr title="World Wide Web">WWW</abbr> es un sistema de documentos interconectados.</p>
+  </body>
+</html>
+
+```
+    
+  </li>
+</ol>
