@@ -144,8 +144,9 @@
 
 <p>
   Como logramos ver en este pequeño recorrido, el internet y la web son dos cosas completamente distintas. 
-   Por un esta internet. 
+   Por un lado esta internet. 
 </p>
+
 
 
 
