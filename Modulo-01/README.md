@@ -11,3 +11,14 @@
   crear proyectos web. Ya que HTML es el lenguaje estandar que se ocupa de estructurar los sitios web, mediante el uso de etiquetas 
   o tags.
 </p>
+
+<h2>Como funciona HTML</h2>
+<p>
+  Lo primero que tenemos que entender es que HTML es un lenguaje interpretado. ¿Que significa esto? Basicamente, los navegadores web 
+  (como chrome, firefox, opera,etc.) actuan como interpretes de su codigo. Esto significa que el navegador lee el archivo HTML, lo 
+  procesa y lo convierte en una representación visual en pantalla, interpretando cada etiqueta o elemento en tiempo real. 
+  Pero, ¿como logra ese proceso para interpretarlo de manera correcta? Ahi es donde entran en juegos la etiquetas, tambien conocidad 
+  como tags. Podriamos decir que las etiquetas son palabras claves encerradas entre corchetes angulares (<>). Cada etiqueta tiene 
+  un significado y proposito especifico. Mas adelante vamos a ver las diferentes etiquetas y su correcto uso. Aclarado esto, el 
+  navegador hace el proceso de interpretación de la siguiente manera:
+</p>
