@@ -41,3 +41,12 @@
   Vamos de una vez directo a nuestro editor de codigo y pongamos manos a la obra.
 </p>
 
+<h3>Crea tu primer archivo HTML</h3>
+
+<p>
+  Para empezar a trabajar con HTML, lo primero que vamos a hacer es crear un archivo al que llamaremos index.html 
+  (el nombre no es obligatorio pero se utiliza por convencion). El .html es el que indica que tipo de archivo. Al igual 
+  que una imagen puede terminar con .jpg o un archivo de texto plano con .txt. Si dentro de el archivo escribimos cualquier 
+  texto simple, como por ejemplo el tipico "Hola mundo" y lo ejecutamos en el navegador vamos a poder ver el resultado sin 
+  ningun problema. Pero, asi no es como se trabaja con HTML.
+</p>
