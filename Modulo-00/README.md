@@ -142,6 +142,11 @@
   Diferencias entre internet y la web.
 </h3>
 
+<p>
+  Como logramos ver en este pequeño recorrido, el internet y la web son dos cosas completamente distintas. 
+   Por un esta internet. 
+</p>
+
 
 
 
