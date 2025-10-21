@@ -138,3 +138,14 @@
   la Web y cómo usarla).
 </p>
 
+<h3>
+  Diferencia entre Internet y la Web
+</h3>
+
+| Concepto   | Internet                            | Web                                  |
+| ---------- | ----------------------------------- | ------------------------------------ |
+| Naturaleza | Infraestructura de red global       | Servicio que funciona sobre Internet |
+| Función    | Transmitir datos entre computadoras | Publicar y navegar entre documentos  |
+| Protocolos | TCP/IP, DNS, SMTP, FTP, etc.        | HTTP, HTTPS                          |
+| Ejemplos   | Email, FTP, VoIP, juegos online     | Sitios web, blogs, redes sociales    |
+
