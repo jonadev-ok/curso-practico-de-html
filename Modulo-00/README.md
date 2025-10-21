@@ -123,13 +123,13 @@
 
 <ul>
   <li>
-    1 - HTML (HyperText Markup Language): Un lenguaje de marcado de hipertexto que, serviria para estructurar paginas web.
+    HTML (HyperText Markup Language): Un lenguaje de marcado de hipertexto que, serviria para estructurar paginas web.
   </li>
   <li>
-    2 - HTTP (HyperText Transfer Protocol): protocolo para transferir páginas web entre servidores y navegadores.
+    HTTP (HyperText Transfer Protocol): protocolo para transferir páginas web entre servidores y navegadores.
   </li>
   <li>
-    3 - URL (Uniform Resource Locator): sistema de direcciones que permite localizar recursos en la Web.
+    URL (Uniform Resource Locator): sistema de direcciones que permite localizar recursos en la Web.
   </li>
 </ul>
 
@@ -161,22 +161,23 @@
   Este proceso es posible gracias a protocolos como HTTP y la infraestructura de internet que transporta los datos en pequeños paquetes. 
 </p>
 
-<ul>
+<ol>
   <li>
-    1 - Escribís una URL en tu navegador (por ejemplo: https://google.com).
+    Escribís una URL en tu navegador (por ejemplo: https://google.com).
   </li>
   <li>
-    2 - El navegador consulta el DNS para saber qué dirección IP corresponde a ese nombre.
+    El navegador consulta el DNS para saber qué dirección IP corresponde a ese nombre.
   </li>
   <li>
-    3 - Envía una solicitud HTTP/HTTPS al servidor donde vive el sitio.
+    Envía una solicitud HTTP/HTTPS al servidor donde vive el sitio.
   </li>
   <li>
-    4 - El servidor devuelve el contenido (HTML, CSS, JS, imágenes, etc.).
+    El servidor devuelve el contenido (HTML, CSS, JS, imágenes, etc.).
   </li>
   <li>
-    5 - El navegador interpreta ese contenido y lo renderiza visualmente para vos.
+    El navegador interpreta ese contenido y lo renderiza visualmente para vos.
   </li>
-</ul>
+</ol>
+
 
 
