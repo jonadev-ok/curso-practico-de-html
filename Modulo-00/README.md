@@ -171,4 +171,8 @@
   <li>
     3 - Envía una solicitud HTTP/HTTPS al servidor donde vive el sitio.
   </li>
+  <li>
+    4 - El servidor devuelve el contenido (HTML, CSS, JS, imágenes, etc.).
+  </li>
 </ul>
+
