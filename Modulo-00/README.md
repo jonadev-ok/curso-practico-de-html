@@ -160,3 +160,15 @@
   vuelta los archivos necesarios (como HTML, CSS, imágenes) para que el navegador los interprete y muestre la página al usuario. 
   Este proceso es posible gracias a protocolos como HTTP y la infraestructura de internet que transporta los datos en pequeños paquetes. 
 </p>
+
+<ul>
+  <li>
+    1 - Escribís una URL en tu navegador (por ejemplo: https://google.com).
+  </li>
+  <li>
+    2 - El navegador consulta el DNS para saber qué dirección IP corresponde a ese nombre.
+  </li>
+  <li>
+    3 - Envía una solicitud HTTP/HTTPS al servidor donde vive el sitio.
+  </li>
+</ul>
