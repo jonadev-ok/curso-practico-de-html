@@ -153,3 +153,10 @@
 <h2>
   ¿Como funciona la web?
 </h2>
+
+<p>
+  La web funciona a través de un ciclo de solicitud-respuesta entre un navegador web (cliente) y un servidor web. 
+  El navegador envía una solicitud a través de internet a la dirección de un servidor, el cual procesa la solicitud y envía de 
+  vuelta los archivos necesarios (como HTML, CSS, imágenes) para que el navegador los interprete y muestre la página al usuario. 
+  Este proceso es posible gracias a protocolos como HTTP y la infraestructura de internet que transporta los datos en pequeños paquetes. 
+</p>
