@@ -149,3 +149,7 @@
 | Protocolos | TCP/IP, DNS, SMTP, FTP, etc.        | HTTP, HTTPS                          |
 | Ejemplos   | Email, FTP, VoIP, juegos online     | Sitios web, blogs, redes sociales    |
 
+
+<h2>
+  ¿Como funciona la web?
+</h2>
