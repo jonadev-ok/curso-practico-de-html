@@ -174,5 +174,9 @@
   <li>
     4 - El servidor devuelve el contenido (HTML, CSS, JS, imágenes, etc.).
   </li>
+  <li>
+    5 - El navegador interpreta ese contenido y lo renderiza visualmente para vos.
+  </li>
 </ul>
+
 
