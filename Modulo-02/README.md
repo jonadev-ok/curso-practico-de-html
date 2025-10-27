@@ -14,3 +14,5 @@
   que etiquetas utilizar segun su contenido y proposito. La semantica mejora la experiencia del usuario y facilita el mantenimiento 
   del código.
 </p>
+
+<h3>Etiquetas semanticas principales</h3>
