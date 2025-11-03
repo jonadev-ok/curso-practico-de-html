@@ -117,6 +117,67 @@
 </h2>
 
 <p>
-  
+  En el año 1989, Tim Berners-Lee, un físico británico que trabajaba en el CERN, propuso un sistema para compartir 
+  documentos científicos en línea. Para lograrlo, llevo a cabo el desarrollo de 3 pilares fundamentales:
 </p>
+
+<ul>
+  <li>
+    HTML (HyperText Markup Language): Un lenguaje de marcado de hipertexto que, serviria para estructurar paginas web.
+  </li>
+  <li>
+    HTTP (HyperText Transfer Protocol): protocolo para transferir páginas web entre servidores y navegadores.
+  </li>
+  <li>
+    URL (Uniform Resource Locator): sistema de direcciones que permite localizar recursos en la Web.
+  </li>
+</ul>
+
+<p>
+  La primera página web se publicó el 6 de agosto de 1991, en el servidor del CERN. (Era una simple explicación sobre qué era 
+  la Web y cómo usarla).
+</p>
+
+<h3>
+  Diferencia entre Internet y la Web
+</h3>
+
+| Concepto   | Internet                            | Web                                  |
+| ---------- | ----------------------------------- | ------------------------------------ |
+| Naturaleza | Infraestructura de red global       | Servicio que funciona sobre Internet |
+| Función    | Transmitir datos entre computadoras | Publicar y navegar entre documentos  |
+| Protocolos | TCP/IP, DNS, SMTP, FTP, etc.        | HTTP, HTTPS                          |
+| Ejemplos   | Email, FTP, VoIP, juegos online     | Sitios web, blogs, redes sociales    |
+
+
+<h2>
+  ¿Como funciona la web?
+</h2>
+
+<p>
+  La web funciona a través de un ciclo de solicitud-respuesta entre un navegador web (cliente) y un servidor web. 
+  El navegador envía una solicitud a través de internet a la dirección de un servidor, el cual procesa la solicitud y envía de 
+  vuelta los archivos necesarios (como HTML, CSS, imágenes) para que el navegador los interprete y muestre la página al usuario. 
+  Este proceso es posible gracias a protocolos como HTTP y la infraestructura de internet que transporta los datos en pequeños paquetes. 
+</p>
+
+<ol>
+  <li>
+    Escribís una URL en tu navegador (por ejemplo: https://google.com).
+  </li>
+  <li>
+    El navegador consulta el DNS para saber qué dirección IP corresponde a ese nombre.
+  </li>
+  <li>
+    Envía una solicitud HTTP/HTTPS al servidor donde vive el sitio.
+  </li>
+  <li>
+    El servidor devuelve el contenido (HTML, CSS, JS, imágenes, etc.).
+  </li>
+  <li>
+    El navegador interpreta ese contenido y lo renderiza visualmente para vos.
+  </li>
+</ol>
+
+
 
