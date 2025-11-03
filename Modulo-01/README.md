@@ -772,7 +772,7 @@
 </html>
 ```
 
-<h2 align="center">Etiquetas de formularios</h2>
+<h2>Etiquetas de formularios</h2>
 
 <ol>
   <li>
@@ -1039,4 +1039,5 @@
   </body>
 </html>
 ```
+
 
