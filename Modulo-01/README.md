@@ -176,7 +176,10 @@
 <ol>
   <li>
     <h3>Etiquetas de encabezado</h3>
-    <p>Estas etiquetas definen los encabezados de una página web, y su jerarquía va desde h1, el más importante, hasta h6, el menos importante.</p>
+    <p>
+      Estas etiquetas definen los encabezados de una página web, y su jerarquía va desde h1, el más importante, hasta h6, 
+      el menos importante.
+    </p>
     
 ```html
 
@@ -1039,5 +1042,6 @@
   </body>
 </html>
 ```
+
 
 
