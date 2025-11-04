@@ -8,3 +8,18 @@
   tráfico orgánico al sitio, es decir, sin necesidad de recurrir a anuncios pagados.<br> El SEO se divide en 3 categorias. 
   Veremos cada una a continuación.
 </p>
+
+<ol>
+  <li>
+    <h3>SEO On-Page</h3>
+    <p>Optimización dentro del contenido y el código HTML de la página.</p>
+  </li>
+  <li>
+    <h3>SEO Off-Page</h3>
+    <p>Factores externos como enlaces entrantes o backlinks.</p>
+  </li>
+  <li>
+    <h3>SEO Técnico</h3>
+    <p>Relacionado con la arquitectura del sitio y la indexabilidad.</p>
+  </li>
+</ol>
