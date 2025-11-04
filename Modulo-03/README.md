@@ -154,7 +154,7 @@
   </li>
 </ol>
 
-<h2 align="center">Etiquetas de contenido multimedia</h2>
+<h2>Etiquetas de contenido multimedia</h2>
 
 <ol>
   <li>
@@ -253,3 +253,4 @@
 
   </li>
 </ol>
+
