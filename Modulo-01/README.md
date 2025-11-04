@@ -1110,3 +1110,15 @@
   </li>
 </ol>
 
+<h3>Enlaces externos</h3>
+
+<p>
+  Los enlaces externos son aquellos que llevan al usuario a otro sitio web o dominio diferente al actual. A diferencia de los 
+  enlaces  intermos, el atributo href debe tener la URL completa (con http:// o https://).
+</p>
+
+```html
+
+    <a href="https://www.ejemplo.com" target="_blank">Visitar Ejemplo</a>
+
+```
