@@ -403,3 +403,197 @@
     </p>
   </li>
 </ol>
+
+<h3>Roles de widgets y componentes interactivos</h3>
+<ol>
+  <li>
+    <h4>role="button":</h4>
+    <p>
+      Indica que un elemento tiene un comportamiento similar a un botón.
+      Se usa en cualquier elemento que actúe como un botón, como un div o span, si no se usa el elemento button.
+    </p>
+  </li>
+  <li>
+    <h4>role="checkbox":</h4>
+    <p>
+      Define un campo de verificación que puede estar marcado o no.
+      Usado en inputs o en otros elementos personalizados que simulan un checkbox.
+    </p>
+  </li>
+  <li>
+    <h4>role="dialog":</h4>
+    <p>
+      Define una ventana emergente (popup) que captura el foco del usuario.
+      Se usa en modales.
+    </p>
+  </li>
+  <li>
+    <h4>role="alertdialog":</h4>
+    <p>
+      Similar a dialog, pero implica un mensaje urgente que requiere la atención inmediata del usuario.
+    </p>
+  </li>
+  <li>
+    <h4>role="progressbar":</h4>
+    <p>
+      Representa una barra de progreso que indica el estado de una operación en curso.
+      Se usa en elementos como progress.
+    </p>
+  </li>
+  <li>
+    <h4>role="slider":</h4>
+    <p>
+      Define un control que permite seleccionar un valor dentro de un rango.
+      Se usa en elementos como barras de rango o sliders personalizados.
+    </p>
+  </li>
+  <li>
+    <h4>role="menu":</h4>
+    <p>
+      Define un menú de navegación o contexto, como el menú de opciones de un botón derecho.
+      Usado en menús desplegables.
+    </p>
+  </li>
+  <li>
+    <h4>role="menuitem":</h4>
+    <p>
+      Define un ítem dentro de un menú, como una opción de lista.
+      Se usa dentro de roles de menú.
+    </p>
+  </li>
+  <li>
+    <h4>role="tab":</h4>
+    <p>
+      Define una pestaña dentro de un componente de pestañas (tab panel).
+      Usado en interfaces de tabulación.
+    </p>
+  </li>
+  <li>
+    <h4>role="tabpanel":</h4>
+    <p>
+      Define el contenido asociado a una pestaña (tab).
+      Usado en interfaces de pestañas.
+    </p>
+  </li>
+  <li>
+    <h4>role="textbox":</h4>
+    <p>
+      Define un campo de entrada de texto.
+      Usado en elementos personalizados que no son un input o textarea pero se comportan como uno.
+    </p>
+  </li>
+</ol>
+
+<h3>Roles de estado y propiedades</h3>
+<ol>
+  <li>
+    <h4>role="alert":</h4>
+    <p>
+      Se usa para anunciar mensajes importantes que no requieren interacción.
+      Estos mensajes deben ser leídos automáticamente por el lector de pantalla.
+    </p>
+  </li>
+  <li>
+    <h4>role="status":</h4>
+    <p>
+      Define un área que proporciona actualizaciones de estado dinámicas sobre la página.
+      Diferente a alert, ya que no interrumpe al usuario.
+    </p>
+  </li>
+  <li>
+    <h4>role="tooltip":</h4>
+    <p>
+      Indica una caja de información flotante que aparece cuando el usuario pasa el ratón sobre un elemento.
+    </p>
+  </li>
+</ol>
+
+<h3>Atributos ARIA.</h3>
+<p>
+  Los atributos ARIA complementan los roles, proporcionando más detalles sobre el estado, propiedades y relaciones de los elementos.
+</p>
+
+<h3>Atributos de estado y propiedades</h3>
+
+<ol>
+  <li>
+    <h4>aria-hidden="true":</h4>
+    <p>
+      Indica que un elemento debe ser ignorado por las tecnologías de asistencia. Se usa cuando el contenido es 
+      irrelevante para los lectores de pantalla.
+    </p>
+  </li>
+  <li>
+    <h4>aria-disabled="true":</h4>
+    <p>
+      Indica que un elemento está deshabilitado y no puede ser interactuado.
+    </p>
+  </li>
+  <li>
+    <h4>aria-expanded="true/false":</h4>
+    <p>
+      Indica si un elemento desplegable (como un menú o acordeón) está expandido (true) o colapsado (false).
+    </p>
+  </li>
+  <li>
+    <h4>aria-checked="true/false/mixed":</h4>
+    <p>
+      Indica el estado de un control de selección, como un checkbox (true para marcado, false para no marcado, 
+      y mixed para un estado indeterminado).
+    </p>
+  </li>
+  <li>
+    <h4>aria-selected="true/false":</h4>
+    <p>
+      Indica si un elemento, como una opción de lista, está seleccionado.
+    </p>
+  </li>
+  <li>
+    <h4>aria-label="Texto":</h4>
+    <p>
+      Define una etiqueta personalizada para un elemento que puede no tener texto visible, 
+      útil para botones de íconos o elementos gráficos.
+    </p>
+  </li>
+  <li>
+    <h4>aria-labelledby="ID":</h4>
+    <p>
+      Asocia el elemento con un ID de otro elemento que actúa como su etiqueta. Similar a label en formularios, 
+      pero permite etiquetas más complejas.
+    </p>
+  </li>
+  <li>
+    <h4>aria-describedby="ID":</h4>
+    <p>
+      Asocia un elemento con un ID de otro elemento que proporciona una descripción adicional, útil para proporcionar 
+      más contexto sobre el uso o estado de un control.
+    </p>
+  </li>
+  <li>
+    <h4>aria-controls="ID":</h4>
+    <p>
+      Indica que el elemento controla otro elemento (por ejemplo, un botón que controla la visibilidad de un panel desplegable).
+    </p>
+  </li>
+  <li>
+    <h4>aria-live="polite/assertive":</h4>
+    <p>
+      Define el nivel de prioridad para que los lectores de pantalla anuncien cambios en el contenido dinámico.
+      <br>polite: No interrumpir al usuario, esperar hasta que termine su acción.
+      <br>assertive: Interrumpir inmediatamente para anunciar el cambio.
+    </p>
+  </li>
+  <li>
+    <h4>aria-role="tablist":</h4>
+    <p>
+      Indica un contenedor de pestañas (tab) que gestiona la interacción entre pestañas y paneles de contenido.
+    </p>
+  </li>
+  <li>
+    <h4>aria-busy="true/false":</h4>
+    <p>
+      Indica que el elemento está cargando o está ocupado. Cuando true, las tecnologías de asistencia 
+      informarán al usuario que el elemento aún está ocupado y no debe interactuar con él.
+    </p>
+  </li>
+</ol>
