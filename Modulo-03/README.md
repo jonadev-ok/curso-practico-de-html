@@ -344,3 +344,62 @@
   Utilizando atributos como required, minlength, maxlength, pattern, entre otros. Estos permiten verificar los datos del formulario 
   antes de ser enviados al servidor, mejorando la experiencia de usuario.
 </p>
+
+<h3>Roles ARIA (roles de accesibilidad).</h3>
+<p>
+  Los roles ARIA definen el propósito o comportamiento de un elemento 
+  HTML para los usuarios que dependen de tecnologías de asistencia.
+</p>
+
+<h3>Roles de estructura de documento</h3>
+<ol>
+  <li>
+    <h4>role="banner":</h4>
+    <p>
+      Se usa para identificar la cabecera principal de un documento o aplicación.
+      Normalmente se asigna a header.
+    </p>
+  </li>
+  <li>
+    <h4>role="navigation":</h4>
+    <p>
+      Define una barra de navegación, ayudando a los usuarios a identificar secciones de navegación.
+      Usualmente asignado a nav.
+    </p>
+  </li>
+  <li>
+    <h4>role="main":</h4>
+    <p>
+      Indica el contenido principal de la página, excluyendo elementos repetitivos como la barra lateral o el encabezado.
+      Se usa en main.
+    </p>
+  </li>
+  <li>
+    <h4>role="complementary":</h4>
+    <p>
+      Define contenido complementario, como barras laterales, que respalda el contenido principal.
+      Se suele asignar a aside.
+    </p>
+  </li>
+  <li>
+    <h4>role="contentinfo":</h4>
+    <p>
+      Define el pie de página de un documento o aplicación, que generalmente contiene información sobre el autor, derechos de autor, etc.
+      Se asigna al footer.
+    </p>
+  </li>
+  <li>
+    <h4>role="article":</h4>
+    <p>
+      Define contenido que es autónomo y puede ser distribuido de forma independiente.
+      Se usa en article.
+    </p>
+  </li>
+  <li>
+    <h4>role="region":</h4>
+    <p>
+      Se usa para definir una sección importante del contenido de la página, que normalmente lleva un encabezado visible.
+      Se puede usar en section.
+    </p>
+  </li>
+</ol>
