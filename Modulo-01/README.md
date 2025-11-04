@@ -1142,3 +1142,17 @@
 ```html
   <div id="menu">Menú Principal</div>
 ```
+
+<h3>class:</h3>
+<p>Se puede aplicar a múltiples elementos. Es útil para agrupar elementos que comparten estilos o comportamientos.</p>
+<p><b>Uso:</b> Utilizado cuando varios elementos necesitan el mismo estilo o comportamiento.</p>
+
+```html
+  <div class="boton">Botón 1</div>
+  <div class="boton">Botón 2</div>
+```
+
+<p>
+  Diferencias Clave: id es único en toda la página, mientras que class puede reutilizarse. En CSS, #id selecciona un único 
+  elemento, mientras que .class puede seleccionar varios.
+</p>
