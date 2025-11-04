@@ -1050,4 +1050,10 @@
   navegación de sitios web.
 </p>
 
+<h3>Enlaces internos</h3>
+
+<p>
+  Los enlaces internos son aquellos que apuntan a otra parte dentro del mismo sitio web o a una sección específica de 
+  la misma página. Pueden apuntar a:
+</p>
 
