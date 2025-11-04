@@ -1130,3 +1130,15 @@
   que mejora la fluidez de la navegación. Si un enlace redirige al usuario a un sitio externo, es probable que no desee abandonar 
   la página actual, especialmente si está realizando una actividad importante.
 </p>
+
+<h2>Diferencias entre ID y class</h2>
+
+<p>Aunque en este curso no nos vamos a centrar tanto en los estilos, entender que hay una diferencia muy marcada entre ID y class es muy importante para aplicar buenas practicas en la estructuración de un documento HTML.</p>
+
+<h3>ID:</h3>
+<p>Es un identificador único para un solo elemento en el DOM. No puede repetirse en la misma página.</p>
+<p><b>Uso:</b> Ideal para elementos que necesitas identificar individualmente, como el encabezado principal o una sección específica.</p>
+
+```html
+  <div id="menu">Menú Principal</div>
+```
