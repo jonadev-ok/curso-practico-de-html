@@ -1043,7 +1043,7 @@
 </html>
 ```
 
-<h2 align="center">Enlaces internos y enlaces externos</h2>
+<h2>Enlaces internos y enlaces externos</h2>
 
 <p>
   Es esencial entender la diferencia entre enlaces internos y enlaces externos, ya que ambos juegan un papel importante en la 
@@ -1109,3 +1109,4 @@
     
   </li>
 </ol>
+
