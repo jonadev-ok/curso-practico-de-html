@@ -15,17 +15,9 @@
 <h2>¿Que vas a aprender?</h2>
 
 <p>
-  La idea central del curso es que te lleves las mejores practicas para aplicar en tus proyectos. HTML es el punto de partida para todo desarrollador web. Pero antes 
-  de ir a HTML vamos a dar un pequeño paseo por los fundamentos de la web. Esto te va a dar una idea mas general de como es el funcionamiento de la web y el internet. 
-  Luego de pasar por ese modulo inicial nos volcamos de lleno a HTML. Veremos cada una de las caracteristicas principales, buenas practicas y las vamos a llevar a la practica 
-  en un proyecto real. A continuación detallamos el contenido separado por modulos.
+  La idea central del curso es que te lleves las mejores practicas para aplicar en tus proyectos. HTML es el punto de partida para todo desarrollador web.
 </p>
 
-<h3>Modulo 0 - Fundamentos de la web.</h3>
-<p>
-  En este modulo previo a HTML, vamos a repasar la historia de la web, como funciona, distintos protocolos de internet y mucho mas que te van a dar una vision mucho mas amplia 
-  de la web en general para futuros cursos mas avanzados que implican un entendimiento profundo de estos aspectos.
-</p>
 <h3>Modulo 1 - HTML - Que es y como funciona.</h3>
 <p>
   A partir de este modulo atacamos HTML de lleno. Vamos a empezar viendo que es HTML y como es su funcionamiento. Vamos a ver las primeras etiquetas, las mas utilizadas y 
