@@ -10,7 +10,11 @@
 
 <h1>Bienvenidos al curso practico de HTML de cero a experto</h1>
     
-<p><em>Este curso de HTML, te llevará a dominar tanto los conceptos básicos como los avanzados de este lenguaje, el cual es fundamental para el desarrollo web. Desde los fundamentos hasta un nivel avanzado. Ideal si buscan desarrollar la capacidad de crear páginas web completas y bien estructuradas. El curso es de contenido teorico-practico y van a ser transmitidos en directo por Twitch y subidos a mi canal de youtube.</em></p>
+<p>
+  Este curso de HTML, te llevará a dominar tanto los conceptos básicos como los avanzados de este lenguaje, el cual es fundamental para el desarrollo web. Desde los fundamentos 
+  hasta un nivel avanzado. Ideal si buscan desarrollar la capacidad de crear páginas web completas y bien estructuradas. El curso es de contenido teorico-practico y van a ser 
+  subidos a mi canal de youtube.
+</p>
 
 <h2>¿Que vas a aprender?</h2>
 
