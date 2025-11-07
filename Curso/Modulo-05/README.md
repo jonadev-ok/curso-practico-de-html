@@ -36,4 +36,7 @@
   <li>
     Minimiza el HTML (usa herramientas como HTMLMinifier o el proceso de build del framework).
   </li>
+  <li>
+    Evita comentarios innecesarios en producción.
+  </li>
 </ul>
