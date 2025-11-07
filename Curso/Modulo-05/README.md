@@ -27,3 +27,8 @@
     Usa encabezados jerarquicos de forma logica.
   </li>
 </ul>
+
+<h2>Optimización de carga</h2>
+<p>
+  Objetivo: mejorar la velocidad percibida y real de carga de la página.
+</p>
