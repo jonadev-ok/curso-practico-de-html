@@ -8,3 +8,7 @@
 </p>
 
 <h2>Estructura y Semántica Correcta</h2>
+
+<p>
+  Objetivo: mejorar la accesibilidad, el SEO y la mantenibilidad.
+</p>
