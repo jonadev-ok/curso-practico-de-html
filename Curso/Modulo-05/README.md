@@ -23,4 +23,7 @@
   <li>
     Evita usar divs innecesarios.
   </li>
+  <li>
+    Usa encabezados jerarquicos de forma logica.
+  </li>
 </ul>
