@@ -51,4 +51,14 @@
 
     
   </li>
+  <li>
+    Coloca los scripts al final del body o usa defer:
+
+
+ ```
+    
+    <script src="app.js" defer></script>
+
+```   
+  </li>
 </ul>
