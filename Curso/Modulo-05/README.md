@@ -20,4 +20,7 @@
       consultar aqui
     </a>
   </li>
+  <li>
+    Evita usar divs innecesarios.
+  </li>
 </ul>
