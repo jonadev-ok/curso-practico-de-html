@@ -15,6 +15,9 @@
 
 <ul>
   <li>
-    Usa etiquetas semánticas: <a href="">consultar aqui</a>
+    Usa etiquetas semánticas: 
+    <a href="https://github.com/jonadev-ok/curso-practico-de-html/blob/main/Curso/Modulo-02/README.md">
+      consultar aqui
+    </a>
   </li>
 </ul>
