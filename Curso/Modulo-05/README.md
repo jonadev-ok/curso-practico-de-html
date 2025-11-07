@@ -58,3 +58,5 @@
 ```   
   </li>
 </ul>
+
+<h2>Optimización de Imágenes</h2>
