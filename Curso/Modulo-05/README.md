@@ -32,3 +32,8 @@
 <p>
   Objetivo: mejorar la velocidad percibida y real de carga de la página.
 </p>
+<ul>
+  <li>
+    Minimiza el HTML (usa herramientas como HTMLMinifier o el proceso de build del framework).
+  </li>
+</ul>
