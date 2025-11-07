@@ -12,3 +12,9 @@
 <p>
   Objetivo: mejorar la accesibilidad, el SEO y la mantenibilidad.
 </p>
+
+<ul>
+  <li>
+    Usa etiquetas semánticas: <a href="">consultar aqui</a>
+  </li>
+</ul>
