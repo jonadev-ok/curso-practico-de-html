@@ -43,10 +43,8 @@
     Usa lazy loading para imágenes y recursos:
 
     
-```
-    
+```    
     <img src="imagen.jpg" loading="lazy" alt="Descripción" />
-
 ```
 
     
@@ -56,9 +54,7 @@
 
 
  ```
-    
     <script src="app.js" defer></script>
-
 ```   
   </li>
 </ul>
