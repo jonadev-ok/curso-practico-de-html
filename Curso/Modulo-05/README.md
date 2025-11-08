@@ -126,4 +126,10 @@
         <meta name="description" content="Curso completo de desarrollo web con prácticas modernas.">
 ```
   </li>
+  <li>
+    Usa un <title> descriptivo por página.
+  </li>
+  <li>
+    URLs limpias y semánticas
+  </li>
 </ul>
