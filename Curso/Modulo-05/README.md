@@ -64,3 +64,9 @@
 <p>
   Objetivo: reducir el peso sin perder calidad.
 </p>
+
+<ul>
+  <li>
+    Usa formatos modernos (.webp, .avif).
+  </li>
+</ul>
