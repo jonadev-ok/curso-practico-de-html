@@ -111,3 +111,5 @@
     Asocia etiquetas <label> a los inputs.
   </li>
 </ul>
+
+<h2>SEO Técnico</h2>
