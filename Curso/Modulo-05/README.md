@@ -132,4 +132,7 @@
   <li>
     URLs limpias y semánticas
   </li>
+  <li>
+    Usa <meta name="robots" content="index, follow"> correctamente.
+  </li>
 </ul>
