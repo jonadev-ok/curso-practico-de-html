@@ -60,3 +60,7 @@
 </ul>
 
 <h2>Optimización de Imágenes</h2>
+
+<p>
+  Objetivo: reducir el peso sin perder calidad.
+</p>
