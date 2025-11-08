@@ -89,3 +89,7 @@
 </ul>
 
 <h2>Accesibilidad Web (a11y)</h2>
+
+<p>
+  Objetivo: permitir que todas las personas puedan navegar correctamente.
+</p>
