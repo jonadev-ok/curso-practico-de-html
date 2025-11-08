@@ -87,3 +87,5 @@
     Elimina metadatos EXIF innecesarios.
   </li>
 </ul>
+
+<h2>Accesibilidad Web (a11y)</h2>
