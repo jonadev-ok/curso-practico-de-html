@@ -93,3 +93,21 @@
 <p>
   Objetivo: permitir que todas las personas puedan navegar correctamente.
 </p>
+
+<ul>
+  <li>
+    Siempre usar alt en imágenes.
+  </li>
+  <li>
+    Usa roles y atributos ARIA solo cuando sea necesario.
+  </li>
+  <li>
+    Asegura contraste de color suficiente.
+  </li>
+  <li>
+    Permite navegación con teclado.
+  </li>
+  <li>
+    Asocia etiquetas <label> a los inputs.
+  </li>
+</ul>
