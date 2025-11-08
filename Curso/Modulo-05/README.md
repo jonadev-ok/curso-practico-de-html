@@ -69,4 +69,7 @@
   <li>
     Usa formatos modernos (.webp, .avif).
   </li>
+  <li>
+    Adapta el tamaño según el dispositivo (srcset y sizes):
+  </li>
 </ul>
