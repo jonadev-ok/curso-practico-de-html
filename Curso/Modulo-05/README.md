@@ -71,5 +71,13 @@
   </li>
   <li>
     Adapta el tamaño según el dispositivo (srcset y sizes):
+    
+```
+    <img src="img.jpg"
+     srcset="img-400.jpg 400w, img-800.jpg 800w"
+     sizes="(max-width: 600px) 400px, 800px"
+     alt="Ejemplo optimizado">
+```
+
   </li>
 </ul>
