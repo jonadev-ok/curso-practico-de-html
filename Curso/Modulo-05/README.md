@@ -80,4 +80,10 @@
 ```
 
   </li>
+  <li>
+    Comprime las imágenes.
+  </li>
+  <li>
+    Elimina metadatos EXIF innecesarios.
+  </li>
 </ul>
