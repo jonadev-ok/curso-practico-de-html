@@ -113,3 +113,17 @@
 </ul>
 
 <h2>SEO Técnico</h2>
+
+<p>
+  Objetivo: mejorar la visibilidad en buscadores.
+</p>
+
+<ul>
+  <li>
+    Usa metadatos completos:
+
+```
+        <meta name="description" content="Curso completo de desarrollo web con prácticas modernas.">
+```
+  </li>
+</ul>
