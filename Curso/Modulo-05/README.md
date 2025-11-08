@@ -136,3 +136,5 @@
     Añade datos estructurados (schema.org) si es necesario.
   </li>
 </ul>
+
+<h2>Código Limpio y Mantenible</h2>
