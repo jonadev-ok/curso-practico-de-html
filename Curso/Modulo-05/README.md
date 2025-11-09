@@ -138,3 +138,7 @@
 </ul>
 
 <h2>Código Limpio y Mantenible</h2>
+
+<p>
+  Objetivo: facilitar lectura, colaboración y escalabilidad.
+</p>
