@@ -44,7 +44,7 @@
 
     
 ```    
-    <img src="imagen.jpg" loading="lazy" alt="Descripción" />
+<img src="imagen.jpg" loading="lazy" alt="Descripción" />
 ```
 
     
@@ -54,7 +54,7 @@
 
 
  ```
-    <script src="app.js" defer></script>
+ <script src="app.js" defer></script>
 ```   
   </li>
 </ul>
@@ -73,10 +73,10 @@
     Adapta el tamaño según el dispositivo (srcset y sizes):
     
 ```
-    <img src="img.jpg"
-     srcset="img-400.jpg 400w, img-800.jpg 800w"
-     sizes="(max-width: 600px) 400px, 800px"
-     alt="Ejemplo optimizado">
+<img src="img.jpg"
+srcset="img-400.jpg 400w, img-800.jpg 800w"
+sizes="(max-width: 600px) 400px, 800px"
+alt="Ejemplo optimizado">
 ```
 
   </li>
@@ -123,7 +123,7 @@
     Usa metadatos completos:
 
 ```
-        <meta name="description" content="Curso completo de desarrollo web con prácticas modernas.">
+<meta name="description" content="Curso completo de desarrollo web con prácticas modernas.">
 ```
   </li>
   <li>
