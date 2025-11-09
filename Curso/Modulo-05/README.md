@@ -163,3 +163,13 @@
 <p>
   Objetivo: garantizar compatibilidad entre navegadores.
 </p>
+
+<ul>
+  <li>
+    Usa el DOCTYPE correcto:
+    
+```
+<!DOCTYPE html>
+```
+  </li>
+</ul>
