@@ -206,4 +206,10 @@ alt="Ejemplo optimizado">
 <link rel="prefetch" href="next-page.html">
 ```
   </li>
+  <li>
+    Ordena y agrupa los recursos CSS/JS según prioridad.
+  </li>
+  <li>
+    Implementa Service Workers para cachear contenido estático.
+  </li>
 </ul>
