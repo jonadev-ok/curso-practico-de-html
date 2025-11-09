@@ -156,7 +156,4 @@
   <li>
     Nombra las clases de forma coherente (usa BEM si podés).
   </li>
-  <li>
-    Valida el HTML con W3C Validator.
-  </li>
 </ul>
