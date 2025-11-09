@@ -142,3 +142,21 @@
 <p>
   Objetivo: facilitar lectura, colaboración y escalabilidad.
 </p>
+
+<ul>
+  <li>
+    Mantén indentación consistente (2 o 4 espacios).
+  </li>
+  <li>
+    Usa comentarios claros donde agreguen valor.
+  </li>
+  <li>
+    Evita style="" y onclick="" en línea.
+  </li>
+  <li>
+    Nombra las clases de forma coherente (usa BEM si podés).
+  </li>
+  <li>
+    Valida el HTML con W3C Validator.
+  </li>
+</ul>
