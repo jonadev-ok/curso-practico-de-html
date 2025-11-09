@@ -186,4 +186,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
   </li>
+  <li>
+    Prueba el sitio con Lighthouse o PageSpeed Insights.
+  </li>
 </ul>
