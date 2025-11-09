@@ -157,3 +157,9 @@
     Nombra las clases de forma coherente (usa BEM si podés).
   </li>
 </ul>
+
+<h2>Compatibilidad y Buen Rendimiento</h2>
+
+<p>
+  Objetivo: garantizar compatibilidad entre navegadores.
+</p>
