@@ -190,3 +190,20 @@
     Prueba el sitio con Lighthouse o PageSpeed Insights.
   </li>
 </ul>
+
+<h2>Microoptimizaciones Avanzadas</h2>
+
+<p>
+  Para proyectos grandes o de alta performance
+</p>
+
+<ul>
+  <li>
+    Viewport responsivo:
+    
+```
+<link rel="preload" href="styles.css" as="style">
+<link rel="prefetch" href="next-page.html">
+```
+  </li>
+</ul>
