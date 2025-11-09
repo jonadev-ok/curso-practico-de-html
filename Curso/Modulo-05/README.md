@@ -172,4 +172,11 @@
 <!DOCTYPE html>
 ```
   </li>
+  <li>
+    Define el charset:
+    
+```
+<meta charset="UTF-8">
+```
+  </li>
 </ul>
