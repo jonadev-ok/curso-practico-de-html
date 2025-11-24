@@ -16,6 +16,12 @@
   subidos a mi canal de youtube.
 </p>
 
+<h2>¿Que necesitas para llevar a cabo el curso?</h2>
+
+<p>
+  
+</p>
+
 <h2>¿Que vas a aprender?</h2>
 
 <p>
