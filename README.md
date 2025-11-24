@@ -19,7 +19,9 @@
 <h2>¿Que necesitas para llevar a cabo este curso?</h2>
 
 <p>
-  
+  Lo unico que necesitas para llevar a cabo este curso es contar con una computadora y tener instalado un navegador 
+  (como chrome, firefox, edge, etc) y un editor de codigo (como sublimetext, vime, atom, vscode, etc). Podes usar la opción que desees.
+  En mi caso voy a utilizar chrome y vscode.
 </p>
 
 <h2>¿Que vas a aprender?</h2>
