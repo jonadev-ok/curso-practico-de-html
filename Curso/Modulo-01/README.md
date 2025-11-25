@@ -1,4 +1,5 @@
-<img width="1280" height="250" alt="portada-modulo1" src="https://github.com/user-attachments/assets/8cb50f06-35a9-457a-8eb9-d7bba55e936f" />
+<img width="1280" height="250" alt="portadas (7)" src="https://github.com/user-attachments/assets/8e98ef27-c33a-4d90-9114-43f24f1cb070" />
+
 
 <h1>Comencemos por lo escencial</h1>
 
