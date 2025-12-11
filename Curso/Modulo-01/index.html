@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>curso de html</title>
+    </head>
+    <style>
+        .title{
+           color: blue; 
+        }
+        #h3{
+          color: yellow;  
+        }
+    </style>
+    <body>
+        <!-- Encabezados -->
+        <h1>Hola mundo</h1>
+        <h2>Hola mundo</h2>
+        <h3>Hola mundo</h3>
+        <h4>Hola mundo</h4>
+        <h5>Hola mundo</h5>
+        <h6>Hola mundo</h6>
+        <!-- parrafos -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Fugiat officiis facilis dolore aspernatur nisi voluptatum.<br/> 
+            Laboriosam quibusdam tempora fugit hic.
+        </p>
+        <!-- texto en negrita -->
+        <p>
+            Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. 
+            Fugiat officiis facilis dolore aspernatur nisi voluptatum.<br/> 
+            Laboriosam quibusdam <b>tempora fugit hic.</b>
+        </p>
+        <!-- texto en cursiva -->
+        <p>
+            Lorem ipsum dolor sit amet <em>consectetur</em> adipisicing elit. 
+            Fugiat officiis facilis dolore aspernatur nisi voluptatum.<br/> 
+            Laboriosam quibusdam <i>tempora fugit hic.</i>
+        </p>
+        <!-- texto pequeño -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Fugiat officiis facilis dolore aspernatur nisi voluptatum.<br/> 
+            Laboriosam quibusdam <small>tempora fugit hic.</small>
+        </p>
+        <!-- cita en bloque -->
+        <blockquote>
+            "No se trata solo de conectar computadoras, se trata de conectar personas." - Tim Berners Lee
+        </blockquote>
+        <!-- mostrar codigo -->
+        <p>
+            Para capturar un elemento HTML por su ID , 
+            utiliza la función <code>document.getElementById</code>.
+        </p>
+        <!-- texto formateado -->
+        <pre>
+            - hola como estas?
+            - bien vos?
+        </pre>
+        <!-- texto resaltado -->
+        <p>
+            Recorda estudiar <mark>HTML semantico</mark> para mejorar la accesibilidad.
+        </p>
+        <!-- etiqueta de abreviatura -->
+        <p>La <abbr title="World Wide Web">WWW</abbr> es un sistema de documentos interconectados</p>
+        <!-- etiquetas de listas -->
+        <p>lista ordenada</p>
+        <ol>
+            <li>Html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ol>
+        <p>lista desordenada</p>
+        <ul>
+            <li>Html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ul>
+        <!-- etiquetas de formularios -->
+        <h3>Esto es un formulario</h3>
+        <form for="name">
+            <label >Nombre:</label>
+            <br/>
+            <input type="text" name="name" placeholder="Escribe tu nombre"/>
+            <br/>
+            <label for="pais">Pais</label>
+            <br/>
+            <select name="pais">
+                <option value="ar">Argentina</option>
+                <option value="fr">Francia</option>
+            </select>
+            <br/>
+            <label for="comentarios">comentarios</label>
+            <br/>
+            <textarea name="comentarios" placeholder="Escribe tus comentarios"></textarea>
+            <br/>
+            <button type="submit">Enviar</button>
+        </form>
+        <!-- Enlaces -->
+        <a href="https://www.instagram.com/jona.dev_ok" target="_blank">Mi instagram</a>
+        <h3 class="title">HTML</h3>
+        <h3 class="title">CSS</h3>
+        <h3 id="h3" class="title">JAVASCRIPT</h3>
+    </body>
+</html>
