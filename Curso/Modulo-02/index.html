@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>curso de html - semantica</title>
+  </head>
+  <body>
+    <!-- encabezado -->
+    <header>
+      <!-- menu -->
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>about</li>
+          <li>blog</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- contenido principal -->
+    <main role="main">
+      <!-- define secciones. contenido relacionado pero independiente en cierta medida -->
+      <section>
+        <h2>Nuestros servicios</h2>
+        <p>Conoce los servicios que ofrecemos</p>
+      </section>
+      <!-- contenido independiente que tiene sentido por si mismo -->
+      <article>
+        <h2>las nuevas features de html</h2>
+        <p>Conoce todas las novedades y actualizaciones de html...</p>
+      </article>
+      <aside>
+        <h2>Articulos relacionados.</h2>
+        <ul>
+          <li>
+            <a href="#"> Reglas semanticas de html </a>
+          </li>
+          <li>
+            <a href="#"> Como mejorar la accesibilidad de tu web </a>
+          </li>
+          <li>
+            <a href="#"> 3 maneras de aplicar css en tu documento HTML </a>
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <!-- pie de pagina -->
+    <footer>
+      <p>&copy; 2025 mi empresa</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">terminos y condiciones</a>
+          </li>
+          <li>
+            <a href="#">Uso de cookies</a>
+          </li>
+          <li>
+            <a href="#">Politicas de privacidad</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- etiquetas NO semanticas -->
+    <!-- contenedor no semantico -->
+    <div>
+      <h3>Servicios de desarrollo web</h3>
+      <p>descripcion del servicio</p>
+    </div>
+    <!-- etiquetas de texto no semanticas -->
+    <p>
+        Lorem <mark>ipsum dolor sit amet</mark> consectetur <strong>adipisicing elit.</strong> Natus reiciendis
+        quaerat debitis omnis iste eaque amet <em>sint ipsum fugiat repudiandae.</em>
+    </p>
+    <!-- salto de linea -->
+    <p>Lorem ipsum dolor sit amet <br/> consectetur adipisicing elit. Adipisci, recusandae!</p>
+  </body>
+</html>
