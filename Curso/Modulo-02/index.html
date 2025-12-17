@@ -8,72 +8,78 @@
   <body>
     <!-- encabezado -->
     <header>
-      <!-- menu -->
       <nav>
         <ul>
-          <li>Home</li>
-          <li>about</li>
-          <li>blog</li>
-          <li>contact</li>
+          <li>
+            <a href="#">home</a>
+          </li>
+          <li>
+            <a href="#">about</a>
+          </li>
+          <li>
+            <a href="#">services</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
         </ul>
       </nav>
     </header>
     <!-- contenido principal -->
     <main role="main">
-      <!-- define secciones. contenido relacionado pero independiente en cierta medida -->
+      <!-- se utiliza para definir secciones con contenido especifico -->
       <section>
         <h2>Nuestros servicios</h2>
-        <p>Conoce los servicios que ofrecemos</p>
+        <p>estos son nuestros servicios</p>
       </section>
-      <!-- contenido independiente que tiene sentido por si mismo -->
+      <!-- contenido independiente. Tienen sentido po si mismos -->
       <article>
-        <h2>las nuevas features de html</h2>
-        <p>Conoce todas las novedades y actualizaciones de html...</p>
+        <h2>nuevas features de html</h2>
+        <p>conoce las actualizaciones del lenguaje estandard de la web</p>
       </article>
+      <!-- define contenido relacionado al contenido principal -->
       <aside>
-        <h2>Articulos relacionados.</h2>
+        <h2>articulos relacionados</h2>
         <ul>
           <li>
-            <a href="#"> Reglas semanticas de html </a>
+            <a href=""> 5 claves para mejorar el rendimiento de tu web </a>
           </li>
           <li>
-            <a href="#"> Como mejorar la accesibilidad de tu web </a>
+            <a href=""> astro. El futuro de las webs estaticas </a>
           </li>
           <li>
-            <a href="#"> 3 maneras de aplicar css en tu documento HTML </a>
+            <a href=""> la importancia de la semantica en HTML </a>
           </li>
         </ul>
       </aside>
     </main>
     <!-- pie de pagina -->
     <footer>
-      <p>&copy; 2025 mi empresa</p>
+      <p>&copy 2025 mi empresa. Todos los derechos reservados.</p>
       <nav>
-        <ul>
-          <li>
-            <a href="#">terminos y condiciones</a>
-          </li>
-          <li>
-            <a href="#">Uso de cookies</a>
-          </li>
-          <li>
-            <a href="#">Politicas de privacidad</a>
-          </li>
-        </ul>
+        <a href=""> politicas de privacidad </a>
+        <a href=""> terminos y condiciones </a>
+        <a href=""> uso de cookies </a>
       </nav>
     </footer>
-    <!-- etiquetas NO semanticas -->
-    <!-- contenedor no semantico -->
+    <!-- etiquetas no semanticas -->
     <div>
-      <h3>Servicios de desarrollo web</h3>
-      <p>descripcion del servicio</p>
+      <h2>soy un div</h2>
+      <p>soy un parrafo dentro del div</p>
     </div>
-    <!-- etiquetas de texto no semanticas -->
+    <!-- etiquetas de texto -->
     <p>
-        Lorem <mark>ipsum dolor sit amet</mark> consectetur <strong>adipisicing elit.</strong> Natus reiciendis
-        quaerat debitis omnis iste eaque amet <em>sint ipsum fugiat repudiandae.</em>
+      <span>Lorem ipsum dolor sit</span> amet consectetur adipisicing elit. Natus
+      <b>exercitationem et nisi</b> quam ratione animi deleniti, <i>consequuntur illo
+      tenetur! Quos.</i>
+    </p>
+    <!-- etiquetas de texto con sentido semantico -->
+    <p>
+      <strong>Lorem ipsum dolor sit</strong> amet consectetur adipisicing elit. Natus
+      <strong>exercitationem et nisi</strong> quam ratione animi deleniti, <em>consequuntur illo
+      tenetur! Quos.</em>
     </p>
     <!-- salto de linea -->
-    <p>Lorem ipsum dolor sit amet <br/> consectetur adipisicing elit. Adipisci, recusandae!</p>
+    <p>Lorem ipsum dolor sit, amet <br/> consectetur adipisicing elit. Unde, inventore!</p>
   </body>
 </html>
