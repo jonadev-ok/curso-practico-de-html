@@ -8,63 +8,52 @@
   <a href="https://www.linkedin.com/in/jonatan-villalva-fullstack-developer" target="_blank"><img src="https://img.shields.io/badge/linkedin-000?style=for-the-badge&logo=linkedin&logoColor=white" ></a>
 </div>
 
-<h1>Bienvenidos al curso practico de HTML de cero a experto</h1>
+# Bienvenidos al curso practico de HTML de cero a experto
     
-<p>
-  Este curso de HTML, te llevará a dominar tanto los conceptos básicos como los avanzados de este lenguaje, el cual es fundamental para el desarrollo web. Desde los fundamentos 
-  hasta un nivel avanzado. Ideal si buscan desarrollar la capacidad de crear páginas web completas y bien estructuradas. El curso es de contenido teorico-practico y van a ser 
-  subidos a mi canal de youtube.
-</p>
+Este curso de HTML, te llevará a dominar tanto los conceptos básicos como los avanzados de este lenguaje, el cual es fundamental para el desarrollo web. Desde los fundamentos 
+hasta un nivel avanzado. Ideal si buscan desarrollar la capacidad de crear páginas web completas y bien estructuradas. El curso es de contenido teorico-practico y van a ser 
+subidos a mi canal de youtube.
 
-<h2>¿Que necesitas para llevar a cabo este curso?</h2>
+## ¿Que necesitas para llevar a cabo este curso?
 
-<p>
-  Lo unico que necesitas para llevar a cabo este curso es contar con una computadora y tener instalado un navegador 
-  (como chrome, firefox, edge, etc) y un editor de codigo (como sublimetext, vime, atom, vscode, etc). Podes usar la opción que desees.
-  En mi caso voy a utilizar chrome y vscode.
-</p>
+Lo unico que necesitas para llevar a cabo este curso es contar con una computadora y tener instalado un navegador 
+(como chrome, firefox, edge, etc) y un editor de codigo (como sublimetext, vime, atom, vscode, etc). Podes usar la opción que desees.
+En mi caso voy a utilizar chrome y vscode.
 
-<h2>¿Que vas a aprender?</h2>
+## ¿Que vas a aprender?
 
-<p>
-  La idea central del curso es que te lleves las mejores practicas para aplicar en tus proyectos. HTML es el punto de partida para todo desarrollador web.
-</p>
+La idea central del curso es que te lleves las mejores practicas para aplicar en tus proyectos. HTML es el punto de partida para todo desarrollador web.
 
-<h3>Modulo 1 - HTML - Que es y como funciona.</h3>
-<p>
-  A partir de este modulo atacamos HTML de lleno. Vamos a empezar viendo que es HTML y como es su funcionamiento. Vamos a ver las primeras etiquetas, las mas utilizadas y 
-  sus casos de uso. Vamos a ver algunas de las reglas que debemos seguir para cumplir con el estandar establecido por el lenguaje. 
-</p>
+### Modulo 1 - HTML - Que es y como funciona.
 
-<h3>Modulo 2 - HTML - Semantica.</h3>
-<p>
-  La semantica de HTML es una de sus caracteristicas principales. En este modulo vamos a ver de que se trata, cuales son las etiquetas semanticas, sus casos de uso y 
-  las etiquetas NO semanticas. Cuando utilizar cada una de estas y cuando no. Veremos que practicas son correctas y cuales debemos evitar.
-</p>
+A partir de este modulo atacamos HTML de lleno. Vamos a empezar viendo que es HTML y como es su funcionamiento. Vamos a ver las primeras etiquetas, las mas utilizadas y 
+sus casos de uso. Vamos a ver algunas de las reglas que debemos seguir para cumplir con el estandar establecido por el lenguaje.
 
-<h3>Modulo 3 - HTML - Accesibilidad.</h3>
-<p>
-  La accesibilidad tambien es un punto clave. Igual o quizas mas importante que lo que vimos hasta ahora. Ya que una web accesible le da la posibilidad a todas las 
-  personas de poder acceder al contenido, independientemente de su condición (discapacidad visual parcial o permanente, auditiva, cognitiva, etc). En este modulo vamos a 
-  ocuparnos de entender que es la accesibilidad, como aplicarla y que debemos tener en cuenta mas alla de lo tecnico.
-</p>
+### Modulo 2 - HTML - Semantica.
 
-<h3>Modulo 4 - HTML - SEO.</h3>
-<p>
-  El seo (Search Engine Optimization) o optimización de motores de busqueda es fundamental para el trafico de tu web y la buena indexación en internet. A esta altura del curso ya 
-  habremos visto varias caracteristicas que benefician el SEO. Aun asi los vamos a repasar y profundizar aun mas. Este modulo va a ser muy tecnico pero necesario para aprender 
-  buenas y fundamentales practicas en desarrollo web.
-</p>
+La semantica de HTML es una de sus caracteristicas principales. En este modulo vamos a ver de que se trata, cuales son las etiquetas semanticas, sus casos de uso y 
+las etiquetas NO semanticas. Cuando utilizar cada una de estas y cuando no. Veremos que practicas son correctas y cuales debemos evitar.
 
-<h3>Modulo 5 - HTML - Optimización, rendimiento y buenas practicas</h3>
-<p>
-  Mas alla de que a lo largo de todo el curso nos enfocamos en buenas practicas, aca las vamos a profundizar aun mas. Ademas vamos a hablar de optimización del contenido multimedia y 
-  vamos a aprender a analizar y mejorar el rendimiento de nuestros proyectos. Alerta spoiler!!! Vamos a ver un poco de CSS para estilizar nuestro proyecto de una manera muy basica. 
-  Ya que CSS va a tener su propio curso en las proximas semanas. No olvidemos que sin HTML no hay css ni nada mas...
-</p>
+### Modulo 3 - HTML - Accesibilidad.
 
-<h3>Proyecto integrador</h3>
-<p>
-  El proyecto integrador del curso va a ser un portfolio web, profesional que vamos a estar desarrollando a lo largo de todo el curso. Ademas, este portfolio va a ser desplegado en 
-  la web. Van a poder acceder al repo del proyecto para hacer una bifurcación y lo puedan modificar a su gusto y utilizarlo para sus futuras postulaciones en el mercado laboral.
-</p>
+La accesibilidad tambien es un punto clave. Igual o quizas mas importante que lo que vimos hasta ahora. Ya que una web accesible le da la posibilidad a todas las 
+personas de poder acceder al contenido, independientemente de su condición (discapacidad visual parcial o permanente, auditiva, cognitiva, etc). En este modulo vamos a 
+ocuparnos de entender que es la accesibilidad, como aplicarla y que debemos tener en cuenta mas alla de lo tecnico.
+
+### Modulo 4 - HTML - SEO.
+
+El seo (Search Engine Optimization) o optimización de motores de busqueda es fundamental para el trafico de tu web y la buena indexación en internet. A esta altura del curso ya 
+habremos visto varias caracteristicas que benefician el SEO. Aun asi los vamos a repasar y profundizar aun mas. Este modulo va a ser muy tecnico pero necesario para aprender 
+buenas y fundamentales practicas en desarrollo web.
+
+### Modulo 5 - HTML - Optimización, rendimiento y buenas practicas
+
+Mas alla de que a lo largo de todo el curso nos enfocamos en buenas practicas, aca las vamos a profundizar aun mas. Ademas vamos a hablar de optimización del contenido multimedia y 
+vamos a aprender a analizar y mejorar el rendimiento de nuestros proyectos. Alerta spoiler!!! Vamos a ver un poco de CSS para estilizar nuestro proyecto de una manera muy basica. 
+Ya que CSS va a tener su propio curso en las proximas semanas. No olvidemos que sin HTML no hay css ni nada mas...
+
+### Proyecto integrador
+
+El proyecto integrador del curso va a ser un portfolio web, profesional que vamos a estar desarrollando a lo largo de todo el curso. Ademas, este portfolio va a ser desplegado en 
+la web. Van a poder acceder al repo del proyecto para hacer una bifurcación y lo puedan modificar a su gusto y utilizarlo para sus futuras postulaciones en el mercado laboral.
+
