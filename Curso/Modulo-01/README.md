@@ -419,126 +419,107 @@ numerados automáticamente.
 
 </details>
 
-<h2>Etiquetas de tablas</h2>
-
-<ol>
-  <li>
-    <h3>Etiqueta contenedora principal</h3>
-    <p>
-      Contiene todas las demás etiquetas relacionadas con la tabla, como filas y celdas.
-    </p>
+<details>
+  <summary>Etiquetas de tablas</summary>
+  1. **Etiqueta contenedora principal:** Contiene todas las demás etiquetas relacionadas con la tabla, como filas y celdas.
     
-```html
+  ```html
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <table>
-      <!-- Contenido de la tabla va aquí -->
-    </table>
-  </body>
-</html>
-```
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <table>
+        <!-- Contenido de la tabla va aquí -->
+      </table>
+    </body>
+  </html>
 
-  </li>
-  <li>
-    <h3>Etiqueta de fila</h3>
-    <p>
-      La etiqueta tr define una fila dentro de la tabla. Contiene las celdas, ya sean de encabezado o de datos.
-    </p>
+  ```
+
+  2. **Etiqueta de fila:** La etiqueta tr define una fila dentro de la tabla. Contiene las celdas, ya sean de encabezado o de datos.
     
-```html
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+      </tr>
+    </body>
+  </html>
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <tr>
-      <td>Celda 1</td>
-      <td>Celda 2</td>
-    </tr>
-  </body>
-</html>
-```
+  ```
 
-  </li>
-  <li>
-    <h3>Etiqueta de encabezado</h3>
-    <p>
-      La etiqueta th se utiliza para marcar celdas que contienen títulos o descripciones de los datos de una tabla, 
-      generalmente al principio de cada columna o fila. Los navegadores suelen mostrar estas celdas en negrita y alineadas al centro.
-    </p>
+  3. **Etiqueta de encabezado:** La etiqueta th se utiliza para marcar celdas que contienen títulos o descripciones de los datos
+  de una tabla, generalmente al principio de cada columna o fila. Los navegadores suelen mostrar estas celdas en negrita y alineadas
+  al centro.
     
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <tr>
-      <th>Producto</th>
-      <th>Precio</th>
-    </tr>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de celda de datos</h3>
-    <p>
-      La etiqueta td, se utiliza para contener los datos dentro de cada fila y columna de la tabla. Es el contenido principal de 
-      la tabla.
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <tr>
-      <td>Manzana</td>
-      <td>$1</td>
-    </tr>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de agrupación de cabecera</h3>
-    <p>
-      La etiqueta thead, agrupa el conjunto de celdas de encabezado en una tabla. Contiene las etiquetas tr y th para la cabecera 
-      de la tabla.
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <thead>
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
       <tr>
         <th>Producto</th>
         <th>Precio</th>
       </tr>
-    </thead>
-  </body>
-</html>
-```
+    </body>
+  </html>
+
+  ```
+
+  4. **Etiqueta de celda de datos:** La etiqueta td, se utiliza para contener los datos dentro de cada fila y columna de la tabla.
+  Es el contenido principal de la tabla.
+      
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <tr>
+        <td>Manzana</td>
+        <td>$1</td>
+      </tr>
+    </body>
+  </html>
+
+  ```
+
+  5. **Etiqueta de agrupación de cabecera:** La etiqueta thead, agrupa el conjunto de celdas de encabezado en una tabla.
+  Contiene lasetiquetas tr y th para la cabecera de la tabla.
+    
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+    </body>
+  </html>
+  
+  ```
 
   </li>
   <li>
