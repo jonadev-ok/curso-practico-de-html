@@ -671,238 +671,197 @@ numerados automáticamente.
   ```
 </details>
 
-<h2>Etiquetas de formularios</h2>
+<details>
+  <summary>Etiquetas de formularios</summary>
 
-<ol>
-  <li>
-    <h3>Etiqueta contenedora del formulario</h3>
-    <p>
-      Es el contenedor principal que engloba todos los elementos del formulario.
-    </p>
+  1. **Etiqueta contenedora del formulario:** Es el contenedor principal que engloba todos los elementos del formulario.
     
-```html
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <form action="/enviar-datos" method="POST">
+        <!-- Campos de formulario -->
+      </form>
+    </body>
+  </html>
+  
+  ```
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <form action="/enviar-datos" method="POST">
-      <!-- Campos de formulario -->
-    </form>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de campo de entrada de datos</h3>
-    <p>
-      Campo que permite al usuario ingresar información. Es uno de los elementos más versátiles y puede adoptar varios 
-      tipos según el valor del atributo type.
-    </p>
+  2. **Etiqueta de campo de entrada de datos:** Campo que permite al usuario ingresar información. Es uno de los elementos más
+  versátiles y puede adoptar varios tipos según el valor del atributo type.
     
-```html
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <input type="text" name="nombre" placeholder="Escribe tu nombre">
+    </body>
+  </html>
+  
+  ```
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <input type="text" name="nombre" placeholder="Escribe tu nombre">
-  </body>
-</html>
-```
+  3. **Etiqueta descriptiva:** La etiqueta label, proporciona una descripción semántica para los campos del formulario.
 
-  </li>
-  <li>
-    <h3>Etiqueta descriptiva</h3>
-    <p>
-      La etiqueta label, proporciona una descripción semántica para los campos del formulario.
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre">
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de area de texto</h3>
-    <p>
-      La etiqueta textarea, se utiliza cuando se necesita que el usuario ingrese grandes cantidades de texto, 
-      como comentarios o mensajes.
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <textarea name="comentarios" placeholder="Escribe tus comentarios"></textarea>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de botón</h3>
-    <p>
-      La etiqueta button es un elemento interactivo que permite al usuario enviar o ejecutar acciones dentro del formulario. 
-      Puede ser de tipo submit (enviar datos del formulario), reset (restablecer el formulario) 
-      o button (botón sin acción predeterminada).
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <button type="submit">Enviar</button>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de menú desplegable</h3>
-    <p>
-      La etiqueta select, crea un menú desplegable que permite al usuario seleccionar una opción. 
-      Se utiliza junto a la etiqueta option(dentro de select), que define las opciones del menu.
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <label for="pais">País:</label>
-      <select id="pais" name="pais">
-        <option value="ar">Argentina</option>
-        <option value="mx">Francia</option>
-      </select>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-  <h3>Etiqueta de grupo de opciones</h3>
-    <p>
-      Agrupa opciones relacionadas dentro de un menú desplegable.
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <select name="ciudad">
-      <optgroup label="Argentina">
-        <option value="buenos_aires">Buenos Aires</option>
-        <option value="cordoba">Córdoba</option>
-      </optgroup>
-      <optgroup label="Francia">
-        <option value="paris">Paris</option>
-        <option value="marsella">Marsella</option>
-      </optgroup>
-    </select>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de agrupación de campos</h3>
-    <p>
-      La etiqueta fieldset agrupa conjuntos de campos que están relacionados dentro de un formulario. 
-      Y la etiquta legend le da un titulo a la agrupación de campos.
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <fieldset>
-      <legend>Información Personal</legend>
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="nombre">
-    </fieldset>
-  </body>
-</html>
-```
+    </body>
+  </html>
+  
+  ```
 
-  </li>
-  <li>
-    <h3>Etiqueta de barra de progreso</h3>
-    <p>
-      La etiqueta progress representa una barra de progreso que muestra el avance de una tarea.
-    </p>
+  4. **Etiqueta de area de texto:** La etiqueta textarea, se utiliza cuando se necesita que el usuario ingrese grandes cantidades
+  de texto, como comentarios o mensajes.
     
-```html
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <textarea name="comentarios" placeholder="Escribe tus comentarios"></textarea>
+    </body>
+  </html>
+  
+  ```
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <progress value="70" max="100">70%</progress>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de medidor</h3>
-    <p>
-      La etiqueta meter (similar a progress) representa un medidor dentro de un rango conocido 
-      (por ejemplo, capacidad de almacenamiento).
-    </p>
+  5. **Etiqueta de botón:** La etiqueta button es un elemento interactivo que permite al usuario enviar o ejecutar acciones dentro
+  del formulario. Puede ser de tipo submit (enviar datos del formulario), reset (restablecer el formulario) o button (botón sin
+  acción predeterminada).
     
-```html
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <button type="submit">Enviar</button>
+    </body>
+  </html>
+  
+  ```
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <label for="nivel">Nivel de batería:</label>
-    <meter id="nivel" value="0.6" min="0" max="1">60%</meter>
-  </body>
-</html>
-```
+  6. **Etiqueta de menú desplegable:** La etiqueta select, crea un menú desplegable que permite al usuario seleccionar una opción.
+  Se utiliza junto a la etiqueta option(dentro de select), que define las opciones del menu.
+    
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <label for="pais">País:</label>
+        <select id="pais" name="pais">
+          <option value="ar">Argentina</option>
+          <option value="mx">Francia</option>
+        </select>
+    </body>
+  </html>
+  
+  ```
 
-  </li>
-</ol>
+  7. **Etiqueta de grupo de opciones:** Agrupa opciones relacionadas dentro de un menú desplegable.
+    
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <select name="ciudad">
+        <optgroup label="Argentina">
+          <option value="buenos_aires">Buenos Aires</option>
+          <option value="cordoba">Córdoba</option>
+        </optgroup>
+        <optgroup label="Francia">
+          <option value="paris">Paris</option>
+          <option value="marsella">Marsella</option>
+        </optgroup>
+      </select>
+    </body>
+  </html>
+  
+  ```
+
+  8. **Etiqueta de agrupación de campos:** La etiqueta fieldset agrupa conjuntos de campos que están relacionados dentro de
+  un formulario. Y la etiquta legend le da un titulo a la agrupación de campos.
+    
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <fieldset>
+        <legend>Información Personal</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+      </fieldset>
+    </body>
+  </html>
+  
+  ```
+
+  9. **Etiqueta de barra de progreso:** La etiqueta progress representa una barra de progreso que muestra el avance de una tarea.
+    
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <progress value="70" max="100">70%</progress>
+    </body>
+  </html>
+  
+  ```
+
+  10. **Etiqueta de medidor:** La etiqueta meter (similar a progress) representa un medidor dentro de un rango conocido (por ejemplo,
+  capacidad de almacenamiento).
+    
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <label for="nivel">Nivel de batería:</label>
+      <meter id="nivel" value="0.6" min="0" max="1">60%</meter>
+    </body>
+  </html>
+  
+  ```
+</details>
 
 <h3>Aqui un ejemplo de de formulario.</h3>
 
