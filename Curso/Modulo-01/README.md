@@ -54,21 +54,21 @@
   ningun problema. Pero, asi no es como se trabaja con HTML.
 </p>
 
-<h3>Estructura basica de HTML</h3>
-
-<p>
-  Como dijimos anteriormente, HTML trabaja con etiquetas,algunas simples y otras compuestas(etiquetas de apertura y cierre). 
-  Cada una tiene un proposito especifico. En esta oportunidad vamos a hablar de las etiquetas que componen la estructura basica 
-  de un archivo HTML.
-</p>
-<ol>
+<details>
+  <summary>Estructura basica de HTML</summary>
+  <p>
+    Como dijimos anteriormente, HTML trabaja con etiquetas,algunas simples y otras compuestas(etiquetas de apertura y cierre). 
+    Cada una tiene un proposito especifico. En esta oportunidad vamos a hablar de las etiquetas que componen la estructura basica 
+    de un archivo HTML.
+  </p>
+  <ol>
   <li>
     <h3>Doctype</h3>
     <p>Esta etiqueta es la declaración de version de HTML. Actualmente HTML se encuentra en la version HTML 5.</p>
-    
-```html  
-<!DOCTYPE html>
-```
+      
+    ```html  
+    <!DOCTYPE html>
+    ```
 
   </li>
   <li>
@@ -117,7 +117,6 @@
 ```
   </li>
 </ol>
-
 <p>
   Llegados a este punto, la estructura <strong>básica</strong> deberia estar terminada y deberia verse de la siguiente manera:
 </p>
@@ -166,6 +165,7 @@
   En este ejemplo, el atributo lang define el idioma español para el documento.
 </p>
 <br>
+</details>
 
 <h2>Comencemos con las primeras etiquetas</h2>
 
