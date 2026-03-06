@@ -521,166 +521,155 @@ numerados automáticamente.
   
   ```
 
-  </li>
-  <li>
-    <h3>Etiqueta de agrupación del cuerpo de la tabla</h3>
-    <p>
-      La etiqueta tbody, agrupa el contenido del cuerpo de la tabla, separándolo de la cabecera y el pie. 
-      Dentro de esta etiqueta se encuentran las filas tr que contienen los datos td.
-    </p>
+  6. **Etiqueta de agrupación del cuerpo de la tabla:** La etiqueta tbody, agrupa el contenido del cuerpo de la tabla, separándolo de
+  la cabecera y el pie. Dentro de esta etiqueta se encuentran las filas tr que contienen los datos td.
     
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <tbody>
-      <tr>
-        <td>Manzana</td>
-        <td>$1</td>
-      </tr>
-      <tr>
-        <td>Banana</td>
-        <td>$2</td>
-      </tr>
-    </tbody>
-  </body>
-</html>
-```
-
-  </li>
-   <li>
-    <h3>Etiqueta de agrupación del pie de la tabla</h3>
-    <p>
-      La etiqueta tfoot, agrupa las celdas que contienen el pie de la tabla, que a menudo incluyen totales o resúmenes. 
-      Se coloca normalmente después del cuerpo de la tabla y antes del cierre de la etiqueta table.
-    </p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <tfoot>
-      <tr>
-        <td>Total</td>
-        <td>$3</td>
-      </tr>
-    </tfoot>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta de titulo o descripción de la tabla</h3>
-    <p>La etiqueta caption, proporciona un título o una breve descripción de la tabla. Se coloca justo después de la apertura de la etiqueta table y ayuda a los usuarios a entender rápidamente el contenido de la tabla.</p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <table>
-      <caption>Lista de precios de frutas</caption>
-      <!-- Resto de la tabla -->
-    </table>
-  </body>
-</html>
-```
-
-  </li>
-  <li>
-    <h3>Etiqueta para definir estilos de la tabla</h3>
-    <p>Las etiquetas col y colgroup, permiten definir grupos de columnas dentro de una tabla para aplicar estilos específicos. Aunque no tienen contenido propio, ayudan a estructurar visualmente las tablas.</p>
-    
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <colgroup>
-      <col span="2" style="background-color: lightgray;">
-    </colgroup>
-  </body>
-</html>
-```
-
-  </li>
-</ol>
-
-<h3>Aqui un ejemplo de tablas utilizando todas las etiquetas explicadas</h3>
-
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <table>
-    <!-- Título o descripción de la tabla -->
-      <caption>Precios de Productos por Tienda</caption>
-    
-    <!-- Definir el estilo de las columnas -->
-      <colgroup>
-        <col span="1">
-        <col span="1">
-        <col span="1" style="background-color: lightgreen;">
-      </colgroup>
-    
-    <!-- Cabecera de la tabla -->
-      <thead>
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <tbody>
         <tr>
-          <th>Producto</th>
-          <th>Tienda A</th>
-          <th>Tienda B</th>
+          <td>Manzana</td>
+          <td>$1</td>
         </tr>
-      </thead>
+        <tr>
+          <td>Banana</td>
+          <td>$2</td>
+        </tr>
+      </tbody>
+    </body>
+  </html>
+  
+  ```
+
+  7. **Etiqueta de agrupación del pie de la tabla:** La etiqueta tfoot, agrupa las celdas que contienen el pie de la tabla, que a
+  menudo incluyen totales o resúmenes. Se coloca normalmente después del cuerpo de la tabla y antes del cierre de la etiqueta table.
     
-    <!-- Cuerpo de la tabla -->
-    <tbody>
-      <tr>
-        <td>Manzana</td>
-        <td>$1</td>
-        <td>$1.20</td>
-      </tr>
-      <tr>
-        <td>Banana</td>
-        <td>$0.80</td>
-        <td>$0.75</td>
-      </tr>
-      <tr>
-        <td>Naranja</td>
-        <td>$0.90</td>
-        <td>$0.95</td>
-      </tr>
-    </tbody>
-    <!-- Pie de la tabla -->
-    <tfoot>
-      <tr>
-        <td>Total</td>
-        <td>$2.70</td>
-        <td>$2.90</td>
-      </tr>
-    </tfoot>
-  </table>
-  </body>
-</html>
-```
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>$3</td>
+        </tr>
+      </tfoot>
+    </body>
+  </html>
+  
+  ```
+
+  8. **Etiqueta de titulo o descripción de la tabla:** La etiqueta caption, proporciona un título o una breve descripción de la tabla.
+  Se coloca justo después de la apertura de la etiqueta table y ayuda a los usuarios a entender rápidamente el contenido de la tabla.
+    
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <table>
+        <caption>Lista de precios de frutas</caption>
+        <!-- Resto de la tabla -->
+      </table>
+    </body>
+  </html>
+  
+  ```
+
+  9. **Etiqueta para definir estilos de la tabla:** Las etiquetas col y colgroup, permiten definir grupos de columnas dentro de
+  una tabla para aplicar estilos específicos. Aunque no tienen contenido propio, ayudan a estructurar visualmente las tablas.
+    
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <colgroup>
+        <col span="2" style="background-color: lightgray;">
+      </colgroup>
+    </body>
+  </html>
+  
+  ```
+
+  10. **Aqui un ejemplo de tablas utilizando todas las etiquetas explicadas.** 
+
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <table>
+      <!-- Título o descripción de la tabla -->
+        <caption>Precios de Productos por Tienda</caption>
+      
+      <!-- Definir el estilo de las columnas -->
+        <colgroup>
+          <col span="1">
+          <col span="1">
+          <col span="1" style="background-color: lightgreen;">
+        </colgroup>
+      
+      <!-- Cabecera de la tabla -->
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Tienda A</th>
+            <th>Tienda B</th>
+          </tr>
+        </thead>
+      
+      <!-- Cuerpo de la tabla -->
+      <tbody>
+        <tr>
+          <td>Manzana</td>
+          <td>$1</td>
+          <td>$1.20</td>
+        </tr>
+        <tr>
+          <td>Banana</td>
+          <td>$0.80</td>
+          <td>$0.75</td>
+        </tr>
+        <tr>
+          <td>Naranja</td>
+          <td>$0.90</td>
+          <td>$0.95</td>
+        </tr>
+      </tbody>
+      <!-- Pie de la tabla -->
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>$2.70</td>
+          <td>$2.90</td>
+        </tr>
+      </tfoot>
+    </table>
+    </body>
+  </html>
+  
+  ```
+</details>
 
 <h2>Etiquetas de formularios</h2>
 
