@@ -129,12 +129,10 @@ atributo lang, el cual define el idioma del documento.
 
 </details>
 
-<h2>Comencemos con las primeras etiquetas</h2>
+## Comencemos con las primeras etiquetas
 
-<p>
-  Aunque recien estamos empezando, ya vamos incorporando conceptos. Ya tenemos claro cual es la estructura basica de un documento, 
-  que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las etiquetas del lenguaje.
-</p>
+Aunque recien estamos empezando, ya vamos incorporando conceptos. Ya tenemos claro cual es la estructura basica de un documento, 
+que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las etiquetas del lenguaje.
 
 <details>
   <summary>Etiquetas de texto</summary>
