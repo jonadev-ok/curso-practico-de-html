@@ -861,42 +861,42 @@ numerados automáticamente.
   </html>
   
   ```
+  ### Aqui un ejemplo de de formulario.
+
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <form>
+        <fieldset>
+        <legend>Información Personal</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </fieldset>
+    
+        <fieldset>
+          <legend>Preferencias</legend>
+          <label for="pais">País:</label>
+          <select id="pais" name="pais">
+            <option value="ar">Argentina</option>
+            <option value="fr">Francia</option>
+          </select>
+    
+          <label for="comentarios">Comentarios:</label>
+          <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+        </fieldset>
+    
+        <button type="submit">Enviar</button>
+      </form>
+    </body>
+  </html>
+  
+  ```
 </details>
-
-<h3>Aqui un ejemplo de de formulario.</h3>
-
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <form>
-      <fieldset>
-      <legend>Información Personal</legend>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-      </fieldset>
-  
-      <fieldset>
-        <legend>Preferencias</legend>
-        <label for="pais">País:</label>
-        <select id="pais" name="pais">
-          <option value="ar">Argentina</option>
-          <option value="fr">Francia</option>
-        </select>
-  
-        <label for="comentarios">Comentarios:</label>
-        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
-      </fieldset>
-  
-      <button type="submit">Enviar</button>
-    </form>
-  </body>
-</html>
-```
 
 <h2>Enlaces internos y enlaces externos</h2>
 
