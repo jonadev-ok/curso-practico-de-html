@@ -44,68 +44,48 @@
 
 <details>
   <summary>Estructura basica de HTML</summary>
-    Como dijimos anteriormente, HTML trabaja con etiquetas,algunas simples y otras compuestas(etiquetas de apertura y cierre). 
-    Cada una tiene un proposito especifico. En esta oportunidad vamos a hablar de las etiquetas que componen la estructura basica 
-    de un archivo HTML.
-  <ol>
-  <li>
-    <h3>Doctype</h3>
-    <p>Esta etiqueta es la declaración de version de HTML. Actualmente HTML se encuentra en la version HTML 5.</p>
-      
-    ```html  
-    <!DOCTYPE html>
-    ```
-
-  </li>
-  <li>
-    <h3>Html</h3>
-    <p>
-      La etiqueta html (de apertura y de cierre) es donde inicia y termina nuestro documento. 
-      Envuelve todo el contenido que compone el sitio. Por ende, las dos etiquetas faltantes que componen la estructura(head y body), 
-      se ubican dentro de esta.
-    </p>
-
-```html  
-<html>
   
-</html>
-```
-  </li>
-  <li>
-    <h3>Head</h3>
-    <p>
-      La etiqueta head es la que contiene los metadatos e información sobre la pagina. Estos datos no son visibles en la web 
-      (con una excepción), pero afectan directamente el comportamiento, la presentación y las interacciones del documento.
-    </p>
+  Como dijimos anteriormente, HTML trabaja con etiquetas,algunas simples y otras compuestas(etiquetas de apertura y cierre). 
+  Cada una tiene un proposito especifico. En esta oportunidad vamos a hablar de las etiquetas que componen la estructura basica 
+  de un archivo HTML.
+  
+  
+  1. **Doctype:** Esta etiqueta es la declaración de version de HTML. Actualmente HTML se encuentra en la version HTML 5.
+      
+  ```html   
+  <!DOCTYPE html>   
+  ```
+  2. **Html:** La etiqueta html (de apertura y de cierre) es donde inicia y termina nuestro documento. Envuelve todo el contenido
+  que compone el sitio. Por ende, las dos etiquetas faltantes que componen la estructura(head y body), se ubican dentro de esta.
 
-```html
- 
-<head>
-  <title>Bienvenidos a mi web</title>
-</head>
+  ```html  
+  <html>
+  
+  </html>
+  ```
+  3. **Head:** La etiqueta head es la que contiene los metadatos e información sobre la pagina. Estos datos no son visibles en la
+  web (con una excepción), pero afectan directamente el comportamiento, la presentación y las interacciones del documento.
 
-```
+  ```html
+   
+  <head>
+    <title>Bienvenidos a mi web</title>
+  </head>
+  
+  ```
     
-  </li>
-  <li>
-    <h3>Body</h3>
-    <p>
-      Por ultimo,el body es una etiqueta que define el cuerpo del documento web, es decir, la sección donde se coloca todo el 
-      contenido visible que será mostrado en el navegador.
-    </p>
+  4. **Body:** Por ultimo,el body es una etiqueta que define el cuerpo del documento web, es decir, la sección donde se coloca
+  todo el contenido visible que será mostrado en el navegador.
 
-```html
- 
-<body>
-  <h1>Bienvenidos a mi web</h1>
-</body>
+  ```html
+   
+  <body>
+    <h1>Bienvenidos a mi web</h1>
+  </body>
+  
+  ```
 
-```
-  </li>
-</ol>
-<p>
   Llegados a este punto, la estructura <strong>básica</strong> deberia estar terminada y deberia verse de la siguiente manera:
-</p>
 
 ```html
 
@@ -121,17 +101,15 @@
 
 ```
 
-<p>Pero, para continuar tenemos que ver otro concepto de HTML. <strong>Los atributos.</strong></p>
+Pero, para continuar tenemos que ver otro concepto de HTML. **Los atributos.**
 
-<h3>Que son los atributos</h3>
+### Que son los atributos
 
-<p>
-  Los atributos en HTML son características o propiedades que se aplican a los elementos o etiquetas para proporcionar 
-  información adicional o modificar su comportamiento. Estos atributos suelen aparecer dentro de las etiquetas de apertura 
-  de los elementos HTML y afectan cómo se muestran o funcionan los elementos en la página web. Los atributos se componen por 
-  su nombre y su valor entre comillas(""), separados por un signo igual(=). Por ejemplo, la etiqueta <html> cuenta con el 
-    atributo lang, el cual define el idioma del documento.
-  </p>
+Los atributos en HTML son características o propiedades que se aplican a los elementos o etiquetas para proporcionar 
+información adicional o modificar su comportamiento. Estos atributos suelen aparecer dentro de las etiquetas de apertura 
+de los elementos HTML y afectan cómo se muestran o funcionan los elementos en la página web. Los atributos se componen por 
+su nombre y su valor entre comillas(""), separados por un signo igual(=). Por ejemplo, la etiqueta <html> cuenta con el 
+atributo lang, el cual define el idioma del documento.
 
 ```html
 
@@ -147,10 +125,8 @@
 
 ```
 
-<p>
   En este ejemplo, el atributo lang define el idioma español para el documento.
-</p>
-<br>
+
 </details>
 
 <h2>Comencemos con las primeras etiquetas</h2>
