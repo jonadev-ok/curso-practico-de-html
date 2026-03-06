@@ -1,7 +1,7 @@
 <img width="1280" height="250" alt="portadas (7)" src="https://github.com/user-attachments/assets/8e98ef27-c33a-4d90-9114-43f24f1cb070" />
 
 
-<h1>Comencemos por lo escencial</h1>
+# Comencemos por lo escencial.
 
 <p><em>En esta primera parte vamos a ocuparnos de entender que es HTML, como funciona y todo lo elemental para comenzar a trabajar.</em></p>
 
@@ -26,16 +26,10 @@
     navegador hace el proceso de interpretación de la siguiente manera:
   </p>
 
-  <ol>
-    <li>
-      <strong>Interpretar la estructura:</strong> Las etiquetas de HTML definen la estructura y el contenido de una página web, 
-      y el navegador traduce esas etiquetas en elementos visuales como encabezados, párrafos, imágenes, etc.
-    </li>
-    <li>
-      <strong>Renderizado en tiempo real:</strong> El HTML es interpretado en el momento de ser cargado, 
-      lo que permite a los desarrolladores ver los cambios inmediatamente al actualizar la página.
-    </li>
-  </ol>
+  1. **Interpretar la estructura:** Las etiquetas de HTML definen la estructura y el contenido de una 
+  página web, y el navegador traduce esas etiquetas en elementos visuales como encabezados, párrafos, imágenes, etc.
+  2. **Renderizado en tiempo real:** El HTML es interpretado en el momento de ser cargado, lo que permite a los desarrolladores
+  ver los cambios inmediatamente al actualizar la página.
 </details>
 
 <h2>Empecemos a trabajar</h2>
