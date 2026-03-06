@@ -355,33 +355,28 @@ diferencia semantica que veremos mas adelante.
 <details>
   <summary>Etiquetas de listas</summary>
 
-  <ol>
-  <li>
-    <h3>Listas desordenadas</h3>
-    <p>Estas listas no tienen un orden específico y los elementos son presentados con viñetas.</p>
+  1. **Listas desordenadas:** Estas listas no tienen un orden específico y los elementos son presentados con viñetas.</p>
     
-```html
+  ```html
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <ul>
-      <li>Desarrollo Web</li>
-      <li>Programación</li>
-      <li>Diseño UX/UI</li>
-    </ul>
-  </body>
-</html>
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <ul>
+        <li>Desarrollo Web</li>
+        <li>Programación</li>
+        <li>Diseño UX/UI</li>
+      </ul>
+    </body>
+  </html>
 
-```
+  ```
 
-  </li>
-  <li>
-    <h3>Listas ordenadas</h3>
-    <p>Estas listas se utilizan cuando el orden de los elementos es importante. Los elementos de la lista están numerados automáticamente.</p>
+ 2. **Listas ordenadas:** Estas listas se utilizan cuando el orden de los elementos es importante. Los elementos de la lista están
+numerados automáticamente.
     
 ```html
 
@@ -401,10 +396,7 @@ diferencia semantica que veremos mas adelante.
 
 ```
 
-  </li>
-  <li>
-    <h3>Listas de definición</h3>
-    <p>Estas listas son para definir términos y sus descripciones.</p>
+3. **Listas de definición:** Estas listas son para definir términos y sus descripciones.</p>
     
 ```html
 
@@ -425,8 +417,6 @@ diferencia semantica que veremos mas adelante.
 
 ```
 
-  </li>
-  </ol>
 </details>
 
 <h2>Etiquetas de tablas</h2>
