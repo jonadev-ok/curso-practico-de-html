@@ -425,9 +425,10 @@
   </ol>
 </details>
 
-<h2>Etiquetas de listas</h2>
+<details>
+  <summary>Etiquetas de listas</summary>
 
-<ol>
+  <ol>
   <li>
     <h3>Listas desordenadas</h3>
     <p>Estas listas no tienen un orden específico y los elementos son presentados con viñetas.</p>
@@ -447,6 +448,7 @@
     </ul>
   </body>
 </html>
+
 ```
 
   </li>
@@ -469,6 +471,7 @@
     </ol>
   </body>
 </html>
+
 ```
 
   </li>
@@ -492,10 +495,12 @@
     </dl>
   </body>
 </html>
+
 ```
 
   </li>
-</ol>
+  </ol>
+</details>
 
 <h2>Etiquetas de tablas</h2>
 
