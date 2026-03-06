@@ -136,13 +136,10 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
 
 <details>
   <summary>Etiquetas de texto</summary>
-  <ol>
-    <li>
-      <h3>Etiquetas de encabezado</h3>
-      <p>
-        Estas etiquetas definen los encabezados de una página web, y su jerarquía va desde h1, el más importante, hasta h6, 
-        el menos importante.
-      </p>
+
+  
+  1. **Etiquetas de encabezado:** Estas etiquetas definen los encabezados de una página web, y su jerarquía va desde h1, 
+  el más importante, hasta h6, el menos importante.
       
   ```html
   
@@ -163,10 +160,7 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiqueta de parrafo</h3>
-      <p>Se utiliza para contener bloques de texto, lo que equivale a un párrafo en un documento.</p>
+  2. **Etiqueta de parrafo:** Se utiliza para contener bloques de texto, lo que equivale a un párrafo en un documento.
       
   ```html
   
@@ -182,10 +176,8 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiqueta de enlace</h3>
-      <p>Define un hipervínculo que conecta el contenido actual con otra página web, sección del documento, archivo o recurso.</p>
+  3. **Etiqueta de enlace:** Define un hipervínculo que conecta el contenido actual con otra página web, sección del documento,
+  archivo o recurso.</p>
       
   ```html
   
@@ -201,10 +193,8 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiquetas de texto en negrita</h3>
-      <p>Las dos etiquetas que veremos a continuación(b , strong), se utilizan para destacar un texto en negrita. Visualmente son iguales, pero con una diferencia semantica que veremos mas adelante.</p>
+ 4. **Etiquetas de texto en negrita::** Las dos etiquetas que veremos a continuación(b , strong), se utilizan para destacar un texto 
+ en negrita. Visualmente son iguales, pero con una diferencia semantica que veremos mas adelante.
       
   ```html
   
@@ -221,10 +211,9 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiquetas de texto en cursiva</h3>
-      <p>Las dos etiquetas que veremos a continuación(em , i), son similares a las anteriores. Se utilizan para transformar un texto en cursiva. Visualmente son iguales, pero al igual que las anteriores,tienen una diferencia semantica que veremos mas adelante.</p>
+ 5. **Etiquetas de texto en cursiva:** Las dos etiquetas que veremos a continuación(em , i), son similares a las anteriores. 
+Se utilizan para transformar un texto en cursiva. Visualmente son iguales, pero al igual que las anteriores,tienen una 
+diferencia semantica que veremos mas adelante.
       
   ```html
   
@@ -241,10 +230,7 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiquetas de texto pequeño</h3>
-      <p>Representa un texto de menor importancia o una nota aclaratoria.</p>
+ 6. **Etiquetas de texto pequeño:** Representa un texto de menor importancia o una nota aclaratoria.</p>
       
   ```html
   
@@ -260,10 +246,7 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiqueta de cita en bloque</h3>
-      <p>Indica que el contenido es una cita en bloque de otro autor.</p>
+ 7. **Etiqueta de cita en bloque:** Indica que el contenido es una cita en bloque de otro autor.</p>
       
   ```html
   
@@ -281,10 +264,7 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiqueta de codigo</h3>
-      <p>Define fragmentos de código en el texto, mostrando el texto con una fuente monoespaciada.</p>
+  8. **Etiqueta de codigo:** Define fragmentos de código en el texto, mostrando el texto con una fuente monoespaciada.</p>
       
   ```html
   
@@ -300,10 +280,8 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiqueta de texto formateado</h3>
-      <p>Mantiene el formato original del texto, incluyendo los saltos de línea y los espacios en blanco. Ideal para mostrar bloques de código o texto con un formato específico.</p>
+  9. **Etiqueta de texto formateado:** Mantiene el formato original del texto, incluyendo los saltos de línea y los espacios en blanco.
+  Ideal para mostrar bloques de código o texto con un formato específico.</p>
       
   ```html
   
@@ -323,10 +301,7 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiqueta de texto resaltado</h3>
-      <p>Marca el texto como destacado o resaltado, similar a un marcador de texto en papel.</p>
+  10. **Etiqueta de texto resaltado:** Marca el texto como destacado o resaltado, similar a un marcador de texto en papel.</p>
       
   ```html
   
@@ -342,10 +317,8 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiqueta de texto tachado y texto insertado</h3>
-      <p>Estas etiquetas indican que el texto ha sido eliminado o tachado o bien que el texto ha sido agregado o insertado recientemente</p>
+  11. **Etiqueta de texto tachado y texto insertado:** Estas etiquetas indican que el texto ha sido eliminado o tachado o bien que el 
+  texto ha sido agregado o insertado recientemente</p>
       
   ```html
   
@@ -362,10 +335,7 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   
   ```
       
-    </li>
-    <li>
-      <h3>Etiqueta de abreviatura</h3>
-      <p>Define una abreviatura, y al pasar el cursor sobre ella, se puede mostrar el significado completo.</p>
+ 12. **Etiqueta de abreviatura:** Define una abreviatura, y al pasar el cursor sobre ella, se puede mostrar el significado completo.</p>
       
   ```html
   
@@ -380,9 +350,6 @@ que son las etiquetas y los atributos. Sigamos avanzando. Veamos algunas de las 
   </html>
   
   ```
-      
-    </li>
-  </ol>
 </details>
 
 <details>
