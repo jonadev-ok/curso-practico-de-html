@@ -12,27 +12,21 @@ de búsqueda lo comprendan mejor. Vale aclarar que no todas las etiquetas tienen
 que etiquetas utilizar segun su contenido y proposito. La semantica mejora la experiencia del usuario y facilita el mantenimiento 
 del código.
 
-<h3>Etiquetas semanticas principales</h3>
+<details>
+  <summary>Etiquetas semanticas principales</summary>
 
-<ol>
-  <li>
-    <h3>header</h3>
-    <p>
-      Significado semantico: Representa el encabezado de una página o una sección del documento. Puede contener elementos como
-      un logotipo, menú de navegación, o título.
-    </p>
-    <p>
-      Cuándo usarla: Cuando necesitas definir el encabezado de una página o una sección dentro de un artículo o sección.
-    </p>
+  1. **header:** Significado semantico: Representa el encabezado de una página o una sección del documento. Puede contener elementos como
+  un logotipo, menú de navegación, o título.
+  **Cuándo usarla:** Cuando necesitas definir el encabezado de una página o una sección dentro de un artículo o sección.
     
-```html
-
-    <header>
-      <h1>Mi Blog</h1>
-      <nav>Menú de Navegación</nav>
-    </header>
-
-````
+  ```html
+  
+      <header>
+        <h1>Mi Blog</h1>
+        <nav>Menú de Navegación</nav>
+      </header>
+  
+  ````
 
   </li>
   <li><h3>nav</h3>
