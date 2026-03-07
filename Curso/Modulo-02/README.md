@@ -21,31 +21,25 @@ del código.
     
   ```html
   
-      <header>
-        <h1>Mi Blog</h1>
-        <nav>Menú de Navegación</nav>
-      </header>
+  <header>
+    <h1>Mi Blog</h1>
+    <nav>Menú de Navegación</nav>
+  </header>
   
   ````
 
-  </li>
-  <li><h3>nav</h3>
-    <p>
-      Significado semantico: Define un bloque de navegación, generalmente usado para agrupar enlaces que permiten al usuario 
-      moverse dentro del sitio o a sitios relacionados.
-    </p>
-    <p>
-      Cuándo usarla: Para agrupar enlaces de navegación importantes.
-    </p>
+  2. **nav:** Significado semantico: Define un bloque de navegación, generalmente usado para agrupar enlaces que permiten al usuario 
+  moverse dentro del sitio o a sitios relacionados.
+  **Cuándo usarla:+* Para agrupar enlaces de navegación importantes.
 
-```html
-
-    <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-
-````
+  ```html
+  
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  
+  ````
 
   </li>
   <li><h3>main</h3> 
