@@ -137,93 +137,58 @@ del código.
   de otras etiquetas más adecuadas como strong para texto en negrita o em para texto enfatizado.
 
   **Alternativa:** Utilizar etiquetas semánticas como strong, em, o mark cuando sea apropiado. 
-  </li>
-  <li>
-    <h3>b</h3>
-    <p>
-      Uso incorrecto: Se usa para hacer texto en negrita sin ninguna semántica, es decir, sin decirle al navegador o a los lectores 
-      de pantalla que ese texto tiene importancia o relevancia.
-    </p>
-    <p>
-      Alternativa: Usar strong si el texto tiene importancia o relevancia en el contexto.
-    </p>    
-  </li>
-  <li>
-    <h3>i</h3>
-    <p>
-      Uso incorrecto: Similar al caso de b, se utiliza para mostrar texto en cursiva, pero sin ninguna semántica adicional.
-    </p>
-    <p>
-      Alternativa: Usar em si el texto debe ser enfatizado o leído con un tono diferente.
-    </p>    
-  </li>
-  <li>
-    <h3>font (Obsoleta en HTML5)</h3>
-    <p>
-      Uso incorrecto: Se usaba para cambiar el color, tamaño o tipo de fuente. Aún se ve en código legado, aunque está obsoleta.
-    </p>
-    <p>
-      Alternativa: Usar CSS para manejar estilos de fuentes con propiedades como font-family, font-size, y color.
-    </p>    
-  </li>
-  <li>
-    <h3>center (Obsoleta en HTML5)</h3>
-    <p>
-      Uso incorrecto: Se utilizaba para centrar texto o elementos visuales.
-    </p>
-    <p>
-      Alternativa: Usar CSS con la propiedad text-align: center para centrar texto o margin: auto para centrar bloques.
-    </p>    
-  </li>
-  <li>
-    <h3>u</h3>
-    <p>
-      Uso incorrecto: Se utiliza para subrayar texto, pero sin darle un significado especial.
-    </p>
-    <p>
-      Alternativa: Usar ins (para indicar inserciones de texto en documentos) o aplicar subrayado con CSS si es solo una cuestión 
-      de estilo.
-    </p>    
-  </li>
-  <li>
-    <h3>br</h3>
-    <p>
-      Uso incorrecto: Se usa para forzar saltos de línea en lugar de organizar el contenido correctamente con márgenes, párrafos 
-      o bloques.
-    </p>
-    <p>
-      Alternativa: Usar p para crear párrafos, o controlar el espaciado entre elementos mediante CSS (margin, padding).
-    </p>    
-  </li>
-  <li>
-    <h3>table (para diseño)</h3>
-    <p>
-      Uso incorrecto: Se usa para maquetar la página o crear grids en lugar de usar CSS. Este era un enfoque común antes de CSS Grid 
-      o Flexbox.
-    </p>
-    <p>
-      Alternativa: Utilizar CSS Grid o Flexbox para el diseño de la página. Las tablas solo deben ser usadas para datos tabulares.
-    </p>  
-  </li>
-  <li>
-    <h3>iframe (para layout)</h3>
-    <p>
-      Uso incorrecto: Se utiliza a veces para insertar secciones de páginas externas o para organizar partes de una página dentro 
-      de otra, lo que genera problemas de accesibilidad y SEO.
-    </p>
-    <p>
-      Alternativa:Evitar su uso para layouts y preferir incluir contenido con APIs o servicios web cuando sea necesario insertar 
-      datos externos.
-    </p>  
-  </li>
-</ol>
- <h4>¿Cuándo Usar Etiquetas Semánticas?</h4>
- <p>
-   Usar Etiquetas Semánticas: Siempre que quieras proporcionar un contexto claro sobre el propósito de una sección o contenido 
-   en particular.
- </p>
-<h4>¿Cuándo Usar Etiquetas No Semánticas?</h4>
-<p>
-Usar Etiquetas No Semánticas: Cuando simplemente necesitas agrupar elementos sin agregar contexto, o cuando necesitas aplicar estilos.
-</p>
+  
+  4. **b:**
+  **Uso incorrecto:** Se usa para hacer texto en negrita sin ninguna semántica, es decir, sin decirle al navegador o a los lectores
+  de pantalla que ese texto tiene importancia o relevancia.
+  
+  **Alternativa:** Usar strong si el texto tiene importancia o relevancia en el contexto.
+  
+  5. **i:**
+  **Uso incorrecto:** Similar al caso de b, se utiliza para mostrar texto en cursiva, pero sin ninguna semántica adicional.
 
+  **Alternativa:** Usar em si el texto debe ser enfatizado o leído con un tono diferente.
+  
+  6. **font (Obsoleta en HTML5):**
+  **Uso incorrecto:** Se usaba para cambiar el color, tamaño o tipo de fuente. Aún se ve en código legado, aunque está obsoleta.
+  
+  **Alternativa:** Usar CSS para manejar estilos de fuentes con propiedades como font-family, font-size, y color.
+  
+  7. **center (Obsoleta en HTML5):**
+  **Uso incorrecto:** Se utilizaba para centrar texto o elementos visuales.
+  
+  **Alternativa:** Usar CSS con la propiedad text-align: center para centrar texto o margin: auto para centrar bloques.
+  
+  **u:**
+  **Uso incorrecto:** Se utiliza para subrayar texto, pero sin darle un significado especial.
+  
+  **Alternativa:** Usar ins (para indicar inserciones de texto en documentos) o aplicar subrayado con CSS si es solo una cuestión 
+  de estilo.   
+  
+  **br:**
+  **Uso incorrecto:** Se usa para forzar saltos de línea en lugar de organizar el contenido correctamente con márgenes, párrafos 
+  o bloques.
+  
+  **Alternativa:** Usar p para crear párrafos, o controlar el espaciado entre elementos mediante CSS (margin, padding).
+  
+  **table (para diseño):**
+  **Uso incorrecto:** Se usa para maquetar la página o crear grids en lugar de usar CSS. Este era un enfoque común antes de CSS Grid 
+  o Flexbox.
+  
+  **Alternativa:** Utilizar CSS Grid o Flexbox para el diseño de la página. Las tablas solo deben ser usadas para datos tabulares.
+  
+  **iframe (para layout):**
+  **Uso incorrecto:** Se utiliza a veces para insertar secciones de páginas externas o para organizar partes de una página dentro 
+  de otra, lo que genera problemas de accesibilidad y SEO.
+  
+  **Alternativa:** Evitar su uso para layouts y preferir incluir contenido con APIs o servicios web cuando sea necesario insertar 
+  datos externos.  
+</details>
+
+#### ¿Cuándo Usar Etiquetas Semánticas?
+
+Usar Etiquetas Semánticas: Siempre que quieras proporcionar un contexto claro sobre el propósito de una sección o contenido en particular.
+
+#### ¿Cuándo Usar Etiquetas No Semánticas?
+
+Usar Etiquetas No Semánticas: Cuando simplemente necesitas agrupar elementos sin agregar contexto, o cuando necesitas aplicar estilos.
