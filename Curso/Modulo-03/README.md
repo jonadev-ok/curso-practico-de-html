@@ -40,45 +40,32 @@ sitio web, lo que ayuda a los navegadores, lectores de pantalla y motores de bú
 
 ```
 
-  </li>
-  <li>
-    <h3>Texto alternativo en imagenes (alt)</h3>
-    <p>
-      Las imágenes deben tener texto alternativo que describa su contenido o función. Esto es esencial para los lectores de 
-      pantalla utilizados por personas con discapacidad visual.
-    </p>
+2. **Texto alternativo en imagenes (alt):** Las imágenes deben tener texto alternativo que describa su contenido o función. Esto es
+esencial para los lectores de pantalla utilizados por personas con discapacidad visual.
 
 ```html
 
-    <img src="imagen.jpg" alt="Descripción de la imagen">
+  <img src="imagen.jpg" alt="Descripción de la imagen">
 
 ```
 
-  </li>
-  <li>
-    <h3>Enlaces descriptivos</h3>
-    <p>
-      Los textos de los enlaces deben ser claros y describir a dónde llevan. Evita textos como "Haz clic aquí" o "Más información".
-    </p>
+3. **Enlaces descriptivos:** Los textos de los enlaces deben ser claros y describir a dónde llevan. Evita textos como "Haz clic aquí"
+o "Más información".
 
 ```html
 
-    <a href="contacto.html">Contáctanos</a>
+  <a href="contacto.html">Contáctanos</a>
 
 ```
     
-  </li>
-  <li>
-    <h3>Uso correcto de los encabezados (respetar su jerarquia)</h3>
-    <p>
-      La jerarquía de encabezados (h1, h2, h3, etc.) ayuda a estructurar el contenido y permite a los usuarios de lectores de 
-      pantalla navegar fácilmente por la página. No olvides que se permite solo un encabezado H1 por pagina.
-    </p>
+4. **Uso correcto de los encabezados (respetar su jerarquia):** La jerarquía de encabezados (h1, h2, h3, etc.) ayuda a estructurar
+el contenido y permite a los usuarios de lectores de pantalla navegar fácilmente por la página. No olvides que se permite solo
+un encabezado H1 por pagina.
 
 ```html
 
-    <h1>Título principal</h1>
-    <h2>Subtítulo o tema relacionado</h2>
+  <h1>Título principal</h1>
+  <h2>Subtítulo o tema relacionado</h2>
 
 ```
 
