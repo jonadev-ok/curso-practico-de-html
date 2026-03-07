@@ -95,43 +95,33 @@ del código.
   
   ````
 
-  <li><h3>footer</h3> 
-    <p>
-      Significado semantico: Define el pie de página de un documento o sección, donde generalmente se incluye información de 
-      contacto, derechos de autor o enlaces legales.
-    </p>
-    <p>
-      Cuándo usarla: Para agrupar información que aparece al final de una página o sección, como créditos o enlaces adicionales.
-    </p>
+ 7. **footer:** Significado semantico: Define el pie de página de un documento o sección, donde generalmente se incluye información de
+  contacto, derechos de autor o enlaces legales.
+  **Cuándo usarla:** Para agrupar información que aparece al final de una página o sección, como créditos o enlaces adicionales.
     
-```html
+  ```html
+  
+  <footer>
+    <p>© 2024 Mi Empresa</p>
+    <nav>Política de privacidad | Términos de servicio</nav>
+  </footer>
+  
+  ````
 
-    <footer>
-      <p>© 2024 Mi Empresa</p>
-      <nav>Política de privacidad | Términos de servicio</nav>
-    </footer>
+  8. **figure y figcaption:** Significado semantico: figure se usa para agrupar contenido gráfico, como imágenes o diagramas, y
+  figcaption proporciona una leyenda o descripción.
+  **Cuándo usarla:** Cuando necesitas incluir una imagen o gráfico con una descripción clara.
 
-````
-  </li>
-  <li><h3>figure y figcaption</h3>
-    <p>
-      Significado semantico: figure se usa para agrupar contenido gráfico, como imágenes o diagramas, y figcaption proporciona 
-      una leyenda o descripción.</p>
-    <p>
-      Cuándo usarla: Cuando necesitas incluir una imagen o gráfico con una descripción clara.
-    </p>
+  ```html
+  
+  <figure>
+    <img src="imagen.jpg" alt="Descripción de la imagen">
+    <figcaption>Figura 1: Descripción de la imagen.</figcaption>
+  </figure>
+  
+  ````
+</details>
 
-```html
-
-    <figure>
-      <img src="imagen.jpg" alt="Descripción de la imagen">
-      <figcaption>Figura 1: Descripción de la imagen.</figcaption>
-    </figure>
-
-````
-
-  </li>
-</ol>
 
 <h3>Etiquetas NO semanticas que se suelen usar de manera erronea.</h3>
 
