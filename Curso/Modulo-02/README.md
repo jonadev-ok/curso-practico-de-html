@@ -41,22 +41,16 @@ del código.
   
   ````
 
-  </li>
-  <li><h3>main</h3> 
-    <p>
-      Significado semantico: Define el contenido principal de la página. Solo debe haber un main por documento.
-    </p>
-    <p>
-      Cuándo usarla: Para el contenido principal que es único en la página, excluyendo encabezados, pies de página, y navegación.
-    </p>
+  3. **main:** Significado semantico: Define el contenido principal de la página. Solo debe haber un main por documento.
+  **Cuándo usarla:** Para el contenido principal que es único en la página, excluyendo encabezados, pies de página, y navegación.
     
-```html
-
-    <main>
-      <article>Contenido principal de la página</article>
-    </main>
-
-````
+  ```html
+  
+  <main>
+    <article>Contenido principal de la página</article>
+  </main>
+  
+  ````
   </li>
   <li><h3>section</h3>
     <p>
