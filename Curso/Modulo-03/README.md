@@ -11,37 +11,33 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
 - **SEO:** Muchos de los principios de accesibilidad mejoran también el posicionamiento en motores de búsqueda.
 - **Legal:** En algunos países, la accesibilidad es un requisito legal (ej. ADA en Estados Unidos).
 
-<h3>Elementos fundamentales de la accesibilidad en HTML</h3>
+### Elementos fundamentales de la accesibilidad en HTML.
 
-<ol>
-  <li>
-    <h3>Uso de etiquetas semanticas.</h3>
-    <p>
-      Como vimos anteriormente, las etiquetas semanticas describen claramente el contenido de un sitio web, lo que ayuda a 
-      los navegadores, lectores de pantalla y motores de búsqueda a comprender mejor la estructura de una página.
-    </p>
+1. **Uso de etiquetas semanticas:** Como vimos anteriormente, las etiquetas semanticas describen claramente el contenido de un
+sitio web, lo que ayuda a los navegadores, lectores de pantalla y motores de búsqueda a comprender mejor la estructura de una página.
 
 ```html
 
-    <header>
-      <h1>Título principal del sitio</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca de</a></li>
-        </ul>
-      </nav>
-    </header>
+<header>
+  <h1>Título principal del sitio</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+    </ul>
+  </nav>
+</header>
     
-    <main>
-      <section>
-        <h2>Sección importante</h2>
-        <p>Este es el contenido principal.</p>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2024 Mi Sitio Web</p>
-    </footer>
+<main>
+  <section>
+    <h2>Sección importante</h2>
+    <p>Este es el contenido principal.</p>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Mi Sitio Web</p>
+</footer>
+
 ```
 
   </li>
