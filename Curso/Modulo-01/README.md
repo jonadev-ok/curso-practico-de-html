@@ -898,35 +898,27 @@ numerados automáticamente.
   ```
 </details>
 
-<h2>Enlaces internos y enlaces externos</h2>
-
-<p>
+<details>
+  <summary>Enlaces internos y enlaces externos</summary>
+  
   Es esencial entender la diferencia entre enlaces internos y enlaces externos, ya que ambos juegan un papel importante en la 
   navegación de sitios web.
-</p>
 
-<h3>Enlaces internos</h3>
-
-<p>
+  ### Enlaces internos
+  
   Los enlaces internos son aquellos que apuntan a otra parte dentro del mismo sitio web o a una sección específica de 
   la misma página. Pueden apuntar a:
-</p>
 
 
-<ol>
-  <li>
-    <h3>Otras paginas dentro del mismo dominio.</h3> 
-    <p>
-      Por ejemplo: si tenemos un dominio como https://www.w3schools.com, un enlace interno podria ser https://www.w3schools.com/html.       </p>
-   <p>
-    href: Especifica el archivo HTML de la página a la que lleva el enlace (en este caso, contacto.html).
-   </p>
+  1. Otras paginas dentro del mismo dominio.
+  Por ejemplo: si tenemos un dominio como https://www.w3schools.com, un enlace interno podria ser https://www.w3schools.com/html.       
+  href: Especifica el archivo HTML de la página a la que lleva el enlace (en este caso, contacto.html).
 
-```html
-
-<a href="contacto.html">Ir a la página de contacto</a>
-
-```
+  ```html
+  
+  <a href="contacto.html">Ir a la página de contacto</a>
+  
+  ```
 
   </li>
   <li>
