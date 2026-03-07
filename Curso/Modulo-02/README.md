@@ -79,30 +79,22 @@ del código.
   
   ````
 
-  </li>
-  <li><h3>aside</h3>
-    <p>
-      Significado semantico: Representa contenido relacionado o adicional que está tangencialmente relacionado con el 
-      contenido principal, como una barra lateral o un bloque de anuncios.
-    </p>
-    <p>
-      Cuándo usarla: Para contenido complementario, como enlaces a artículos relacionados o contenido auxiliar como anuncios.
-    </p>
+  6. **aside:** Significado semantico: Representa contenido relacionado o adicional que está tangencialmente relacionado con el
+  contenido principal, como una barra lateral o un bloque de anuncios.
+  **Cuándo usarla:** Para contenido complementario, como enlaces a artículos relacionados o contenido auxiliar como anuncios.
 
-```html
+  ```html
+  
+  <aside>
+    <h2>Artículos Relacionados</h2>
+    <ul>
+      <li>Artículo 1</li>
+      <li>Artículo 2</li>
+    </ul>
+  </aside>
+  
+  ````
 
-    <aside>
-      <h2>Artículos Relacionados</h2>
-      <ul>
-        <li>Artículo 1</li>
-        <li>Artículo 2</li>
-      </ul>
-    </aside>
-
-
-````
-
-  </li>
   <li><h3>footer</h3> 
     <p>
       Significado semantico: Define el pie de página de un documento o sección, donde generalmente se incluye información de 
