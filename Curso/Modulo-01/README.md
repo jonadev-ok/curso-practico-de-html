@@ -920,42 +920,30 @@ numerados automáticamente.
   
   ```
 
-  </li>
-  <li>
-    <h3>Anclas dentro de la misma pagina.</h3>
-    <p>
-      Las anclas o tecnica de anclaje se utilizan para podes navegar entre distintas secciones dentro de la misma pagina. 
-      Por ejemplo: Si tenemos un dominio como https://landingpagejonadev.vercel.app, 
-      un ancla de este seria https://landingpagejonadev.vercel.app/#about.
-    </p>
-    <p>
-      Para definir el ancla y poder navegar hacia una seccion de la misma pagina, hay que vincular la sección con el enlace. 
-      Suponiendo que hacemos un menu para navegar entre distintas secciones a cada enlace le vamos a asignar un href compuesto 
-      por el simbolo # seguido del nombre de la seccion. (ver ejemplo abajo).
-    </p>
+  2. Anclas dentro de la misma pagina.
+  Las anclas o tecnica de anclaje se utilizan para podes navegar entre distintas secciones dentro de la misma pagina. 
+  Por ejemplo: Si tenemos un dominio como https://landingpagejonadev.vercel.app, 
+  Un ancla de este seria https://landingpagejonadev.vercel.app/#about.
+  Para definir el ancla y poder navegar hacia una seccion de la misma pagina, hay que vincular la sección con el enlace. 
+  Suponiendo que hacemos un menu para navegar entre distintas secciones a cada enlace le vamos a asignar un href compuesto 
+  por el simbolo # seguido del nombre de la seccion. (ver ejemplo abajo).
     
-```html
-
-<a href="#seccion-servicios">Ver nuestros servicios</a>
-
-```
+  ```html
+  
+  <a href="#seccion-servicios">Ver nuestros servicios</a>
+  
+  ```
     
-  </li>
-  <p>
-    Luego, para completar este vinculo, al crear las secciones en cuestion le vamos a asignar a cada una un id con exactamente 
-    el mismo nombre que las secciones quitando el simbolo #. (ver ejemplo abajo).
-  </p>
+  Luego, para completar este vinculo, al crear las secciones en cuestion le vamos a asignar a cada una un id con exactamente 
+  el mismo nombre que las secciones quitando el simbolo #. (ver ejemplo abajo).
     
-```html
-
-<section id="seccion-servicios">
-  <h2>Nuestros Servicios</h2>
-</section>
-
-```
-    
-  </li>
-</ol>
+  ```html
+  
+  <section id="seccion-servicios">
+    <h2>Nuestros Servicios</h2>
+  </section>
+  
+  ```
 
 <h3>Enlaces externos</h3>
 
