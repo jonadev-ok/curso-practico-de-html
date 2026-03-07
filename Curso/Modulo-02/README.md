@@ -51,43 +51,34 @@ del código.
   </main>
   
   ````
-  </li>
-  <li><h3>section</h3>
-    <p>
-      Significado semantico: Representa una sección temática dentro de un documento. Se utiliza para dividir contenido en bloques 
-      con significado específico.
-    </p>
-    <p>
-      Cuándo usarla: Cuando tienes varias secciones de contenido que están relacionadas entre sí, pero son independientes en 
-      cierta medida.
-    </p>
+  
+  4. **section:** Significado semantico: Representa una sección temática dentro de un documento. Se utiliza para dividir
+  contenido enbloques con significado específico.
+  **Cuándo usarla:** Cuando tienes varias secciones de contenido que están relacionadas entre sí, pero son independientes en
+  cierta medida.
 
-```html
+  ```html
+  
+  <section>
+    <h2>Sección de Noticias</h2>
+    <p>Últimas noticias del día...</p>
+  </section>
+  
+  ````
 
-    <section>
-      <h2>Sección de Noticias</h2>
-      <p>Últimas noticias del día...</p>
-    </section>
-
-````
-
-  </li>
-  <li><h3>article</h3> 
-    <p>
-      Significado semantico: Define un contenido independiente, como una publicación de blog, un artículo de revista o un comentario.
-    </p>
-    <p>
-      Cuándo usarla: Para contenido que tiene sentido por sí mismo, como una entrada de blog o un artículo de noticias.
-    </p>
+  5. **article:** Significado semantico: Define un contenido independiente, como una publicación de blog, un artículo de revista o
+  un comentario.
+  **Cuándo usarla:** Para contenido que tiene sentido por sí mismo, como una entrada de blog o un artículo de noticias.
     
-```html
+  ```html
+  
+  <article>
+    <h2>Título del artículo</h2>
+    <p>Contenido del artículo.</p>
+  </article>
+  
+  ````
 
-    <article>
-      <h2>Título del artículo</h2>
-      <p>Contenido del artículo.</p>
-    </article>
-
-````
   </li>
   <li><h3>aside</h3>
     <p>
