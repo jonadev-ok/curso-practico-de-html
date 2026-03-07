@@ -126,6 +126,7 @@ del código.
   <summary>Etiquetas NO semanticas que se suelen usar de manera erronea.</summary>
 
   1. **div:**
+
   **Uso incorrecto:** Se utiliza para agrupar elementos sin necesidad de establecer relaciones semánticas entre ellos. Se abusa de
   esta etiqueta para crear casi toda la estructura de una página.
 
@@ -133,51 +134,60 @@ del código.
   del contenido.   
   
   3. **span:**
+
   **Uso incorrecto:** Se usa de manera excesiva para aplicar estilos o agrupar texto cuando no es necesario. Se abusa de span en lugar
   de otras etiquetas más adecuadas como strong para texto en negrita o em para texto enfatizado.
 
   **Alternativa:** Utilizar etiquetas semánticas como strong, em, o mark cuando sea apropiado. 
   
   4. **b:**
+
   **Uso incorrecto:** Se usa para hacer texto en negrita sin ninguna semántica, es decir, sin decirle al navegador o a los lectores
   de pantalla que ese texto tiene importancia o relevancia.
   
   **Alternativa:** Usar strong si el texto tiene importancia o relevancia en el contexto.
   
   5. **i:**
+
   **Uso incorrecto:** Similar al caso de b, se utiliza para mostrar texto en cursiva, pero sin ninguna semántica adicional.
 
   **Alternativa:** Usar em si el texto debe ser enfatizado o leído con un tono diferente.
   
   6. **font (Obsoleta en HTML5):**
+
   **Uso incorrecto:** Se usaba para cambiar el color, tamaño o tipo de fuente. Aún se ve en código legado, aunque está obsoleta.
   
   **Alternativa:** Usar CSS para manejar estilos de fuentes con propiedades como font-family, font-size, y color.
   
   7. **center (Obsoleta en HTML5):**
+
   **Uso incorrecto:** Se utilizaba para centrar texto o elementos visuales.
   
   **Alternativa:** Usar CSS con la propiedad text-align: center para centrar texto o margin: auto para centrar bloques.
   
-  **u:**
+  8. **u:**
+
   **Uso incorrecto:** Se utiliza para subrayar texto, pero sin darle un significado especial.
   
   **Alternativa:** Usar ins (para indicar inserciones de texto en documentos) o aplicar subrayado con CSS si es solo una cuestión 
   de estilo.   
   
-  **br:**
+  9. **br:**
+
   **Uso incorrecto:** Se usa para forzar saltos de línea en lugar de organizar el contenido correctamente con márgenes, párrafos 
   o bloques.
   
   **Alternativa:** Usar p para crear párrafos, o controlar el espaciado entre elementos mediante CSS (margin, padding).
   
-  **table (para diseño):**
+  10. **table (para diseño):**
+
   **Uso incorrecto:** Se usa para maquetar la página o crear grids en lugar de usar CSS. Este era un enfoque común antes de CSS Grid 
   o Flexbox.
   
   **Alternativa:** Utilizar CSS Grid o Flexbox para el diseño de la página. Las tablas solo deben ser usadas para datos tabulares.
   
-  **iframe (para layout):**
+  11. **iframe (para layout):**
+
   **Uso incorrecto:** Se utiliza a veces para insertar secciones de páginas externas o para organizar partes de una página dentro 
   de otra, lo que genera problemas de accesibilidad y SEO.
   
