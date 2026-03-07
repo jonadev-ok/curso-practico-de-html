@@ -964,28 +964,32 @@ numerados automáticamente.
 
 </details>
 
-<h2>Diferencias entre ID y class</h2>
+### Diferencias entre ID y class.
 
-<p>Aunque en este curso no nos vamos a centrar tanto en los estilos, entender que hay una diferencia muy marcada entre ID y class es muy importante para aplicar buenas practicas en la estructuración de un documento HTML.</p>
+Aunque en este curso no nos vamos a centrar tanto en los estilos, entender que hay una diferencia muy marcada entre ID y class es 
+muy importante para aplicar buenas practicas en la estructuración de un documento HTML.</p>
 
-<h3>ID:</h3>
-<p>Es un identificador único para un solo elemento en el DOM. No puede repetirse en la misma página.</p>
-<p><b>Uso:</b> Ideal para elementos que necesitas identificar individualmente, como el encabezado principal o una sección específica.</p>
+### ID:
+Es un identificador único para un solo elemento en el DOM. No puede repetirse en la misma página.
+**Uso:** Ideal para elementos que necesitas identificar individualmente, como el encabezado principal o una sección específica.
 
 ```html
+
   <div id="menu">Menú Principal</div>
+
 ```
 
-<h3>class:</h3>
-<p>Se puede aplicar a múltiples elementos. Es útil para agrupar elementos que comparten estilos o comportamientos.</p>
-<p><b>Uso:</b> Utilizado cuando varios elementos necesitan el mismo estilo o comportamiento.</p>
+### class:
+
+Se puede aplicar a múltiples elementos. Es útil para agrupar elementos que comparten estilos o comportamientos.</p>
+**Uso:** Utilizado cuando varios elementos necesitan el mismo estilo o comportamiento.
 
 ```html
+
   <div class="boton">Botón 1</div>
   <div class="boton">Botón 2</div>
+
 ```
 
-<p>
   Diferencias Clave: id es único en toda la página, mientras que class puede reutilizarse. En CSS, #id selecciona un único 
   elemento, mientras que .class puede seleccionar varios.
-</p>
