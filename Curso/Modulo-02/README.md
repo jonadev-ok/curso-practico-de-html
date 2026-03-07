@@ -122,30 +122,21 @@ del código.
   ````
 </details>
 
+<details>
+  <summary>Etiquetas NO semanticas que se suelen usar de manera erronea.</summary>
 
-<h3>Etiquetas NO semanticas que se suelen usar de manera erronea.</h3>
+  1. **div:**
+  **Uso incorrecto:** Se utiliza para agrupar elementos sin necesidad de establecer relaciones semánticas entre ellos. Se abusa de
+  esta etiqueta para crear casi toda la estructura de una página.
 
-<ol>
-  <li>
-    <h3>div</h3>
-    <p>
-      Uso incorrecto: Se utiliza para agrupar elementos sin necesidad de establecer relaciones semánticas entre ellos. 
-      Se abusa de esta etiqueta para crear casi toda la estructura de una página.
-    </p>
-    <p>
-      Alternativa: Usar etiquetas semánticas como section, article, header, footer, y main que describen claramente el propósito 
-      del contenido.
-    </p>    
-  </li>
-  <li>
-    <h3>span</h3>
-    <p>
-      Uso incorrecto: Se usa de manera excesiva para aplicar estilos o agrupar texto cuando no es necesario. Se abusa de span en lugar 
-      de otras etiquetas más adecuadas como strong para texto en negrita o em para texto enfatizado.
-    </p>
-    <p>
-      Alternativa: Utilizar etiquetas semánticas como strong, em, o mark cuando sea apropiado.
-    </p>    
+  **Alternativa:** Usar etiquetas semánticas como section, article, header, footer, y main que describen claramente el propósito
+  del contenido.   
+  
+  3. **span:**
+  **Uso incorrecto:** Se usa de manera excesiva para aplicar estilos o agrupar texto cuando no es necesario. Se abusa de span en lugar
+  de otras etiquetas más adecuadas como strong para texto en negrita o em para texto enfatizado.
+
+  **Alternativa:** Utilizar etiquetas semánticas como strong, em, o mark cuando sea apropiado. 
   </li>
   <li>
     <h3>b</h3>
