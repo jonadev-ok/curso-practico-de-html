@@ -945,26 +945,24 @@ numerados automáticamente.
   
   ```
 
-<h3>Enlaces externos</h3>
+  ### Enlaces externos
 
-<p>
   Los enlaces externos son aquellos que llevan al usuario a otro sitio web o dominio diferente al actual. A diferencia de los 
   enlaces  intermos, el atributo href debe tener la URL completa (con http:// o https://).
-</p>
 
-```html
+  ```html
+  
+      <a href="https://www.ejemplo.com" target="_blank">Visitar Ejemplo</a>
+  
+  ```
 
-    <a href="https://www.ejemplo.com" target="_blank">Visitar Ejemplo</a>
-
-```
-
-<p>
   Como podemos ver en el ejemplo, nos encontramos con un atributo nuevo. El target. Este nuevo atributo se utiliza dentro de la 
   etiqueta de enlace y nos sirve para indicar donde queremos que se abra el recurso vinculado. El valor _blank hace que el recurso 
   se abra en una nueva ventana. Esto es extremadamente util, ya que abrir enlaces externos en una nueva pestaña es una práctica 
   que mejora la fluidez de la navegación. Si un enlace redirige al usuario a un sitio externo, es probable que no desee abandonar 
   la página actual, especialmente si está realizando una actividad importante.
-</p>
+
+</details>
 
 <h2>Diferencias entre ID y class</h2>
 
