@@ -11,102 +11,94 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
 - **SEO:** Muchos de los principios de accesibilidad mejoran también el posicionamiento en motores de búsqueda.
 - **Legal:** En algunos países, la accesibilidad es un requisito legal (ej. ADA en Estados Unidos).
 
-### Elementos fundamentales de la accesibilidad en HTML.
+<details>
+  <summary>Elementos fundamentales de la accesibilidad en HTML.</summary>
 
-1. **Uso de etiquetas semanticas:** Como vimos anteriormente, las etiquetas semanticas describen claramente el contenido de un
-sitio web, lo que ayuda a los navegadores, lectores de pantalla y motores de búsqueda a comprender mejor la estructura de una página.
-
-```html
-
-<header>
-  <h1>Título principal del sitio</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-    </ul>
-  </nav>
-</header>
+  1. **Uso de etiquetas semanticas:** Como vimos anteriormente, las etiquetas semanticas describen claramente el contenido de un
+  sitio web, lo que ayuda a los navegadores, lectores de pantalla y motores de búsqueda a comprender mejor la estructura de una página.
+  
+  ```html
+  
+  <header>
+    <h1>Título principal del sitio</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
     
-<main>
-  <section>
-    <h2>Sección importante</h2>
-    <p>Este es el contenido principal.</p>
-  </section>
-</main>
-<footer>
-  <p>&copy; 2024 Mi Sitio Web</p>
-</footer>
+  <main>
+    <section>
+      <h2>Sección importante</h2>
+      <p>Este es el contenido principal.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Mi Sitio Web</p>
+  </footer>
+  
+  ```
 
-```
-
-2. **Texto alternativo en imagenes (alt):** Las imágenes deben tener texto alternativo que describa su contenido o función. Esto es
-esencial para los lectores de pantalla utilizados por personas con discapacidad visual.
-
-```html
-
-  <img src="imagen.jpg" alt="Descripción de la imagen">
-
-```
-
-3. **Enlaces descriptivos:** Los textos de los enlaces deben ser claros y describir a dónde llevan. Evita textos como "Haz clic aquí"
-o "Más información".
-
-```html
-
-  <a href="contacto.html">Contáctanos</a>
-
-```
+  2. **Texto alternativo en imagenes (alt):** Las imágenes deben tener texto alternativo que describa su contenido o función. Esto es
+  esencial para los lectores de pantalla utilizados por personas con discapacidad visual.
+  
+  ```html
+  
+    <img src="imagen.jpg" alt="Descripción de la imagen">
+  
+  ```
+  
+  3. **Enlaces descriptivos:** Los textos de los enlaces deben ser claros y describir a dónde llevan. Evita textos como "Haz clic aquí"
+  o "Más información".
+  
+  ```html
+  
+    <a href="contacto.html">Contáctanos</a>
+  
+  ```
     
-4. **Uso correcto de los encabezados (respetar su jerarquia):** La jerarquía de encabezados (h1, h2, h3, etc.) ayuda a estructurar
-el contenido y permite a los usuarios de lectores de pantalla navegar fácilmente por la página. No olvides que se permite solo
-un encabezado H1 por pagina.
+  4. **Uso correcto de los encabezados (respetar su jerarquia):** La jerarquía de encabezados (h1, h2, h3, etc.) ayuda a estructurar
+  el contenido y permite a los usuarios de lectores de pantalla navegar fácilmente por la página. No olvides que se permite solo
+  un encabezado H1 por pagina.
+  
+  ```html
+  
+    <h1>Título principal</h1>
+    <h2>Subtítulo o tema relacionado</h2>
+  
+  ```
+  
+  5. **Formularios accesibles:** Asegúrate de que los formularios estén correctamente etiquetados, utilizando la etiqueta label
+  asociada a cada campo de formulario.
 
-```html
+  ```html
+  
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+  
+  ```
+  
+  6. **Vídeos y subtítulos:** Los vídeos deben incluir subtítulos y, si es posible, transcripciones para que sean accesibles para personas
+  con discapacidad auditiva.
 
-  <h1>Título principal</h1>
-  <h2>Subtítulo o tema relacionado</h2>
+  ```html
+  
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      <track kind="subtitles" src="subtitulos.vtt" srclang="es" label="Español">
+    </video>
+  
+  ```
 
-```
+  7. **Contraste de color:** Asegúrate de que haya suficiente contraste entre el texto y el fondo para que sea legible por personas
+  con baja visión. Vamos a profundizar mas este tema en el curso de CSS.
+  
+  8. **Uso del atributo ARIA (Accessible Rich Internet Applications):** mejora la accesibilidad de componentes interactivos. Existen
+  varios roles y atributos ARIA que proporcionan más información a los lectores de pantalla. A continuación vamos a verlos...
 
-5. **Formularios accesibles:** Asegúrate de que los formularios estén correctamente etiquetados, utilizando la etiqueta label
-asociada a cada campo de formulario.
-
-```html
-
-  <label for="nombre">Nombre:</label>
-  <input type="text" id="nombre" name="nombre">
-
-```
-
-6. **Vídeos y subtítulos:** Los vídeos deben incluir subtítulos y, si es posible, transcripciones para que sean accesibles para personas
-con discapacidad auditiva.
-
-```html
-
-  <video controls>
-    <source src="video.mp4" type="video/mp4">
-    <track kind="subtitles" src="subtitulos.vtt" srclang="es" label="Español">
-  </video>
-
-```
-
-  </li>
-  <li>
-    <h3>Contraste de color</h3>
-    <p>
-      Asegúrate de que haya suficiente contraste entre el texto y el fondo para que sea legible por personas con baja visión. 
-      Vamos a profundizar mas este tema en el curso de CSS.
-    </p>
-  </li>
-  <li>
-    <h3>Uso del atributo ARIA (Accessible Rich Internet Applications)</h3>
-    <p>
-      mejora la accesibilidad de componentes interactivos. Existen varios roles y atributos ARIA que proporcionan más 
-      información a los lectores de pantalla. A continuación vamos a verlos...
-    </p>
-  </li>
-</ol>
+</details>
 
 <h2>Etiquetas de contenido multimedia</h2>
 
