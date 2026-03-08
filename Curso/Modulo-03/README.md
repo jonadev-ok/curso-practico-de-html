@@ -192,32 +192,29 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
   1. **Etiquetas y Atributos Avanzados para formularios.**
 
       - **input (tipos avanzados):** Introducción a tipos avanzados de input.
-         - type="email": Valida automáticamente que el usuario ingrese un formato de email válido.</li>
-      <li>type="password": proporcionan una forma para que el usuario ingrese una contraseña de forma segura.</li>
-      <li>type="url": Asegura que la entrada sea una URL.</li>
-      <li>
-        type="number": Solo permite ingresar números y puede tener atributos como min, max y step para especificar rangos y 
+        - type="email": Valida automáticamente que el usuario ingrese un formato de email válido.
+        - type="password": proporcionan una forma para que el usuario ingrese una contraseña de forma segura.
+        - type="url": Asegura que la entrada sea una URL.
+        - type="number": Solo permite ingresar números y puede tener atributos como min, max y step para especificar rangos y
         valores aceptables.
-      </li>
-      <li>type="date" y type="datetime-local": Permiten seleccionar fechas y tiempos con un selector gráfico.</li>
-      <li>type="range": Crea un control de rango deslizante, ideal para selecciones numéricas rápidas.</li>
-    </ul>
-    <br><br>
+        - type="date" y type="datetime-local": Permiten seleccionar fechas y tiempos con un selector gráfico.
+        - type="range": Crea un control de rango deslizante, ideal para selecciones numéricas rápidas.
+       
     
-```html
-
-    <label for="email">Correo Electrónico:</label>
-    <input type="email" id="email" name="email" >
-    
-    <label for="date">Fecha de nacimiento:</label>
-    <input type="date" id="date" name="date">
-
-    <label for="range">Ingrese una contraseña:</label>
-    <input type="password">
-
-    <input type="submit" value="Enviar">
-
-```
+        ```html
+        
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" >
+            
+            <label for="date">Fecha de nacimiento:</label>
+            <input type="date" id="date" name="date">
+        
+            <label for="range">Ingrese una contraseña:</label>
+            <input type="password">
+        
+            <input type="submit" value="Enviar">
+        
+        ```
     
   <li>
     <h3>Nuevos Controles de Formularios</h3>
