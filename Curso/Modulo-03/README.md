@@ -69,17 +69,13 @@ un encabezado H1 por pagina.
 
 ```
 
-  </li>
-  <li>
-    <h3>Formularios accesibles</h3>
-    <p>
-      Asegúrate de que los formularios estén correctamente etiquetados, utilizando la etiqueta label asociada a cada campo de formulario.
-    </p>
+5. **Formularios accesibles:** Asegúrate de que los formularios estén correctamente etiquetados, utilizando la etiqueta label
+asociada a cada campo de formulario.
 
 ```html
 
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
 
 ```
 
