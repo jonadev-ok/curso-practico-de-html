@@ -79,21 +79,15 @@ asociada a cada campo de formulario.
 
 ```
 
-  </li>
-   <li>
-    <h3>Vídeos y subtítulos</h3>
-    <p>
-      Los vídeos deben incluir subtítulos y, si es posible, transcripciones para que sean accesibles para personas 
-      con discapacidad auditiva.
-    </p>
+6. **Vídeos y subtítulos:** Los vídeos deben incluir subtítulos y, si es posible, transcripciones para que sean accesibles para personas
+con discapacidad auditiva.
 
 ```html
 
-    <video controls>
-      <source src="video.mp4" type="video/mp4">
-      <track kind="subtitles" src="subtitulos.vtt" srclang="es" label="Español">
-    </video>
-
+  <video controls>
+    <source src="video.mp4" type="video/mp4">
+    <track kind="subtitles" src="subtitulos.vtt" srclang="es" label="Español">
+  </video>
 
 ```
 
