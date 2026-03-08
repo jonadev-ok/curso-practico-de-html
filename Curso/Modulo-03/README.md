@@ -120,29 +120,26 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
   
   ```
 
-  <li>
-    <h3>Etiqueta de video</h3>
-    <p>
-      Esta etiqueta se utiliza para incrustar archivos de video que se pueden reproducir directamente en el navegador, con controles 
-      de reproducción como pausa y volumen.  Se utiliza el atributo src para especificar la URL del video, el atributo controls 
-      para mostrar controles de reproducción, como el botón de play, barra de progreso, etc, el atributo poster para mostrar una 
-      imagen antes de que comience la reproducción y otros atributos que veremos mas adelante.
-    </p>
+  2. **Etiqueta de video:** Esta etiqueta se utiliza para incrustar archivos de video que se pueden reproducir directamente en
+  el navegador, con controles de reproducción como pausa y volumen.  Se utiliza el atributo src para especificar la URL del video,
+  el atributo controls para mostrar controles de reproducción, como el botón de play, barra de progreso, etc, el atributo poster
+  para mostrar una imagen antes de que comience la reproducción y otros atributos que veremos mas adelante.
     
-```html
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <video src="video.mp4" controls width="600" poster="imagen-inicial.png">
-      Tu navegador no soporta el elemento de video.
-    </video>
-  </body>
-</html>
-```
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <video src="video.mp4" controls width="600" poster="imagen-inicial.png">
+        Tu navegador no soporta el elemento de video.
+      </video>
+    </body>
+  </html>
+  
+  ```
 
   </li>
   <li>
