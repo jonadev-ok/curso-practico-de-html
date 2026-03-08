@@ -184,21 +184,15 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
 
 </details>
 
-<h2>Formularios avanzados.</h2>
-
-<p>
+<details>
+  <summary>Formularios avanzados.</summary>
   Los formularios son una de las interacciones más comunes en la web. En este punto, vamos a ver cómo crear formularios más 
   completos y accesibles.
-</p>
 
-<h3>Etiquetas y Atributos Avanzados para formularios.</h3>
+  1. **Etiquetas y Atributos Avanzados para formularios.**
 
-<ol>
-  <li>
-    <h3>input (tipos avanzados)</h3>
-    <p>Introducción a tipos avanzados de input</p>
-    <ul>
-      <li>type="email": Valida automáticamente que el usuario ingrese un formato de email válido.</li>
+      - **input (tipos avanzados):** Introducción a tipos avanzados de input.
+         - type="email": Valida automáticamente que el usuario ingrese un formato de email válido.</li>
       <li>type="password": proporcionan una forma para que el usuario ingrese una contraseña de forma segura.</li>
       <li>type="url": Asegura que la entrada sea una URL.</li>
       <li>
