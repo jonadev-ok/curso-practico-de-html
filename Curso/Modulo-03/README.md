@@ -141,30 +141,25 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
   
   ```
 
-  </li>
-  <li>
-    <h3>Etiquetas de audio</h3>
-    <p>
-      Similar a la anterior. Se utiliza para agregar clips de audio, como música o efectos de sonido, con controles de reproducción. 
-      Los atributos son casi los mismos que los de la etiqueta de video.
-    </p>
+  3. **Etiquetas de audio:** Similar a la anterior. Se utiliza para agregar clips de audio, como música o efectos de sonido, con
+  controles de reproducción. Los atributos son casi los mismos que los de la etiqueta de video.
     
-```html
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <audio src="audio.mp3" controls>
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+    </body>
+  </html>
+  
+  ```
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <audio src="audio.mp3" controls>
-      Tu navegador no soporta el elemento de audio.
-    </audio>
-  </body>
-</html>
-```
-
-  </li>
   <li>
     <h3>Etiquetas de subtítulos y pistas de texto en videos</h3>
     <p>
