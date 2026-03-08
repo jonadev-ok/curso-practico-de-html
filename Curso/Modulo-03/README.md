@@ -100,30 +100,26 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
 
 </details>
 
-<h2>Etiquetas de contenido multimedia</h2>
+<details>
+  <summary>Etiquetas de contenido multimedia.</summary>
 
-<ol>
-  <li>
-    <h3>Etiqueta de imagen</h3>
-    <p>
-      Es una etiqueta simple y se utiliza para mostrar imágenes que complementan el contenido textual. Mejora la experiencia visual 
-      y puede ser parte clave del contenido. Se utiliza el atributo src para especificar la URL de la imagen.
-    </p>
+  1. **Etiqueta de imagen:** Es una etiqueta simple y se utiliza para mostrar imágenes que complementan el contenido textual. Mejora
+  la experiencia visual y puede ser parte clave del contenido. Se utiliza el atributo src para especificar la URL de la imagen.
     
-```html
+  ```html
+  
+  <!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <title>Bienvenidos a mi web</title>
+    </head>
+    <body>
+      <img src="logo.png" alt="Logo de JonaDev" width="200" height="100">
+    </body>
+  </html>
+  
+  ```
 
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <title>Bienvenidos a mi web</title>
-  </head>
-  <body>
-    <img src="logo.png" alt="Logo de JonaDev" width="200" height="100">
-  </body>
-</html>
-```
-
-  </li>
   <li>
     <h3>Etiqueta de video</h3>
     <p>
