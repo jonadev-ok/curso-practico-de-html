@@ -21,28 +21,14 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
   <title>Guía completa de SEO en HTML | Curso de HTML</title>
 ```
       
-  </li>
-  <li>
-    <h3> Meta descripción.</h3>
-    <p>
-      La meta descripción es un breve resumen de la página que aparece debajo del título en los resultados de búsqueda. 
-      Aunque no afecta directamente al ranking, una buena descripción puede mejorar la tasa de clics (CTR).
-    </p>
-    <ul>
-      <li>
-        <p>
-          Longitud recomendada: Entre 150 y 160 caracteres.
-        </p>
-      </li>
-      <li>
-        <p>
-          Debe ser descriptiva y contener palabras clave.
-        </p>
-      </li>
-    </ul>
+  2. **Meta descripción:** La meta descripción es un breve resumen de la página que aparece debajo del título en los resultados de
+  búsqueda. Aunque no afecta directamente al ranking, una buena descripción puede mejorar la tasa de clics (CTR).
+      - Longitud recomendada: Entre 150 y 160 caracteres.
+      - Debe ser descriptiva y contener palabras clave.
       
 ```html
-    <meta name="description" content="Aprende SEO para mejorar el ranking de tu sitio web en los motores de búsqueda con esta guía completa de HTML.">
+  <meta name="description" content="Aprende SEO para mejorar el ranking de tu sitio web en los motores de búsqueda con esta
+guía completa de HTML.">
 
 ```
       
