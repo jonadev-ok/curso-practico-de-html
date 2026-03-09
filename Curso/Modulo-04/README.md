@@ -9,8 +9,8 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
 1. **SEO On-Page:** Optimización dentro del contenido y el código HTML de la página.
 2. **SEO Off-Page:** Factores externos como enlaces entrantes o backlinks.
 3. **SEO Técnico:** Relacionado con la arquitectura del sitio y la indexabilidad.
-<details>
-  <summary>Elementos de HTML que afectan el SEO</summary>
+
+### Elementos de HTML que afectan el SEO
 
   1. **Etiquetas de título:** La etiqueta title es uno de los factores más importantes para el SEO. Es el título de la página que 
   aparece en la pestaña del navegador y es también el primer texto que los motores de búsqueda ven.
@@ -154,5 +154,3 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
       - Indexabilidad: Asegúrate de que todas las páginas importantes de tu sitio sean indexables por los motores de búsqueda.
       Utiliza robots.txt y meta noindex para evitar la indexación de páginas irrelevantes.
       - Mobile First: Asegúrate de que tu sitio sea responsive. Los motores de búsqueda como Google priorizan sitios optimizados para           dispositivos móviles.
-      
-</details>
