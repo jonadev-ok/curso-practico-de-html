@@ -6,9 +6,9 @@ El objetivo principal del SEO es, hacer que una web sea facilmente entendible ta
 Esto permite mejorar su posicionamiento en los resultados de búsqueda. Un SEO bien implementado favorece la llegada de tráfico orgánico 
 al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divide en 3 categorias. Veremos cada una a continuación.
 
-1- **SEO On-Page:** Optimización dentro del contenido y el código HTML de la página.
-2- **SEO Off-Page: Factores externos como enlaces entrantes o backlinks.
-3- **SEO Técnico:** Relacionado con la arquitectura del sitio y la indexabilidad.
+1. **SEO On-Page:** Optimización dentro del contenido y el código HTML de la página.
+2. **SEO Off-Page:** Factores externos como enlaces entrantes o backlinks.
+3. **SEO Técnico:** Relacionado con la arquitectura del sitio y la indexabilidad.
 <details>
   <summary>Elementos de HTML que afectan el SEO</summary>
 
