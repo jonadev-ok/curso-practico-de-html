@@ -284,12 +284,8 @@ antes de ser enviados al servidor, mejorando la experiencia de usuario.
     - **role="alertdialog":** Similar a dialog, pero implica un mensaje urgente que requiere la atención inmediata del usuario.
     - **role="progressbar":** Representa una barra de progreso que indica el estado de una operación en curso. Se usa en elementos
     como progress.
-    
-    <h4>role="slider":</h4>
-    <p>
-      Define un control que permite seleccionar un valor dentro de un rango.
-      Se usa en elementos como barras de rango o sliders personalizados.
-    </p>
+    - **role="slider":** Define un control que permite seleccionar un valor dentro de un rango. Se usa en elementos como barras de
+    rango o sliders personalizados.
   </li>
   <li>
     <h4>role="menu":</h4>
