@@ -83,43 +83,28 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
   
   ```
 
-  </li>
-  <li>
-    <h3>Atributo rel en enlaces (rel="nofollow", rel="noopener").</h3>
-    <p>
-      El atributo rel le dice a los motores de búsqueda cómo tratar los enlaces. 
-      Por ejemplo, rel="nofollow" indica que no se debe transferir "autoridad" (link juice) al sitio vinculado.
-    </p>
-    <ul>
-      <li>
-        <p>
-          rel="nofollow": Úsalo para enlaces pagados o patrocinados.
-        </p>
-      </li>
-    </ul>
+  8. **Atributo rel en enlaces (rel="nofollow", rel="noopener"):** El atributo rel le dice a los motores de búsqueda cómo tratar
+  los enlaces. Por ejemplo, rel="nofollow" indica que no se debe transferir "autoridad" (link juice) al sitio vinculado.
+      
+      - rel="nofollow": Úsalo para enlaces pagados o patrocinados.
+        
     
-```html
-    <a href="https://www.sitio.com" rel="nofollow">Enlace patrocinado</a>
-
-```
-
-  <ul>
-    <li>
-      <p>
-        rel="noopener" y rel="noreferrer": Son buenas prácticas de seguridad cuando se usan 
-        enlaces que abren en nuevas pestañas (target="_blank").
-      </p>
-    </li>
-  </ul>
-
-```html
-    <a href="https://www.sitio-seguro.com" target="_blank" rel="noopener noreferrer">Abrir en nueva pestaña</a>
-
-```
+      ```html
+     
+          <a href="https://www.sitio.com" rel="nofollow">Enlace patrocinado</a>
+    
+      ```
+     
+      - rel="noopener" y rel="noreferrer": Son buenas prácticas de seguridad cuando se usan enlaces que abren en nuevas pestañas 
+      (target="_blank").
+      
+      ```html
+    
+          <a href="https://www.sitio-seguro.com" target="_blank" rel="noopener noreferrer">Abrir en nueva pestaña</a>
+      
+      ```
                 
-  </li>  
-  <li>
-    <h3>Sitemap.</h3>
+  <h3>Sitemap.</h3>
     <p>
       Un sitemap es un archivo XML que enumera todas las páginas de tu sitio y ayuda a los motores de búsqueda a indexarlas. 
       Aunque no es directamente parte del HTML, es fundamental para el SEO técnico.
