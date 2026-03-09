@@ -286,43 +286,12 @@ antes de ser enviados al servidor, mejorando la experiencia de usuario.
     como progress.
     - **role="slider":** Define un control que permite seleccionar un valor dentro de un rango. Se usa en elementos como barras de
     rango o sliders personalizados.
-  </li>
-  <li>
-    <h4>role="menu":</h4>
-    <p>
-      Define un menú de navegación o contexto, como el menú de opciones de un botón derecho.
-      Usado en menús desplegables.
-    </p>
-  </li>
-  <li>
-    <h4>role="menuitem":</h4>
-    <p>
-      Define un ítem dentro de un menú, como una opción de lista.
-      Se usa dentro de roles de menú.
-    </p>
-  </li>
-  <li>
-    <h4>role="tab":</h4>
-    <p>
-      Define una pestaña dentro de un componente de pestañas (tab panel).
-      Usado en interfaces de tabulación.
-    </p>
-  </li>
-  <li>
-    <h4>role="tabpanel":</h4>
-    <p>
-      Define el contenido asociado a una pestaña (tab).
-      Usado en interfaces de pestañas.
-    </p>
-  </li>
-  <li>
-    <h4>role="textbox":</h4>
-    <p>
-      Define un campo de entrada de texto.
-      Usado en elementos personalizados que no son un input o textarea pero se comportan como uno.
-    </p>
-  </li>
-</ol>
+    - **role="menu":** Define un menú de navegación o contexto, como el menú de opciones de un botón derecho. Usado en menús desplegables.
+    - **role="menuitem":** Define un ítem dentro de un menú, como una opción de lista. Se usa dentro de roles de menú.
+    - **role="tab":** Define una pestaña dentro de un componente de pestañas (tab panel). Usado en interfaces de tabulación.
+    - **role="tabpanel":** Define el contenido asociado a una pestaña (tab). Usado en interfaces de pestañas.
+    - **role="textbox":** Define un campo de entrada de texto. Usado en elementos personalizados que no son un input o textarea pero
+    se comportan como uno.
 
 <h3>Roles de estado y propiedades</h3>
 <ol>
