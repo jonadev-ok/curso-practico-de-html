@@ -220,34 +220,30 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
       - datalist: Crea una lista de sugerencias predefinidas para un campo de texto, útil para autocompletar.
       - output: Usado para mostrar el resultado de un cálculo o una operación dinámica en un formulario.
     
-```html
+  ```html
+  
+      <label for="ciudad">Ciudad:</label>
+      <input list="ciudades" id="ciudad" name="ciudad">
+      <datalist id="ciudades">
+        <option value="Buenos Aires">
+        <option value="Córdoba">
+        <option value="Rosario">
+      </datalist>
+  
+      <form oninput="resultado.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" id="a" name="a">
+          +
+        <input type="number" id="b" name="b">
+          =
+        <output name="resultado" for="a b">0</output>
+      </form>
+  
+  
+  ```
 
-    <label for="ciudad">Ciudad:</label>
-    <input list="ciudades" id="ciudad" name="ciudad">
-    <datalist id="ciudades">
-      <option value="Buenos Aires">
-      <option value="Córdoba">
-      <option value="Rosario">
-    </datalist>
-
-    <form oninput="resultado.value=parseInt(a.value)+parseInt(b.value)">
-      <input type="number" id="a" name="a">
-        +
-      <input type="number" id="b" name="b">
-        =
-      <output name="resultado" for="a b">0</output>
-    </form>
-
-
-```
-
-  </li> 
-  <li>
-    <h3>Atributos de validación y constricciones.</h3>
-    <ul>
-      <li>required: Hace que un campo sea obligatorio.</li>
-      <li>pattern: Permite definir un patrón de expresión regular para validar el campo.</li>
-    </ul>
+  3. **Atributos de validación y constricciones**
+      - required: Hace que un campo sea obligatorio.
+      - pattern: Permite definir un patrón de expresión regular para validar el campo.
 
 ```html
 
@@ -255,13 +251,10 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
 
 ```
 
-  </li>
-</ol>
+Utilizando atributos como required, minlength, maxlength, pattern, entre otros. Estos permiten verificar los datos del formulario 
+antes de ser enviados al servidor, mejorando la experiencia de usuario.
 
-<p>
-  Utilizando atributos como required, minlength, maxlength, pattern, entre otros. Estos permiten verificar los datos del formulario 
-  antes de ser enviados al servidor, mejorando la experiencia de usuario.
-</p>
+</details>
 
 <h3>Roles ARIA (roles de accesibilidad).</h3>
 <p>
