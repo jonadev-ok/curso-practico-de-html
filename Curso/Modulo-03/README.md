@@ -282,15 +282,9 @@ antes de ser enviados al servidor, mejorando la experiencia de usuario.
     personalizados que simulan un checkbox.
     - **role="dialog":** Define una ventana emergente (popup) que captura el foco del usuario. Se usa en modales.
     - **role="alertdialog":** Similar a dialog, pero implica un mensaje urgente que requiere la atención inmediata del usuario.
-  </li>
-  <li>
-    <h4>role="progressbar":</h4>
-    <p>
-      Representa una barra de progreso que indica el estado de una operación en curso.
-      Se usa en elementos como progress.
-    </p>
-  </li>
-  <li>
+    - **role="progressbar":** Representa una barra de progreso que indica el estado de una operación en curso. Se usa en elementos
+    como progress.
+    
     <h4>role="slider":</h4>
     <p>
       Define un control que permite seleccionar un valor dentro de un rango.
