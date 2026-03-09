@@ -9,8 +9,8 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
 1- **SEO On-Page:** Optimización dentro del contenido y el código HTML de la página.
 2- **SEO Off-Page: Factores externos como enlaces entrantes o backlinks.
 3- **SEO Técnico:** Relacionado con la arquitectura del sitio y la indexabilidad.
-
-<h3>Elementos de HTML que afectan el SEO</h3>
+<details>
+  <summary>Elementos de HTML que afectan el SEO</summary>
 
 <ol>
   <li>
