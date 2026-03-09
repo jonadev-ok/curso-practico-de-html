@@ -148,24 +148,11 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
   
   ```
       
-  <li>
-    <h3>Buenas prácticas adicionales de SEO</h3>
-    <ul>
-      <li>Palabras clave (Keyword Research): Investiga qué palabras clave son relevantes 
-        para tu contenido y utilízalas de manera natural en los títulos, meta descripciones, y contenido.
-      </li>
-      <li>
-        Contenido original y de calidad: El contenido debe ser único, relevante y proporcionar valor. Evita el contenido duplicado.
-      </li>
-      <li>
-        Indexabilidad: Asegúrate de que todas las páginas importantes de tu sitio sean indexables 
-        por los motores de búsqueda. Utiliza robots.txt y meta noindex para evitar la indexación de páginas irrelevantes.
-      </li>
-      <li>
-        Mobile First: Asegúrate de que tu sitio sea responsive. Los motores de búsqueda como Google 
-        priorizan sitios optimizados para dispositivos móviles.
-      </li>
-    </ul>
+  12. **Buenas prácticas adicionales de SEO:** Palabras clave (Keyword Research): Investiga qué palabras clave son relevantes para
+  tu contenido y utilízalas de manera natural en los títulos, meta descripciones, y contenido.
+      - Contenido original y de calidad: El contenido debe ser único, relevante y proporcionar valor. Evita el contenido duplicado.
+      - Indexabilidad: Asegúrate de que todas las páginas importantes de tu sitio sean indexables por los motores de búsqueda.
+      Utiliza robots.txt y meta noindex para evitar la indexación de páginas irrelevantes.
+      - Mobile First: Asegúrate de que tu sitio sea responsive. Los motores de búsqueda como Google priorizan sitios optimizados para           dispositivos móviles.
       
-  </li>
-</ol>
+</details>
