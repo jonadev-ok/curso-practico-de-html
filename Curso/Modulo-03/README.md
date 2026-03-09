@@ -275,34 +275,13 @@ antes de ser enviados al servidor, mejorando la experiencia de usuario.
     - **role="region":** Se usa para definir una sección importante del contenido de la página, que normalmente lleva un encabezado           visible.
     Se puede usar en section.
 
-<h3>Roles de widgets y componentes interactivos</h3>
-<ol>
-  <li>
-    <h4>role="button":</h4>
-    <p>
-      Indica que un elemento tiene un comportamiento similar a un botón.
-      Se usa en cualquier elemento que actúe como un botón, como un div o span, si no se usa el elemento button.
-    </p>
-  </li>
-  <li>
-    <h4>role="checkbox":</h4>
-    <p>
-      Define un campo de verificación que puede estar marcado o no.
-      Usado en inputs o en otros elementos personalizados que simulan un checkbox.
-    </p>
-  </li>
-  <li>
-    <h4>role="dialog":</h4>
-    <p>
-      Define una ventana emergente (popup) que captura el foco del usuario.
-      Se usa en modales.
-    </p>
-  </li>
-  <li>
-    <h4>role="alertdialog":</h4>
-    <p>
-      Similar a dialog, pero implica un mensaje urgente que requiere la atención inmediata del usuario.
-    </p>
+- Roles de widgets y componentes interactivos
+    - **role="button":** Indica que un elemento tiene un comportamiento similar a un botón. Se usa en cualquier elemento que actúe como
+    un botón, como un div o span, si no se usa el elemento button.
+    - **role="checkbox":** Define un campo de verificación que puede estar marcado o no. Usado en inputs o en otros elementos
+    personalizados que simulan un checkbox.
+    - **role="dialog":** Define una ventana emergente (popup) que captura el foco del usuario. Se usa en modales.
+    - **role="alertdialog":** Similar a dialog, pero implica un mensaje urgente que requiere la atención inmediata del usuario.
   </li>
   <li>
     <h4>role="progressbar":</h4>
