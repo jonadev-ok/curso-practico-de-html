@@ -108,6 +108,7 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
   Aunque no es directamente parte del HTML, es fundamental para el SEO técnico.
       
   ```xml
+
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <url>
         <loc>https://www.ejemplo.com/</loc>
@@ -123,23 +124,16 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
   
   ```
       
-  </li>
-  <li>
-    <h3>Robots.txt</h3>
-    <p>
-      El archivo robots.txt le indica a los motores de búsqueda qué páginas de tu sitio pueden o no pueden ser indexadas.
-    </p>
+  10. **Robots.txt:** El archivo robots.txt le indica a los motores de búsqueda qué páginas de tu sitio pueden o no pueden ser indexadas.
       
-```txt
+  ```txt
+
     User-agent: *
     Disallow: /admin/
-    Allow: /
-
-
-```
-      
-  </li>
-  <li>
+    Allow: /  
+  
+  ```
+ 
     <h3>Rich Snippets (Microdatos y Schema.org)</h3>
     <p>
       Los Rich Snippets son fragmentos enriquecidos que se muestran en los resultados de búsqueda, 
