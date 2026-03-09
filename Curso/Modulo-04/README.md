@@ -12,29 +12,13 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
 <details>
   <summary>Elementos de HTML que afectan el SEO</summary>
 
-<ol>
-  <li>
-    <h3> Etiquetas de título.</h3>
-    <p>
-      La etiqueta title es uno de los factores más importantes para el SEO. Es el título de la página 
-      que aparece en la pestaña del navegador y es también el primer texto que los motores de búsqueda ven.
-    </p>
-    <ul>
-      <li>
-        <p>
-          Longitud recomendada: Entre 50 y 60 caracteres.
-        </p>
-      </li>
-      <li>
-        <p>
-          Incluye palabras clave relevantes: Asegúrate de que el título 
-          contenga las palabras clave principales, pero de manera natural.
-        </p>
-      </li>
-    </ul>
+  1. **Etiquetas de título:** La etiqueta title es uno de los factores más importantes para el SEO. Es el título de la página que 
+  aparece en la pestaña del navegador y es también el primer texto que los motores de búsqueda ven.
+      - Longitud recomendada: Entre 50 y 60 caracteres.
+      - Incluye palabras clave relevantes: Asegúrate de que el título contenga las palabras clave principales, pero de manera natural.
       
 ```html
-    <title>Guía completa de SEO en HTML | Curso de HTML</title>
+  <title>Guía completa de SEO en HTML | Curso de HTML</title>
 ```
       
   </li>
