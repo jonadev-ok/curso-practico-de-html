@@ -45,44 +45,25 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
   
   ```
       
-  </li>
-  <li>
-    <h3>URLs amigables (SEO-friendly URLs).</h3>
-    <p>
-      Las URLs deben ser claras, descriptivas y contener palabras clave relevantes. 
-      Evita las URLs largas y con parámetros complicados.
-    </p>
-    <ul>
-      <li>
-        <p>
-          Usa guiones (-) para separar palabras.
-        </p>
-      </li>
-      <li>
-        <p>
-         Mantén las URLs cortas y descriptivas.
-        </p>
-      </li>
-    </ul>
-      
-```html
-    https://www.ejemplo.com/curso-seo-html-basico
+  4. **URLs amigables (SEO-friendly URLs):** Las URLs deben ser claras, descriptivas y contener palabras clave relevantes. Evita las
+  URLs largas y con parámetros complicados.
+      - Usa guiones (-) para separar palabras.
+      - Mantén las URLs cortas y descriptivas.
+       
+  ```html
 
-```
+      https://www.ejemplo.com/curso-seo-html-basico
+  
+  ```
       
-  </li>
-  <li>
-    <h3>Atributo alt en imágenes.</h3>
-    <p>
-      El atributo alt proporciona una descripción de las imágenes, 
-      lo que es útil para los motores de búsqueda y también para la accesibilidad. 
-      Al incluir palabras clave relevantes en el alt, puedes mejorar el SEO de la página.
-    </p>
+  5. **Atributo alt en imágenes:** El atributo alt proporciona una descripción de las imágenes, lo que es útil para los motores de
+  búsqueda y también para la accesibilidad. Al incluir palabras clave relevantes en el alt, puedes mejorar el SEO de la página.
       
-```html
-    <img src="seo.jpg" alt="Guía completa de SEO en HTML">
+  ```html
 
-```
+      <img src="seo.jpg" alt="Guía completa de SEO en HTML">
+  
+  ```
       
   </li>
   <li>
