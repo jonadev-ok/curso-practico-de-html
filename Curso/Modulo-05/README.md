@@ -5,26 +5,16 @@
 En esta sección vamos a repasar, reforzar y profundizar conceptos ya vistos a lo largo del curso, y ver algunos otros que, van a dar  
 mayor rendimiento al desarrollo de sus proyectos en HTML.
 
-<h2>Estructura y Semántica Correcta</h2>
+## Estructura y Semántica Correcta
 
-<p>
-  Objetivo: mejorar la accesibilidad, el SEO y la mantenibilidad.
-</p>
+Objetivo: mejorar la accesibilidad, el SEO y la mantenibilidad.
 
-<ul>
-  <li>
-    Usa etiquetas semánticas: 
+  - Usa etiquetas semánticas: 
     <a href="https://github.com/jonadev-ok/curso-practico-de-html/blob/main/Curso/Modulo-02/README.md">
       consultar aqui
     </a>
-  </li>
-  <li>
-    Evita usar divs innecesarios.
-  </li>
-  <li>
-    Usa encabezados jerarquicos de forma logica.
-  </li>
-</ul>
+  - Evita usar divs innecesarios.
+  - Usa encabezados jerarquicos de forma logica.
 
 <h2>Optimización de carga</h2>
 <p>
