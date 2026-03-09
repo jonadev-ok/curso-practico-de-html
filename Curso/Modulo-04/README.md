@@ -17,48 +17,33 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
       - Longitud recomendada: Entre 50 y 60 caracteres.
       - Incluye palabras clave relevantes: Asegúrate de que el título contenga las palabras clave principales, pero de manera natural.
       
-```html
-  <title>Guía completa de SEO en HTML | Curso de HTML</title>
-```
+  ```html
+    <title>Guía completa de SEO en HTML | Curso de HTML</title>
+  ```
       
   2. **Meta descripción:** La meta descripción es un breve resumen de la página que aparece debajo del título en los resultados de
   búsqueda. Aunque no afecta directamente al ranking, una buena descripción puede mejorar la tasa de clics (CTR).
       - Longitud recomendada: Entre 150 y 160 caracteres.
       - Debe ser descriptiva y contener palabras clave.
       
-```html
-  <meta name="description" content="Aprende SEO para mejorar el ranking de tu sitio web en los motores de búsqueda con esta
-guía completa de HTML.">
-
-```
+  ```html
+    <meta name="description" content="Aprende SEO para mejorar el ranking de tu sitio web en los motores de búsqueda con esta
+  guía completa de HTML.">
+  
+  ```
       
-  </li>
-  <li>
-    <h3>Encabezados.</h3>
-    <p>
-      Los encabezados estructuran el contenido de la página, facilitando tanto la lectura para los usuarios como la 
-      comprensión para los motores de búsqueda. Los encabezados deben seguir una jerarquía lógica.
-    </p>
-    <ul>
-      <li>
-        <p>
-          h1: Debe contener el título principal de la página, y solo debe haber uno por página.
-        </p>
-      </li>
-      <li>
-        <p>
-         h2, h3: Se usan para subtítulos y organizar el contenido.
-        </p>
-      </li>
-    </ul>
+  3. **Encabezados:** Los encabezados estructuran el contenido de la página, facilitando tanto la lectura para los usuarios como la
+  comprensión para los motores de búsqueda. Los encabezados deben seguir una jerarquía lógica.
+      - h1: Debe contener el título principal de la página, y solo debe haber uno por página.
+      - h2, h3: Se usan para subtítulos y organizar el contenido.
       
-```html
+  ```html
+  
     <h1>Guía de SEO para HTML</h1>
     <h2>¿Qué es SEO?</h2>
     <h3>Importancia de SEO On-Page</h3>
-
-
-```
+  
+  ```
       
   </li>
   <li>
