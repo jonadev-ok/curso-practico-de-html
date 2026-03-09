@@ -201,27 +201,24 @@ para todos los usuarios, haciendo los sitios más intuitivos y fáciles de usar.
         - type="range": Crea un control de rango deslizante, ideal para selecciones numéricas rápidas.
        
     
-        ```html
+  ```html
         
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" >
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" >
             
-            <label for="date">Fecha de nacimiento:</label>
-            <input type="date" id="date" name="date">
+    <label for="date">Fecha de nacimiento:</label>
+    <input type="date" id="date" name="date">
         
-            <label for="range">Ingrese una contraseña:</label>
-            <input type="password">
+    <label for="range">Ingrese una contraseña:</label>
+    <input type="password">
         
-            <input type="submit" value="Enviar">
+    <input type="submit" value="Enviar">
         
-        ```
+  ```
     
-  <li>
-    <h3>Nuevos Controles de Formularios</h3>
-    <ul>
-      <li>datalist: Crea una lista de sugerencias predefinidas para un campo de texto, útil para autocompletar.</li>
-      <li>output: Usado para mostrar el resultado de un cálculo o una operación dinámica en un formulario.</li>
-    </ul>
+  2. **Nuevos Controles de Formularios**
+      - datalist: Crea una lista de sugerencias predefinidas para un campo de texto, útil para autocompletar.
+      - output: Usado para mostrar el resultado de un cálculo o una operación dinámica en un formulario.
     
 ```html
 
