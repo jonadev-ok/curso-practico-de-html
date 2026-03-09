@@ -12,145 +12,145 @@ al sitio, es decir, sin necesidad de recurrir a anuncios pagados. El SEO se divi
 
 ### Elementos de HTML que afectan el SEO
 
-  1. **Etiquetas de título:** La etiqueta title es uno de los factores más importantes para el SEO. Es el título de la página que 
-  aparece en la pestaña del navegador y es también el primer texto que los motores de búsqueda ven.
-      - Longitud recomendada: Entre 50 y 60 caracteres.
-      - Incluye palabras clave relevantes: Asegúrate de que el título contenga las palabras clave principales, pero de manera natural.
-      
-  ```html
-    <title>Guía completa de SEO en HTML | Curso de HTML</title>
-  ```
-      
-  2. **Meta descripción:** La meta descripción es un breve resumen de la página que aparece debajo del título en los resultados de
-  búsqueda. Aunque no afecta directamente al ranking, una buena descripción puede mejorar la tasa de clics (CTR).
-      - Longitud recomendada: Entre 150 y 160 caracteres.
-      - Debe ser descriptiva y contener palabras clave.
-      
-  ```html
-    <meta name="description" content="Aprende SEO para mejorar el ranking de tu sitio web en los motores de búsqueda con esta
-  guía completa de HTML.">
-  
-  ```
-      
-  3. **Encabezados:** Los encabezados estructuran el contenido de la página, facilitando tanto la lectura para los usuarios como la
-  comprensión para los motores de búsqueda. Los encabezados deben seguir una jerarquía lógica.
-      - h1: Debe contener el título principal de la página, y solo debe haber uno por página.
-      - h2, h3: Se usan para subtítulos y organizar el contenido.
-      
-  ```html
-  
-    <h1>Guía de SEO para HTML</h1>
-    <h2>¿Qué es SEO?</h2>
-    <h3>Importancia de SEO On-Page</h3>
-  
-  ```
-      
-  4. **URLs amigables (SEO-friendly URLs):** Las URLs deben ser claras, descriptivas y contener palabras clave relevantes. Evita las
-  URLs largas y con parámetros complicados.
-      - Usa guiones (-) para separar palabras.
-      - Mantén las URLs cortas y descriptivas.
-       
-  ```html
-
-      https://www.ejemplo.com/curso-seo-html-basico
-  
-  ```
-      
-  5. **Atributo alt en imágenes:** El atributo alt proporciona una descripción de las imágenes, lo que es útil para los motores de
-  búsqueda y también para la accesibilidad. Al incluir palabras clave relevantes en el alt, puedes mejorar el SEO de la página.
-      
-  ```html
-
-      <img src="seo.jpg" alt="Guía completa de SEO en HTML">
-  
-  ```
-      
-  6. **Enlaces internos:** Conectan páginas dentro del mismo sitio web. Ayudan a los motores de búsqueda a descubrir más contenido
-  en tu sitio.
-      
-  ```html
-  
-      <a href="/guia-seo">Guía completa de SEO</a>
-  
-  ```
-
-  7. **Enlaces externos:** Enlaces a sitios web externos relevantes y de alta calidad. Estos enlaces pueden mejorar tu autoridad si son
-  confiables.
-      
-  ```html
-  
-      <a href="https://www.google.com/webmasters/">Google Search Central</a>
-  
-  ```
-
-  8. **Atributo rel en enlaces (rel="nofollow", rel="noopener"):** El atributo rel le dice a los motores de búsqueda cómo tratar
-  los enlaces. Por ejemplo, rel="nofollow" indica que no se debe transferir "autoridad" (link juice) al sitio vinculado.
-      
-      - rel="nofollow": Úsalo para enlaces pagados o patrocinados.
-        
+1. **Etiquetas de título:** La etiqueta title es uno de los factores más importantes para el SEO. Es el título de la página que 
+aparece en la pestaña del navegador y es también el primer texto que los motores de búsqueda ven.
+    - Longitud recomendada: Entre 50 y 60 caracteres.
+    - Incluye palabras clave relevantes: Asegúrate de que el título contenga las palabras clave principales, pero de manera natural.
     
-      ```html
+```html
+  <title>Guía completa de SEO en HTML | Curso de HTML</title>
+```
+      
+2. **Meta descripción:** La meta descripción es un breve resumen de la página que aparece debajo del título en los resultados de
+búsqueda. Aunque no afecta directamente al ranking, una buena descripción puede mejorar la tasa de clics (CTR).
+    - Longitud recomendada: Entre 150 y 160 caracteres.
+    - Debe ser descriptiva y contener palabras clave.
+    
+```html
+  <meta name="description" content="Aprende SEO para mejorar el ranking de tu sitio web en los motores de búsqueda con esta
+guía completa de HTML.">
+
+```
+    
+3. **Encabezados:** Los encabezados estructuran el contenido de la página, facilitando tanto la lectura para los usuarios como la
+comprensión para los motores de búsqueda. Los encabezados deben seguir una jerarquía lógica.
+    - h1: Debe contener el título principal de la página, y solo debe haber uno por página.
+    - h2, h3: Se usan para subtítulos y organizar el contenido.
+    
+```html
+
+  <h1>Guía de SEO para HTML</h1>
+  <h2>¿Qué es SEO?</h2>
+  <h3>Importancia de SEO On-Page</h3>
+
+```
+    
+4. **URLs amigables (SEO-friendly URLs):** Las URLs deben ser claras, descriptivas y contener palabras clave relevantes. Evita las
+URLs largas y con parámetros complicados.
+    - Usa guiones (-) para separar palabras.
+    - Mantén las URLs cortas y descriptivas.
      
-          <a href="https://www.sitio.com" rel="nofollow">Enlace patrocinado</a>
-    
-      ```
-     
-      - rel="noopener" y rel="noreferrer": Son buenas prácticas de seguridad cuando se usan enlaces que abren en nuevas pestañas 
-      (target="_blank").
-      
-      ```html
-    
-          <a href="https://www.sitio-seguro.com" target="_blank" rel="noopener noreferrer">Abrir en nueva pestaña</a>
-      
-      ```
-                
-  9. **Sitemap:** Un sitemap es un archivo XML que enumera todas las páginas de tu sitio y ayuda a los motores de búsqueda a indexarlas.
-  Aunque no es directamente parte del HTML, es fundamental para el SEO técnico.
-      
-  ```xml
+```html
 
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <url>
-        <loc>https://www.ejemplo.com/</loc>
-        <lastmod>2024-10-05</lastmod>
-        <priority>1.00</priority>
-     </url>
-     <url>
-        <loc>https://www.ejemplo.com/curso-seo</loc>
-        <lastmod>2024-10-01</lastmod>
-        <priority>0.80</priority>
-     </url>
-  </urlset>
-  
-  ```
-      
-  10. **Robots.txt:** El archivo robots.txt le indica a los motores de búsqueda qué páginas de tu sitio pueden o no pueden ser indexadas.
-      
-  ```txt
+    https://www.ejemplo.com/curso-seo-html-basico
 
-    User-agent: *
-    Disallow: /admin/
-    Allow: /  
-  
-  ```
- 
-  11. *Rich Snippets (Microdatos y Schema.org):** Los Rich Snippets son fragmentos enriquecidos que se muestran en los resultados de
-  búsqueda, proporcionando información adicional (como valoraciones, recetas, eventos, etc.). El marcado de Schema.org es el más común      proporciona una manera de estructurar los datos de tu página para que los motores de búsqueda puedan mostrar información adicional.
+```
+    
+5. **Atributo alt en imágenes:** El atributo alt proporciona una descripción de las imágenes, lo que es útil para los motores de
+búsqueda y también para la accesibilidad. Al incluir palabras clave relevantes en el alt, puedes mejorar el SEO de la página.
+    
+```html
+
+    <img src="seo.jpg" alt="Guía completa de SEO en HTML">
+
+```
+    
+6. **Enlaces internos:** Conectan páginas dentro del mismo sitio web. Ayudan a los motores de búsqueda a descubrir más contenido
+en tu sitio.
+    
+```html
+
+    <a href="/guia-seo">Guía completa de SEO</a>
+
+```
+
+7. **Enlaces externos:** Enlaces a sitios web externos relevantes y de alta calidad. Estos enlaces pueden mejorar tu autoridad si son
+confiables.
+    
+```html
+
+    <a href="https://www.google.com/webmasters/">Google Search Central</a>
+
+```
+
+8. **Atributo rel en enlaces (rel="nofollow", rel="noopener"):** El atributo rel le dice a los motores de búsqueda cómo tratar
+los enlaces. Por ejemplo, rel="nofollow" indica que no se debe transferir "autoridad" (link juice) al sitio vinculado.
+    
+  - rel="nofollow": Úsalo para enlaces pagados o patrocinados.
       
-  ```html
   
-    <div itemscope itemtype="http://schema.org/Product">
-      <span itemprop="name">Camiseta SEO</span>
-      <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price">19.99</span>
-      <img src="camiseta.jpg" alt="Camiseta SEO" itemprop="image">
-      <meta itemprop="productID" content="12345">
-    </div>
-  
-  ```
-      
-  12. **Buenas prácticas adicionales de SEO:** Palabras clave (Keyword Research): Investiga qué palabras clave son relevantes para
-  tu contenido y utilízalas de manera natural en los títulos, meta descripciones, y contenido.
-      - Contenido original y de calidad: El contenido debe ser único, relevante y proporcionar valor. Evita el contenido duplicado.
-      - Indexabilidad: Asegúrate de que todas las páginas importantes de tu sitio sean indexables por los motores de búsqueda.
-      Utiliza robots.txt y meta noindex para evitar la indexación de páginas irrelevantes.
-      - Mobile First: Asegúrate de que tu sitio sea responsive. Los motores de búsqueda como Google priorizan sitios optimizados para           dispositivos móviles.
+```html
+
+    <a href="https://www.sitio.com" rel="nofollow">Enlace patrocinado</a>
+
+```
+   
+  - rel="noopener" y rel="noreferrer": Son buenas prácticas de seguridad cuando se usan enlaces que abren en nuevas pestañas 
+    (target="_blank").
+    
+```html
+
+    <a href="https://www.sitio-seguro.com" target="_blank" rel="noopener noreferrer">Abrir en nueva pestaña</a>
+
+```
+              
+9. **Sitemap:** Un sitemap es un archivo XML que enumera todas las páginas de tu sitio y ayuda a los motores de búsqueda a indexarlas.
+Aunque no es directamente parte del HTML, es fundamental para el SEO técnico.
+    
+```xml
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://www.ejemplo.com/</loc>
+      <lastmod>2024-10-05</lastmod>
+      <priority>1.00</priority>
+   </url>
+   <url>
+      <loc>https://www.ejemplo.com/curso-seo</loc>
+      <lastmod>2024-10-01</lastmod>
+      <priority>0.80</priority>
+   </url>
+</urlset>
+
+```
+    
+10. **Robots.txt:** El archivo robots.txt le indica a los motores de búsqueda qué páginas de tu sitio pueden o no pueden ser indexadas.
+    
+```txt
+
+  User-agent: *
+  Disallow: /admin/
+  Allow: /  
+
+```
+
+11. *Rich Snippets (Microdatos y Schema.org):** Los Rich Snippets son fragmentos enriquecidos que se muestran en los resultados de
+búsqueda, proporcionando información adicional (como valoraciones, recetas, eventos, etc.). El marcado de Schema.org es el más común      proporciona una manera de estructurar los datos de tu página para que los motores de búsqueda puedan mostrar información adicional.
+    
+```html
+
+  <div itemscope itemtype="http://schema.org/Product">
+    <span itemprop="name">Camiseta SEO</span>
+    <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price">19.99</span>
+    <img src="camiseta.jpg" alt="Camiseta SEO" itemprop="image">
+    <meta itemprop="productID" content="12345">
+  </div>
+
+```
+    
+12. **Buenas prácticas adicionales de SEO:** Palabras clave (Keyword Research): Investiga qué palabras clave son relevantes para
+tu contenido y utilízalas de manera natural en los títulos, meta descripciones, y contenido.
+  - Contenido original y de calidad: El contenido debe ser único, relevante y proporcionar valor. Evita el contenido duplicado.
+  - Indexabilidad: Asegúrate de que todas las páginas importantes de tu sitio sean indexables por los motores de búsqueda.
+  Utiliza robots.txt y meta noindex para evitar la indexación de páginas irrelevantes.
+  - Mobile First: Asegúrate de que tu sitio sea responsive. Los motores de búsqueda como Google priorizan sitios optimizados para           dispositivos móviles.
