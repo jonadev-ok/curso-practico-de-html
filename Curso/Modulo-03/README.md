@@ -293,29 +293,13 @@ antes de ser enviados al servidor, mejorando la experiencia de usuario.
     - **role="textbox":** Define un campo de entrada de texto. Usado en elementos personalizados que no son un input o textarea pero
     se comportan como uno.
 
-<h3>Roles de estado y propiedades</h3>
-<ol>
-  <li>
-    <h4>role="alert":</h4>
-    <p>
-      Se usa para anunciar mensajes importantes que no requieren interacción.
-      Estos mensajes deben ser leídos automáticamente por el lector de pantalla.
-    </p>
-  </li>
-  <li>
-    <h4>role="status":</h4>
-    <p>
-      Define un área que proporciona actualizaciones de estado dinámicas sobre la página.
-      Diferente a alert, ya que no interrumpe al usuario.
-    </p>
-  </li>
-  <li>
-    <h4>role="tooltip":</h4>
-    <p>
-      Indica una caja de información flotante que aparece cuando el usuario pasa el ratón sobre un elemento.
-    </p>
-  </li>
-</ol>
+- Roles de estado y propiedades
+    - **role="alert":** e usa para anunciar mensajes importantes que no requieren interacción. Estos mensajes deben ser leídos
+    automáticamente por el lector de pantalla.
+    - **role="status":** Define un área que proporciona actualizaciones de estado dinámicas sobre la página. Diferente a alert, ya que
+    no interrumpe al usuario.
+    - **role="tooltip":** Indica una caja de información flotante que aparece cuando el usuario pasa el ratón sobre un elemento.
+</details>
 
 <h3>Atributos ARIA.</h3>
 <p>
