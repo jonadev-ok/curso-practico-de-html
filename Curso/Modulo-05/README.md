@@ -26,7 +26,8 @@ Objetivo: mejorar la velocidad percibida y real de carga de la página.
 
     
 ```html
-<img src="imagen.jpg" loading="lazy" alt="Descripción" />
+
+  <img src="imagen.jpg" loading="lazy" alt="Descripción" />
 
 ```
 
@@ -35,7 +36,8 @@ Objetivo: mejorar la velocidad percibida y real de carga de la página.
 
 
  ```html
- <script src="app.js" defer></script>
+
+   <script src="app.js" defer></script>
 
 ```   
 
@@ -47,10 +49,10 @@ Objetivo: reducir el peso sin perder calidad.
     
 ```html
 
-<img src="img.jpg"
-srcset="img-400.jpg 400w, img-800.jpg 800w"
-sizes="(max-width: 600px) 400px, 800px"
-alt="Ejemplo optimizado">
+  <img src="img.jpg"
+  srcset="img-400.jpg 400w, img-800.jpg 800w"
+  sizes="(max-width: 600px) 400px, 800px"
+  alt="Ejemplo optimizado">
 
 ```
 
@@ -67,30 +69,20 @@ Objetivo: permitir que todas las personas puedan navegar correctamente.
   - Permite navegación con teclado.
   - Asocia etiquetas <label> a los inputs.
 
-<h2>SEO Técnico</h2>
+## SEO Técnico
 
-<p>
-  Objetivo: mejorar la visibilidad en buscadores.
-</p>
+Objetivo: mejorar la visibilidad en buscadores.
 
-<ul>
-  <li>
-    Usa metadatos completos:
+  - Usa metadatos completos:
+
+```html
+
+  <meta name="description" content="Curso completo de desarrollo web con prácticas modernas.">
 
 ```
-<meta name="description" content="Curso completo de desarrollo web con prácticas modernas.">
-```
-  </li>
-  <li>
-    Usa un <title> descriptivo por página.
-  </li>
-  <li>
-    URLs limpias y semánticas
-  </li>
-  <li>
-    Añade datos estructurados (schema.org) si es necesario.
-  </li>
-</ul>
+  - Usa un <title> descriptivo por página.
+  - URLs limpias y semánticas
+  - Añade datos estructurados (schema.org) si es necesario.
 
 <h2>Código Limpio y Mantenible</h2>
 
