@@ -84,26 +84,14 @@ Objetivo: mejorar la visibilidad en buscadores.
   - URLs limpias y semánticas
   - Añade datos estructurados (schema.org) si es necesario.
 
-<h2>Código Limpio y Mantenible</h2>
+## Código Limpio y Mantenible
 
-<p>
-  Objetivo: facilitar lectura, colaboración y escalabilidad.
-</p>
+Objetivo: facilitar lectura, colaboración y escalabilidad.
 
-<ul>
-  <li>
-    Mantén indentación consistente (2 o 4 espacios).
-  </li>
-  <li>
-    Usa comentarios claros donde agreguen valor.
-  </li>
-  <li>
-    Evita style="" y onclick="" en línea.
-  </li>
-  <li>
-    Nombra las clases de forma coherente (usa BEM si podés).
-  </li>
-</ul>
+  - Mantén indentación consistente (2 o 4 espacios).
+  - Usa comentarios claros donde agreguen valor.
+  - Evita style="" y onclick="" en línea.
+  - Nombra las clases de forma coherente (usa BEM si podés).
 
 <h2>Compatibilidad y Buen Rendimiento</h2>
 
