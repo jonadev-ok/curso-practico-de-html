@@ -57,29 +57,15 @@ alt="Ejemplo optimizado">
   - Comprime las imágenes.
   - Elimina metadatos EXIF innecesarios.
 
-<h2>Accesibilidad Web (a11y)</h2>
+## Accesibilidad Web (a11y)
 
-<p>
-  Objetivo: permitir que todas las personas puedan navegar correctamente.
-</p>
+Objetivo: permitir que todas las personas puedan navegar correctamente.
 
-<ul>
-  <li>
-    Siempre usar alt en imágenes.
-  </li>
-  <li>
-    Usa roles y atributos ARIA solo cuando sea necesario.
-  </li>
-  <li>
-    Asegura contraste de color suficiente.
-  </li>
-  <li>
-    Permite navegación con teclado.
-  </li>
-  <li>
-    Asocia etiquetas <label> a los inputs.
-  </li>
-</ul>
+  - Siempre usar alt en imágenes.
+  - Usa roles y atributos ARIA solo cuando sea necesario.
+  - Asegura contraste de color suficiente.
+  - Permite navegación con teclado.
+  - Asocia etiquetas <label> a los inputs.
 
 <h2>SEO Técnico</h2>
 
