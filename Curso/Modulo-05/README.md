@@ -25,23 +25,21 @@ Objetivo: mejorar la velocidad percibida y real de carga de la página.
   - Usa lazy loading para imágenes y recursos:
 
     
-```    
+```html
 <img src="imagen.jpg" loading="lazy" alt="Descripción" />
+
 ```
 
     
-  </li>
-  <li>
-    Coloca los scripts al final del body o usa defer:
+  - Coloca los scripts al final del body o usa defer:
 
 
- ```
+ ```html
  <script src="app.js" defer></script>
-```   
-  </li>
-</ul>
 
-<h2>Optimización de Imágenes</h2>
+```   
+
+## Optimización de Imágenes</h2>
 
 <p>
   Objetivo: reducir el peso sin perder calidad.
