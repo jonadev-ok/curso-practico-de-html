@@ -16,19 +16,13 @@ Objetivo: mejorar la accesibilidad, el SEO y la mantenibilidad.
   - Evita usar divs innecesarios.
   - Usa encabezados jerarquicos de forma logica.
 
-<h2>Optimización de carga</h2>
-<p>
-  Objetivo: mejorar la velocidad percibida y real de carga de la página.
-</p>
-<ul>
-  <li>
-    Minimiza el HTML (usa herramientas como HTMLMinifier o el proceso de build del framework).
-  </li>
-  <li>
-    Evita comentarios innecesarios en producción.
-  </li>
-  <li>
-    Usa lazy loading para imágenes y recursos:
+## Optimización de carga
+
+Objetivo: mejorar la velocidad percibida y real de carga de la página.
+
+  - Minimiza el HTML (usa herramientas como HTMLMinifier o el proceso de build del framework).
+  - Evita comentarios innecesarios en producción.
+  - Usa lazy loading para imágenes y recursos:
 
     
 ```    
