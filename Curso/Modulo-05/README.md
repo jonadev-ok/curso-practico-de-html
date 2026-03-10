@@ -93,38 +93,35 @@ Objetivo: facilitar lectura, colaboración y escalabilidad.
   - Evita style="" y onclick="" en línea.
   - Nombra las clases de forma coherente (usa BEM si podés).
 
-<h2>Compatibilidad y Buen Rendimiento</h2>
+## Compatibilidad y Buen Rendimiento
 
-<p>
-  Objetivo: garantizar compatibilidad entre navegadores.
-</p>
+Objetivo: garantizar compatibilidad entre navegadores.
 
-<ul>
-  <li>
-    Usa el DOCTYPE correcto:
+  - Usa el DOCTYPE correcto:
     
+```html
+
+  <!DOCTYPE html>
+
 ```
-<!DOCTYPE html>
-```
-  </li>
-  <li>
-    Define el charset:
+
+  - Define el charset:
     
+```html
+
+  <meta charset="UTF-8">
+
 ```
-<meta charset="UTF-8">
-```
-  </li>
-  <li>
-    Viewport responsivo:
+
+  - Viewport responsivo:
     
+```html
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 ```
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-  </li>
-  <li>
-    Prueba el sitio con Lighthouse o PageSpeed Insights.
-  </li>
-</ul>
+
+  - Prueba el sitio con Lighthouse o PageSpeed Insights.
 
 <h2>Microoptimizaciones Avanzadas</h2>
 
