@@ -41,32 +41,21 @@ Objetivo: mejorar la velocidad percibida y real de carga de la página.
 
 ## Optimización de Imágenes</h2>
 
-<p>
-  Objetivo: reducir el peso sin perder calidad.
-</p>
-
-<ul>
-  <li>
-    Usa formatos modernos (.webp, .avif).
-  </li>
-  <li>
-    Adapta el tamaño según el dispositivo (srcset y sizes):
+Objetivo: reducir el peso sin perder calidad.
+  - Usa formatos modernos (.webp, .avif).
+  - Adapta el tamaño según el dispositivo (srcset y sizes):
     
-```
+```html
+
 <img src="img.jpg"
 srcset="img-400.jpg 400w, img-800.jpg 800w"
 sizes="(max-width: 600px) 400px, 800px"
 alt="Ejemplo optimizado">
+
 ```
 
-  </li>
-  <li>
-    Comprime las imágenes.
-  </li>
-  <li>
-    Elimina metadatos EXIF innecesarios.
-  </li>
-</ul>
+  - Comprime las imágenes.
+  - Elimina metadatos EXIF innecesarios.
 
 <h2>Accesibilidad Web (a11y)</h2>
 
