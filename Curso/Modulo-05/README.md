@@ -123,25 +123,18 @@ Objetivo: garantizar compatibilidad entre navegadores.
 
   - Prueba el sitio con Lighthouse o PageSpeed Insights.
 
-<h2>Microoptimizaciones Avanzadas</h2>
+## Microoptimizaciones Avanzadas
 
-<p>
-  Para proyectos grandes o de alta performance
-</p>
+Para proyectos grandes o de alta performance
 
-<ul>
-  <li>
-    Viewport responsivo:
+  - Viewport responsivo:
     
+```html
+
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="prefetch" href="next-page.html">
+
 ```
-<link rel="preload" href="styles.css" as="style">
-<link rel="prefetch" href="next-page.html">
-```
-  </li>
-  <li>
-    Ordena y agrupa los recursos CSS/JS según prioridad.
-  </li>
-  <li>
-    Implementa Service Workers para cachear contenido estático.
-  </li>
-</ul>
+
+  - Ordena y agrupa los recursos CSS/JS según prioridad.
+  - Implementa Service Workers para cachear contenido estático.
